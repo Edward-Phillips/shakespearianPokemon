@@ -11,23 +11,27 @@ export default class shakespeareTranslationModel {
     this.cache = cache[inputText];
   }
 
-  parseTranslatedText(data) {
-    return data.json().then(data => data.contents.translated);
+  async parseTranslatedText(data) {
+    return data.json().then((data) => data.contents.translated);
   }
 
   async getTranslatedText() {
     if (this.translatedText) {
       return this.translatedText;
     }
-    const translatorResponse = fetch(`https://api.funtranslations.com/translate/shakespeare.json?text=${this.inputText}`, {
-      method: "POST",
-      headers: {
-        "X-Funtranslations-Api-Secret": `${process.env.FUNTRANSLATIONS_API_SECRET}`,
+    const translatorResponse = fetch(
+      `https://api.funtranslations.com/translate/shakespeare.json?text=${this.inputText}`,
+      {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+          "X-Funtranslations-Api-Secret": `${process.env.FUNTRANSLATIONS_API_SECRET}`,
+        },
       }
-    });
+    );
     this.cache.translatedText = await translatorResponse.then((data) =>
       this.parseTranslatedText(data)
     );
-    return await this.cache.translatedText; 
+    return await this.cache.translatedText;
   }
 }
