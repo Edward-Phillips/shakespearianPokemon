@@ -1,4 +1,4 @@
-import shakespeareTranslationService from "../services/shakespeareTranslation.service";
+import shakespeareTranslationService from "../../services/shakespeareTranslation.service";
 import { enableFetchMocks } from "jest-fetch-mock";
 import dotenv from 'dotenv';
 

@@ -1,4 +1,4 @@
-import shakespearianPokemonService from "../services/shakespearianPokemon.service";
+import shakespearianPokemonService from "../../services/shakespearianPokemon.service";
 import { enableFetchMocks } from "jest-fetch-mock";
 import dotenv from "dotenv";
 
