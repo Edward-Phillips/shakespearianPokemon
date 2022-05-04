@@ -160,4 +160,16 @@ describe("pokemonAPI", () => {
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
     );
   });
+
+  it("should return a status code of 500 if there is an error in fetching pokemon info", async () => {
+    fetch.mockReject(new Error('fake error message'))
+    const { req, res } = createMocks({
+      method: "GET",
+      url: "/pokemon/bulbasaur",
+      query: { id: "bulbasaur" },
+    });
+    await pokemonHandler(req, res);
+    expect(res).toHaveProperty("statusCode", 500);
+    expect(res._getJSONData()).toHaveProperty("error", 'fake error message');
+  });
 });
