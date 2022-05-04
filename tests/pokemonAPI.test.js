@@ -6,10 +6,12 @@ describe("pokemonAPI", () => {
     const { req, res } = createMocks({
       method: "GET",
       url: "/pokemon/bulbasaur",
+      // nextjs adds a query object to the request object but the mocking library doesn't
+      query: { id: "bulbasaur" },
     });
     await pokemonHandler(req, res);
     expect(res._getJSONData()).toEqual({
-      name: "Bulbasaur",
+      name: "bulbasaur",
     });
   });
 
@@ -29,6 +31,7 @@ describe("pokemonAPI", () => {
     const { req, res } = createMocks({
       method: "GET",
       url: `/pokemon/${randomPokemon}",}`,
+      query: { id: randomPokemon }
     });
     await pokemonHandler(req, res);
     expect(res._getJSONData()).toEqual({
