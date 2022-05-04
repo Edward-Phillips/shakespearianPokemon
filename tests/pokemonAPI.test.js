@@ -45,4 +45,41 @@ describe("pokemonAPI", () => {
     expect(res._getJSONData()).toHaveProperty("name", "bulbasaur");
     expect(res._getJSONData()).toHaveProperty("description", `A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.`);
   });
+
+  it('should include the description of the pokemon specified in the url in the response', async () => {
+    const pokemonOptionsArray = [
+      {
+        name: "ivysaur",
+        description: `When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.`,
+      },
+      {
+        name: "venusaur",
+        description: `The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.`,
+      },
+      {
+        name: "charmander",
+        description: `Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.`,
+      },
+      {
+        name: "charmeleon",
+        description: `When it swings its burning tail, it elevates the temperature to unbearably high levels.`,
+      },
+      {
+        name: "charizard",
+        description: `Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.`,
+      },
+      ];
+
+      const randomPokemon = pokemonOptionsArray[Math.floor(Math.random() * pokemonOptionsArray.length)];
+    const { req, res } = createMocks({
+      method: "GET",
+      url: `/pokemon/${randomPokemon.name}",}`,
+      query: { id: randomPokemon.name }
+    });
+    await pokemonHandler(req, res);
+    expect(res._getJSONData()).toHaveProperty("name", randomPokemon.name);
+    expect(res._getJSONData()).toHaveProperty("description", randomPokemon.description);
+
+    });
+
 });
