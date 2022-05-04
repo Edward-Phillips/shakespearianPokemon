@@ -1,0 +1,55 @@
+.outerContainer {
+  display: grid;
+  background-color: darkblue;
+  border-radius: 5px;
+  max-width: 450px;
+  max-height: 400px;
+  margin: 10px;
+  align-content: space-evenly;
+  padding: 20px;
+}
+
+.pokemonDisplayContainer {
+  display: grid;
+  place-self: center;
+  grid-template-areas: "pokemonDisplay";
+  background-image:url(./whosthatpokemon.webp);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  max-width: 450px;
+  background-size:contain;
+  max-height:300px;
+  align-content: space-evenly;
+}
+
+.pokemonDisplayFigure {
+  display: grid;
+  width: 200px;
+  place-items: center;
+  place-self: center start;;
+}
+
+.pokemonDisplayCaption {
+  background-color: darkgray;
+  border-radius: 5px;
+  padding: 10px;
+  border: solid white 1px;
+}
+
+.pokemonDisplayImage {
+  width: 150px;
+  place-self: end start;
+}
+
+.pokemonDisplayDescription {
+  background-color: darkgray;
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 400px;
+  margin: 10px;
+}
+
+.obscured {
+  filter: brightness(0%);
+}
