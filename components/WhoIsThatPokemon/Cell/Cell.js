@@ -53,7 +53,7 @@ export default function Cell({ word, index, submit, setFillState, rowNumber, set
         style={{
           backgroundColor: isInWord
             ? isInPosition
-              ? "blue"
+              ? "green"
               : "yellow"
             : "white",
           color: isInPosition && isInWord ? "white" : "black",
