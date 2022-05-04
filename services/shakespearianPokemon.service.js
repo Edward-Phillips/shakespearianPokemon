@@ -2,13 +2,13 @@ import pokemonService from "./pokemon.service";
 import shakespeareTranslationService from "./shakespeareTranslation.service";
 
 export default async function shakespearianPokemonService(pokemonName) {
-  const pokemonServiceOutput = pokemonService(pokemonName);
-  const description = await pokemonServiceOutput.then(data => data.description);
-  const image = await pokemonServiceOutput.then(data => data.sprite);
-  const shakespeareTranslationServiceOutput = shakespeareTranslationService(description);
+  const pokemonServiceOutput = await pokemonService(pokemonName);
+  const description = pokemonServiceOutput.description;
+  const image = pokemonServiceOutput.image;
+  const shakespeareTranslationServiceOutput = await shakespeareTranslationService(description);
   return {
     name: pokemonName,
-    description: await shakespeareTranslationServiceOutput,
+    description: shakespeareTranslationServiceOutput.output,
     sprite: image,
   };
 }

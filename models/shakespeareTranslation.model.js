@@ -1,4 +1,5 @@
 import { cache } from "../caches/shakespeareTranslation.cache.js";
+import prisma from '../db/prisma';
 
 export default class shakespeareTranslationModel {
   constructor(inputText) {
@@ -9,6 +10,21 @@ export default class shakespeareTranslationModel {
       cache[inputText] = {};
     }
     this.cache = cache[inputText];
+  }
+
+  async getOrCreateShakespeareTranslation() {
+    const shakespeareTranslation = await prisma.shakespeareTranslations.findFirst({
+      where: { input: { equals: this.inputText } },
+    });
+    if (shakespeareTranslation) {
+      return shakespeareTranslation;
+    }
+    return prisma.shakespeareTranslations.create({
+      data: {
+        input: this.inputText,
+        output: await this.getTranslatedText(),
+      }
+    });
   }
 
   async parseTranslatedText(data) {

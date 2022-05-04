@@ -1,3 +1,4 @@
+import prisma from "../db/prisma";
 import { cache } from "../caches/pokemon.cache";
 
 export default class pokemonModel {
@@ -12,14 +13,36 @@ export default class pokemonModel {
     this.cache = cache[name];
   }
 
+  async getOrCreatePokemon() {
+    if (this.description && this.sprite) {
+      return {
+        name: this.name,
+        description: this.description,
+        sprite: this.sprite,
+      };
+    }
+    const pokemon = await prisma.pokemonDetails.findFirst({
+      where: { name: { equals: this.name } },
+    });
+    if (pokemon) {
+      return pokemon;
+    }
+    return prisma.pokemonDetails.create({
+      data: {
+        name: this.name,
+        description: await this.getPokemonDescription(),
+        image: await this.getPokemonImage(),
+  }
+    });
+  }
+
   parsePokemonDescription(data) {
     return data
       .json()
       .then((data) =>
-        data.flavor_text_entries.filter((textEntry) => textEntry.language.name === 'en')[0].flavor_text.replace(
-          /(\r\n|\n|\r|\f)/gm,
-          " "
-        )
+        data.flavor_text_entries
+          .filter((textEntry) => textEntry.language.name === "en")[0]
+          .flavor_text.replace(/(\r\n|\n|\r|\f)/gm, " ")
       );
   }
   parsePokemonImage(data) {
@@ -32,6 +55,10 @@ export default class pokemonModel {
       return this.description;
     }
     try {
+      const databasePokemon = await prisma.pokemonDetails.findMany({
+        where: { name: { equals: this.name } },
+      });
+    
       const pokemonSpeciesInfo = fetch(
         `https://pokeapi.co/api/v2/pokemon-species/${this.name}`
       );
