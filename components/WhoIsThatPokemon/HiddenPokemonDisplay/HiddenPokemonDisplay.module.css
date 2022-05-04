@@ -7,17 +7,16 @@
   margin: 10px;
   align-content: space-evenly;
   padding: 20px;
+  background-image:url(./whosthatpokemon.webp);
+  background-size:contain;
 }
 
 .pokemonDisplayContainer {
   display: grid;
   place-self: center;
   grid-template-areas: "pokemonDisplay";
-  background-image:url(./whosthatpokemon.webp);
-  background-repeat: no-repeat;
   border-radius: 5px;
   max-width: 450px;
-  background-size:contain;
   max-height:300px;
   align-content: space-evenly;
 }
@@ -37,6 +36,7 @@
 }
 
 .pokemonDisplayImage {
+  margin-left: -40px;
   width: 150px;
   place-self: end start;
 }
