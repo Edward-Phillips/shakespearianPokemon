@@ -4,8 +4,6 @@ export default class pokemonModel {
   constructor (name) {
     this.name = name;
     if (pokemonCache[name]) {
-      console.log('we got a cached value!');
-      console.log(pokemonCache[name]);
       this.description = pokemonCache[name].description;
       this.image = pokemonCache[name].image;
     } else {
