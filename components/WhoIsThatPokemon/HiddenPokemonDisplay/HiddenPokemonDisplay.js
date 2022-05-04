@@ -9,7 +9,7 @@ export default function HiddenPokemonDisplay({pokemonInfo, reveal}) {
         {reveal && <figcaption className={styles.pokemonDisplayCaption}>{pokemonInfo?.name}</figcaption>}
       </figure>
     </article>
-      <p className={styles.pokemonDisplayDescription}>{pokemonInfo?.description?.replace(`/[${pokemonInfo?.name[0].toLowerCase()},${pokemonInfo?.name[0].toUpperCase()}]`,"diiimg")}</p>
+      <p className={styles.pokemonDisplayDescription}>{pokemonInfo?.description?.replace(new RegExp(`[${pokemonInfo?.name[0].toLowerCase()},${pokemonInfo?.name[0].toUpperCase()}]${pokemonInfo?.name.slice(1, pokemonInfo?.name.length)}`),"this Pokemon")}</p>
     </section>
   );
 }
