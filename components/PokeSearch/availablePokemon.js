@@ -113,7 +113,7 @@ module.exports = [
   },
   {
       "value": "nidoran-f",
-      "label": "nidoran-f"
+      "label": "nidoran"
   },
   {
       "value": "nidorina",
@@ -125,7 +125,7 @@ module.exports = [
   },
   {
       "value": "nidoran-m",
-      "label": "nidoran-m"
+      "label": "nidoran"
   },
   {
       "value": "nidorino",
@@ -485,7 +485,7 @@ module.exports = [
   },
   {
       "value": "mr-mime",
-      "label": "mr-mime"
+      "label": "mr mime"
   },
   {
       "value": "scyther",
@@ -997,7 +997,7 @@ module.exports = [
   },
   {
       "value": "ho-oh",
-      "label": "ho-oh"
+      "label": "ho oh"
   },
   {
       "value": "celebi",
@@ -1541,7 +1541,7 @@ module.exports = [
   },
   {
       "value": "deoxys-normal",
-      "label": "deoxys-normal"
+      "label": "deoxys"
   },
   {
       "value": "turtwig",
@@ -1649,7 +1649,7 @@ module.exports = [
   },
   {
       "value": "wormadam-plant",
-      "label": "wormadam-plant"
+      "label": "wormadam"
   },
   {
       "value": "mothim",
@@ -1753,7 +1753,7 @@ module.exports = [
   },
   {
       "value": "mime-jr",
-      "label": "mime-jr"
+      "label": "mime jr"
   },
   {
       "value": "happiny",
@@ -1893,7 +1893,7 @@ module.exports = [
   },
   {
       "value": "porygon-z",
-      "label": "porygon-z"
+      "label": "porygon"
   },
   {
       "value": "gallade",
@@ -1945,7 +1945,7 @@ module.exports = [
   },
   {
       "value": "giratina-altered",
-      "label": "giratina-altered"
+      "label": "giratina"
   },
   {
       "value": "cresselia",
@@ -1965,7 +1965,7 @@ module.exports = [
   },
   {
       "value": "shaymin-land",
-      "label": "shaymin-land"
+      "label": "shaymin"
   },
   {
       "value": "arceus",
@@ -2197,7 +2197,7 @@ module.exports = [
   },
   {
       "value": "basculin-red-striped",
-      "label": "basculin-red-striped"
+      "label": "basculin"
   },
   {
       "value": "sandile",
@@ -2217,7 +2217,7 @@ module.exports = [
   },
   {
       "value": "darmanitan-standard",
-      "label": "darmanitan-standard"
+      "label": "darmanitan"
   },
   {
       "value": "maractus",
@@ -2561,11 +2561,11 @@ module.exports = [
   },
   {
       "value": "tornadus-incarnate",
-      "label": "tornadus-incarnate"
+      "label": "tornaduse"
   },
   {
       "value": "thundurus-incarnate",
-      "label": "thundurus-incarnate"
+      "label": "thundurus"
   },
   {
       "value": "reshiram",
@@ -2577,7 +2577,7 @@ module.exports = [
   },
   {
       "value": "landorus-incarnate",
-      "label": "landorus-incarnate"
+      "label": "landorus"
   },
   {
       "value": "kyurem",
@@ -2585,11 +2585,11 @@ module.exports = [
   },
   {
       "value": "keldeo-ordinary",
-      "label": "keldeo-ordinary"
+      "label": "keldeo"
   },
   {
       "value": "meloetta-aria",
-      "label": "meloetta-aria"
+      "label": "meloetta"
   },
   {
       "value": "genesect",
@@ -2709,7 +2709,7 @@ module.exports = [
   },
   {
       "value": "meowstic-male",
-      "label": "meowstic-male"
+      "label": "meowstic"
   },
   {
       "value": "honedge",
@@ -2721,7 +2721,7 @@ module.exports = [
   },
   {
       "value": "aegislash-shield",
-      "label": "aegislash-shield"
+      "label": "aegislash"
   },
   {
       "value": "spritzee",
@@ -2837,11 +2837,11 @@ module.exports = [
   },
   {
       "value": "pumpkaboo-average",
-      "label": "pumpkaboo-average"
+      "label": "pumpkaboo"
   },
   {
       "value": "gourgeist-average",
-      "label": "gourgeist-average"
+      "label": "gourgeist"
   },
   {
       "value": "bergmite",
@@ -2869,7 +2869,7 @@ module.exports = [
   },
   {
       "value": "zygarde-50",
-      "label": "zygarde-50"
+      "label": "zygarde"
   },
   {
       "value": "diancie",
@@ -2961,7 +2961,7 @@ module.exports = [
   },
   {
       "value": "oricorio-baile",
-      "label": "oricorio-baile"
+      "label": "oricorio"
   },
   {
       "value": "cutiefly",
@@ -2977,11 +2977,11 @@ module.exports = [
   },
   {
       "value": "lycanroc-midday",
-      "label": "lycanroc-midday"
+      "label": "lycanroc"
   },
   {
       "value": "wishiwashi-solo",
-      "label": "wishiwashi-solo"
+      "label": "wishiwashi"
   },
   {
       "value": "mareanie",
@@ -3084,16 +3084,12 @@ module.exports = [
       "label": "pyukumuku"
   },
   {
-      "value": "type-null",
-      "label": "type-null"
-  },
-  {
       "value": "silvally",
       "label": "silvally"
   },
   {
       "value": "minior-red-meteor",
-      "label": "minior-red-meteor"
+      "label": "minior"
   },
   {
       "value": "komala",
@@ -3109,7 +3105,7 @@ module.exports = [
   },
   {
       "value": "mimikyu-disguised",
-      "label": "mimikyu-disguised"
+      "label": "mimikyu"
   },
   {
       "value": "bruxish",
@@ -3137,19 +3133,19 @@ module.exports = [
   },
   {
       "value": "tapu-koko",
-      "label": "tapu-koko"
+      "label": "tapu koko"
   },
   {
       "value": "tapu-lele",
-      "label": "tapu-lele"
+      "label": "tapu lele"
   },
   {
       "value": "tapu-bulu",
-      "label": "tapu-bulu"
+      "label": "tapu bulu"
   },
   {
       "value": "tapu-fini",
-      "label": "tapu-fini"
+      "label": "tapu fini"
   },
   {
       "value": "cosmog",
@@ -3393,7 +3389,7 @@ module.exports = [
   },
   {
       "value": "toxtricity-amped",
-      "label": "toxtricity-amped"
+      "label": "toxtricity amped"
   },
   {
       "value": "sizzlipede",
@@ -3461,7 +3457,7 @@ module.exports = [
   },
   {
       "value": "mr-rime",
-      "label": "mr-rime"
+      "label": "mr rime"
   },
   {
       "value": "runerigus",
@@ -3497,15 +3493,15 @@ module.exports = [
   },
   {
       "value": "eiscue-ice",
-      "label": "eiscue-ice"
+      "label": "eiscue"
   },
   {
       "value": "indeedee-male",
-      "label": "indeedee-male"
+      "label": "indeedee"
   },
   {
       "value": "morpeko-full-belly",
-      "label": "morpeko-full-belly"
+      "label": "morpeko"
   },
   {
       "value": "cufant",
@@ -3565,7 +3561,7 @@ module.exports = [
   },
   {
       "value": "urshifu-single-strike",
-      "label": "urshifu-single-strike"
+      "label": "urshifu"
   },
   {
       "value": "zarude",
