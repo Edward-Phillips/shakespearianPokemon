@@ -4,12 +4,12 @@ export default async function pokemonHandler(req, res) {
   const { id } = req.query;
   try {
 
-    const pokemonServiceInstance = pokemonService(id);
+    const pokemonServiceOutput = pokemonService(id);
     
     res.status(200).json({
       name: id,
-      description: await(pokemonServiceInstance).then(data=> data.description),
-      image: await(pokemonServiceInstance).then(data=> data.image),
+      description: await(pokemonServiceOutput).then(data=> data.description),
+      image: await(pokemonServiceOutput).then(data=> data.image),
     });
   } catch (error) {
     res.status(500).json({
