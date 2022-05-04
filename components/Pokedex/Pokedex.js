@@ -35,9 +35,9 @@ export default function Pokedex() {
     }
   };
   return (
-    <section className={styles.pokedexContainer}>
+    <div className={styles.pokedexContainer}>
       <PokeSearch onSelectedPokemonChange={handleSelectedPokemonChange} />
       <PokemonDisplay pokemonInfo={currentPokemonInformation} />
-    </section>
+    </div>
   );
 }

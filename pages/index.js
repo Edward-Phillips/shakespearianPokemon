@@ -9,9 +9,7 @@ export default function Home() {
         <title>Ye Olde Pokemon</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
         <Pokedex />
-      </main>
     </div>
   );
 }

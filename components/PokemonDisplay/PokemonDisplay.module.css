@@ -1,0 +1,34 @@
+.pokemonDisplayContainer {
+  display: grid;
+  grid-template-areas: "pokemonDisplay" "pokemonInfo";
+  background-color: darkblue;
+  border-radius: 5px;
+  max-width: 450px;
+  margin: 10px;
+}
+
+.pokemonDisplayFigure {
+  display: grid;
+  width: 200px;
+  place-items: center;
+  place-self: center;
+}
+
+.pokemonDisplayCaption {
+  background-color: darkgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.pokemonDisplayImage {
+  width: 200px;
+  place-self: center;
+}
+
+.pokemonDisplayDescription {
+  background-color: darkgray;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 400px;
+  margin: 10px;
+}
