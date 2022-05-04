@@ -1,0 +1,10 @@
+.guessesGrid {
+  display: grid;
+  grid-gap: 20px;
+  place-items: center;
+  padding: 20px;
+  background-color: red;
+  margin: 20px;
+  border-radius: 10px;
+  max-width: 450px;
+}
