@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Pokedex from "../components/Pokedex/Pokedex";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
       <h1 className={styles.title}>Search for Pokemon, shakespearian style!</h1>
+        <Pokedex />
       </main>
     </div>
   );
