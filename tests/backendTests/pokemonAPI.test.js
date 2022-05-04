@@ -106,7 +106,6 @@ describe("pokemonAPI", () => {
       query: { id: "bulbasaur" },
     });
     await pokemonHandler(req, res);
-    console.log(res._getJSONData());
     expect(res._getJSONData()).toHaveProperty("name", "bulbasaur");
     expect(res._getJSONData()).toHaveProperty(
       "description",
