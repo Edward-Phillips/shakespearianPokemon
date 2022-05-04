@@ -85,8 +85,8 @@ export default function Cell({
             ? isInPosition
               ? "green"
               : "yellow"
-            : "white",
-          color: isInPosition && isInWord ? "white" : "black",
+            : "transparent",
+          color: "white",
         }}
       />
     </>
