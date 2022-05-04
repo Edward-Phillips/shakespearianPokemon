@@ -18,7 +18,7 @@ export default function WhoIsThatPokemon() {
       .then((response) => response.json())
       .then((data) => {
         setThatPokemon({
-          name: data.name,
+          name: thatPokemon.label,
           sprite: data.sprite,
           description: data.description,
         });

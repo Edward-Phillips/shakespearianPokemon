@@ -20,7 +20,7 @@ export default function Pokedex() {
           .then((response) => response.json())
           .then((data) => {
             setCurrentPokemonInformation({
-              name: data.name,
+              name: selectedPokemon.label,
               sprite: data.sprite,
               description: data.description,
             });
