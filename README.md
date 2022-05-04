@@ -61,5 +61,5 @@ There are some additional features I would like to add.
     - a step in this direction would be to decouple the model from the API and use a database class to handle the data requests, as it would make it easier to change data sources.
  - Better error handling.
    - this has now been resolved, the dockerfile has also been updated to handle fetch errors.
- - The idea is to encourage engagement with pokemon in young children, so a guess that pokemon game mode is a must.
+ - The idea is to encourage engagement with pokemon in young children, so a guess that pokemon game mode is a must. So I have added a whos that pokemon game under the route `localhost:3000/whosthatpokemon`.
  - types - typescript would be ideal but propTypes would be satisfactory.
