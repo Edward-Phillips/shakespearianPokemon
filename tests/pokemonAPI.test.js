@@ -3,21 +3,40 @@ import pokemonHandler from "../pages/api/pokemon/[id].js";
 import { enableFetchMocks } from "jest-fetch-mock";
 enableFetchMocks();
 
-const mockPokemonSpeciesRequest = (pokemonName, pokemonDescription) =>
-  fetch.mockResponseOnce(
-    JSON.stringify({
-      name: pokemonName,
-      flavor_text_entries: [
-        {
-          flavor_text: pokemonDescription,
+const mockPokemonAPIRequests = (
+  pokemonName,
+  pokemonDescription,
+  pokemonImage
+) =>
+  fetch
+    .mockResponseOnce(
+      JSON.stringify({
+        name: pokemonName,
+        flavor_text_entries: [
+          {
+            flavor_text: pokemonDescription,
+          },
+        ],
+      })
+    )
+    .mockResponseOnce(
+      JSON.stringify({
+        sprites: {
+          other: {
+            "official-artwork": {
+              front_default: pokemonImage,
+            },
+          },
         },
-      ],
-    })
-  );
+      })
+    );
 
 describe("pokemonAPI", () => {
   it("should return a pokemon", async () => {
-    mockPokemonSpeciesRequest('bulbasaur', 'A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.');
+    mockPokemonAPIRequests(
+      "bulbasaur",
+      "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon."
+    );
     const { req, res } = createMocks({
       method: "GET",
       url: "/pokemon/bulbasaur",
@@ -44,7 +63,10 @@ describe("pokemonAPI", () => {
       pokemonOptionsArray[
         Math.floor(Math.random() * pokemonOptionsArray.length)
       ];
-      mockPokemonSpeciesRequest(randomPokemon, 'description not required for this test');
+    mockPokemonAPIRequests(
+      randomPokemon,
+      "description not required for this test"
+    );
     const { req, res } = createMocks({
       method: "GET",
       url: `/pokemon/${randomPokemon}",}`,
@@ -55,7 +77,10 @@ describe("pokemonAPI", () => {
   });
 
   it("should include the description of the pokemon in the response", async () => {
-    mockPokemonSpeciesRequest('bulbasaur', 'A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.');
+    mockPokemonAPIRequests(
+      "bulbasaur",
+      "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon."
+    );
     const { req, res } = createMocks({
       method: "GET",
       url: "/pokemon/bulbasaur",
@@ -97,7 +122,7 @@ describe("pokemonAPI", () => {
       pokemonOptionsArray[
         Math.floor(Math.random() * pokemonOptionsArray.length)
       ];
-    mockPokemonSpeciesRequest(randomPokemon.name, randomPokemon.description);
+    mockPokemonAPIRequests(randomPokemon.name, randomPokemon.description);
     const { req, res } = createMocks({
       method: "GET",
       url: `/pokemon/${randomPokemon.name}",}`,
@@ -108,6 +133,25 @@ describe("pokemonAPI", () => {
     expect(res._getJSONData()).toHaveProperty(
       "description",
       randomPokemon.description
+    );
+  });
+
+  it("should return a url to the pokemon image", async () => {
+    mockPokemonAPIRequests(
+      "bulbasaur",
+      "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    );
+    const { req, res } = createMocks({
+      method: "GET",
+      url: "/pokemon/bulbasaur",
+      query: { id: "bulbasaur" },
+    });
+    await pokemonHandler(req, res);
+    expect(res._getJSONData()).toHaveProperty("name", "bulbasaur");
+    expect(res._getJSONData()).toHaveProperty(
+      "image",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
     );
   });
 });
