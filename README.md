@@ -63,3 +63,4 @@ There are some additional features I would like to add.
    - currently the docker container does not handle errors from pokeAPI well, with a fetchError causing the docker container to stop.
    - additionally there is no proper error handling for the frontend, so if for some reason the API is unreachable it will simply log the error. It would be better to communicate this to the user.
  - The idea is to encourage engagement with pokemon in young children, so a guess that pokemon game mode is a must.
+ - types - typescript would be ideal but propTypes would be satisfactory.
