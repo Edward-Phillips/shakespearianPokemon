@@ -2,13 +2,13 @@ import React from "react";
 import {Grid} from "../Grid/Grid";
 import styles from './gridRow.module.css';
 
-export function GridRow({guesses, word}) {
+export function GridRow({guesses, word, setIsCorrect, isCorrect}) {
   return (
     <div className={styles.guessesGrid} styles={{gridTemplateRows:`repeat(${guesses}, 1fr)`}}>
       {Array(guesses)
         .fill(0)
         .map((_, index) => {
-          return <Grid word={word} row={index} />;
+          return <Grid word={word} row={index} setIsCorrect={setIsCorrect} isCorrect={isCorrect} />;
         })}
     </div>
   );
