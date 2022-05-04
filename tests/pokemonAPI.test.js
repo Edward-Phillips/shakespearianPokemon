@@ -10,9 +10,7 @@ describe("pokemonAPI", () => {
       query: { id: "bulbasaur" },
     });
     await pokemonHandler(req, res);
-    expect(res._getJSONData()).toEqual({
-      name: "bulbasaur",
-    });
+    expect(res._getJSONData()).toHaveProperty("name", "bulbasaur");
   });
 
   it("should return the pokemon specified in the url", async () => {
@@ -44,9 +42,7 @@ describe("pokemonAPI", () => {
       query: { id: "bulbasaur" },
     });
     await pokemonHandler(req, res);
-    expect(res._getJSONData()).toEqual({
-      name: "bulbasaur",
-      description: `A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.`,
-    });
+    expect(res._getJSONData()).toHaveProperty("name", "bulbasaur");
+    expect(res._getJSONData()).toHaveProperty("description", `A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.`);
   });
 });
