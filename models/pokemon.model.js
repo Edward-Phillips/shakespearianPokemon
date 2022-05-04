@@ -1,15 +1,15 @@
-import pokemonCache from '../caches/pokemon.cache';
+import {cache} from '../caches/pokemon.cache';
 
 export default class pokemonModel {
   constructor (name) {
     this.name = name;
-    if (pokemonCache[name]) {
-      this.description = pokemonCache[name].description;
-      this.image = pokemonCache[name].image;
+    if (cache[name]) {
+      this.description = cache[name].description;
+      this.image = cache[name].image;
     } else {
-      pokemonCache[name] = {};
+      cache[name] = {};
     }
-    this.cache = pokemonCache[name];
+    this.cache = cache[name];
   }
 
   parsePokemonDescription (data) {

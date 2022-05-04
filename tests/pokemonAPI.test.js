@@ -1,6 +1,8 @@
 import { createMocks } from "node-mocks-http";
 import pokemonHandler from "../pages/api/pokemon/[id].js";
 import { enableFetchMocks } from "jest-fetch-mock";
+import {resetCache} from '../caches/pokemon.cache';
+
 enableFetchMocks();
 
 const mockPokemonAPIRequests = (
@@ -32,6 +34,10 @@ const mockPokemonAPIRequests = (
     );
 
 describe("pokemonAPI", () => {
+  beforeEach(() => {
+    fetch.resetMocks();
+    resetCache();
+  });
   it("should return a pokemon", async () => {
     mockPokemonAPIRequests(
       "bulbasaur",
@@ -122,7 +128,7 @@ describe("pokemonAPI", () => {
       pokemonOptionsArray[
         Math.floor(Math.random() * pokemonOptionsArray.length)
       ];
-    mockPokemonAPIRequests(randomPokemon.name, randomPokemon.description);
+    mockPokemonAPIRequests(randomPokemon.name, randomPokemon.description, 'url not required');
     const { req, res } = createMocks({
       method: "GET",
       url: `/pokemon/${randomPokemon.name}",}`,
