@@ -1,0 +1,11 @@
+.gridRow {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 0px;
+  max-width: 500px;
+  max-height: 30px;
+  place-items: center;
+}
+.button {
+  padding: 10px;
+}
