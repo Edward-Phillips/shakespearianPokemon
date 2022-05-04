@@ -1,15 +1,15 @@
-import pokemonService from "../../../services/pokemon.service";
+import shakespearianPokemonService from "../../../services/shakespearianPokemon.service";
 
 export default async function pokemonHandler(req, res) {
   const { id } = req.query;
   try {
 
-    const pokemonServiceOutput = pokemonService(id);
+    const shakespearianPokemonServiceOutput = shakespearianPokemonService(id);
     
     res.status(200).json({
       name: id,
-      description: await(pokemonServiceOutput).then(data=> data.description),
-      image: await(pokemonServiceOutput).then(data=> data.image),
+      description: await(shakespearianPokemonServiceOutput).then(data=> data.description),
+      image: await(shakespearianPokemonServiceOutput).then(data=> data.image),
     });
   } catch (error) {
     res.status(500).json({
