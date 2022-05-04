@@ -34,8 +34,19 @@ describe("pokemonAPI", () => {
       query: { id: randomPokemon }
     });
     await pokemonHandler(req, res);
+    expect(res._getJSONData()).toHaveProperty("name", randomPokemon);
+  });
+
+  it("should include the description of the pokemon in the response", async () => {
+    const { req, res } = createMocks({
+      method: "GET",
+      url: "/pokemon/bulbasaur",
+      query: { id: "bulbasaur" },
+    });
+    await pokemonHandler(req, res);
     expect(res._getJSONData()).toEqual({
-      name: randomPokemon,
+      name: "bulbasaur",
+      description: `A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.`,
     });
   });
 });
