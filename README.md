@@ -60,6 +60,5 @@ There are some additional features I would like to add.
     - currently the API stores the cache data in memory, in theory due to the largely static nature of both external APIs it would be possible to entirely remove the use of the external apis and fetch the data from our own database.
     - a step in this direction would be to decouple the model from the API and use a database class to handle the data requests, as it would make it easier to change data sources.
  - Better error handling.
-   - currently the docker container does not handle errors from pokeAPI well, with a fetchError causing the docker container to stop.
-   - additionally there is no proper error handling for the frontend, so if for some reason the API is unreachable it will simply log the error. It would be better to communicate this to the user.
+   - this has now been resolved, the dockerfile has also been updated to handle fetch errors.
  - The idea is to encourage engagement with pokemon in young children, so a guess that pokemon game mode is a must.
