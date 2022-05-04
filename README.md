@@ -54,3 +54,12 @@ I have used vercel to deploy this application, if you would like to do the same 
 
 You can configure vercel to deploy on push to the main branch of your project if [using github](https://vercel.com/docs/concepts/git/vercel-for-github). This requires giving vercel access to your github repository. If following this method you will be have the option to include environmental variables for the deployment. This project uses 2 variables: an API key to funnytranslations if you have one (not required) and the url to the API for the frontend in case you would like the frontend to point to a pre-existing shakespearian pokemon API.
 
+## Feature wishlist
+There are some additional features I would like to add.
+ - long term caching
+    - currently the API stores the cache data in memory, in theory due to the largely static nature of both external APIs it would be possible to entirely remove the use of the external apis and fetch the data from our own database.
+    - a step in this direction would be to decouple the model from the API and use a database class to handle the data requests, as it would make it easier to change data sources.
+ - Better error handling.
+   - currently the docker container does not handle errors from pokeAPI well, with a fetchError causing the docker container to stop.
+   - additionally there is no proper error handling for the frontend, so if for some reason the API is unreachable it will simply log the error. It would be better to communicate this to the user.
+ - The idea is to encourage engagement with pokemon in young children, so a guess that pokemon game mode is a must.
