@@ -57,7 +57,7 @@ describe("shakespearianPokemon", () => {
       "Spits fire yond is hot enow to melt boulders. Known to cause forest fires unintentionally."
     );
     expect(shakespearianPokemon).toHaveProperty(
-      "image",
+      "sprite",
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
     );
   });

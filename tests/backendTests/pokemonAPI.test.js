@@ -179,7 +179,7 @@ describe("pokemonAPI", () => {
     await pokemonHandler(req, res);
     expect(res._getJSONData()).toHaveProperty("name", "bulbasaur");
     expect(res._getJSONData()).toHaveProperty(
-      "image",
+      "sprite",
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
     );
   });
