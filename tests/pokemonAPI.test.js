@@ -8,30 +8,38 @@ enableFetchMocks();
 const mockPokemonAPIRequests = (
   pokemonName,
   pokemonDescription,
-  pokemonImage
+  pokemonImage,
+  translatedText
 ) =>
-  fetch
-    .mockResponseOnce(
-      JSON.stringify({
-        name: pokemonName,
-        flavor_text_entries: [
-          {
-            flavor_text: pokemonDescription,
-          },
-        ],
-      })
-    )
-    .mockResponseOnce(
-      JSON.stringify({
-        sprites: {
-          other: {
-            "official-artwork": {
-              front_default: pokemonImage,
-            },
+  fetch.mockResponseOnce(
+    JSON.stringify({
+      name: pokemonName,
+      flavor_text_entries: [
+        {
+          flavor_text: pokemonDescription,
+        },
+      ],
+    })
+  ).mockResponseOnce(
+    JSON.stringify({
+      sprites: {
+        other: {
+          "official-artwork": {
+            front_default: pokemonImage,
           },
         },
-      })
-    );
+      },
+    })
+  ).mockResponseOnce(
+    JSON.stringify({
+      success: {
+        total: 1,
+      },
+      contents: {
+        translated: translatedText,
+      },
+    })
+  );
 
 describe("pokemonAPI", () => {
   beforeEach(() => {
