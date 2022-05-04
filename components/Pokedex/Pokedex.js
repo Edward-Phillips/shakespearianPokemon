@@ -1,6 +1,7 @@
 import React, {useState}from "react";
 import PokeSearch from "../PokeSearch/PokeSearch";
 import PokemonDisplay from "../PokemonDisplay/PokemonDisplay";
+import styles from './Pokedex.module.css';
 
 export default function Pokedex() {
   const [pokemonCache, setPokemonCache] = useState({});
@@ -8,7 +9,6 @@ export default function Pokedex() {
     useState({ name: "", image: "", description: "" });
 
   const handleSelectedPokemonChange = (selectedPokemon) => {
-    console.log('something');
     if (selectedPokemon) {
       const pokemonName = selectedPokemon.value;
       if (pokemonCache[pokemonName]) {
@@ -35,9 +35,9 @@ export default function Pokedex() {
     }
   };
   return (
-    <>
+    <section className={styles.pokedexContainer}>
       <PokeSearch onSelectedPokemonChange={handleSelectedPokemonChange} />
       <PokemonDisplay pokemonInfo={currentPokemonInformation} />
-    </>
+    </section>
   );
 }

@@ -1,0 +1,15 @@
+.pokedexContainer {
+  display: grid;
+  grid-template-areas:  "." ".";
+  place-items: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.pokeSearch {
+  width: 300px;
+}
+
+.pokemonDisplay {
+  grid-area: pokeDisplay;
+}

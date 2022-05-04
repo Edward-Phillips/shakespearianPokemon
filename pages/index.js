@@ -10,7 +10,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-      <h1 className={styles.title}>Search for Pokemon, shakespearian style!</h1>
         <Pokedex />
       </main>
     </div>

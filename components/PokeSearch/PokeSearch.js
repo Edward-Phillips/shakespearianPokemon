@@ -5,6 +5,6 @@ import styles from "./pokesearch.module.css";
 
 export default function PokeSearch({onSelectedPokemonChange}) {
   return (
-    <Select aria-label='search' onChange={onSelectedPokemonChange} options={availablePokemon}></Select>
+    <Select className={styles.pokeSearch}aria-label='search' onChange={onSelectedPokemonChange} options={availablePokemon}></Select>
   );
 }
