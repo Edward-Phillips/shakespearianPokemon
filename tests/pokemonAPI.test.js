@@ -1,5 +1,5 @@
 import { createMocks } from "node-mocks-http";
-import pokemonHandler from "../pages/api/pokemon/[id].js";
+import pokemonHandler from "../pages/pokemon/[id].js";
 import { enableFetchMocks } from "jest-fetch-mock";
 enableFetchMocks();
 
