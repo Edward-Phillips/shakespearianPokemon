@@ -20,12 +20,10 @@ const mockPokemonAPIRequest = (
     )
 
 describe("Home", () => {
-  it("renders a heading about shakespearian pokemon", () => {
+  it("prompts the user to pick a pokemon", () => {
     render(<Home />);
 
-    const heading = screen.getByRole("heading", {
-      name: /Search for Pokemon, shakespearian style!/i,
-    });
+    const heading = screen.getByText("Pick a pokemon to begin!");
 
     expect(heading).toBeInTheDocument();
   });
@@ -56,7 +54,7 @@ describe("Home", () => {
     const pokemonList = screen.getByLabelText("search");
     fireEvent(pokemonList, new MouseEvent("click", { bubbles: true }));
     fireEvent.change(pokemonList, { target: { value: "nidoking" } });
-    const nidokingImage = await screen.findByRole("img");
+    const nidokingImage = waitFor(() => screen.findByRole("img"));
     const nidokingcaption = screen.findByRole('caption', {name: 'nidoking'});
     const nidokingdescription = screen.findByText("A dangerous poison gas drifts from its mouth.");
     waitFor(() => expect(nidokingImage.src).toBe('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png'))
