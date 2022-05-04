@@ -18,6 +18,7 @@
   background-color: darkgray;
   border-radius: 5px;
   padding: 10px;
+  border: solid white 1px;
 }
 
 .pokemonDisplayImage {
@@ -27,6 +28,7 @@
 
 .pokemonDisplayDescription {
   background-color: darkgray;
+  border: solid white 1px;
   border-radius: 5px;
   padding: 10px;
   max-width: 400px;

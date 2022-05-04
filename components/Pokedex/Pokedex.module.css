@@ -2,12 +2,10 @@
   place-self: center;
   display: grid;
   grid-template-areas:  "." ".";
-  grid-template-rows: 10% 80%;
+  grid-template-rows: 20% 80%;
   place-items: center center;
-  margin-top: 30px;
   height: 500px;
   width: 500px;
-  background-color: red;
   border-radius: 5px;
 }
 
