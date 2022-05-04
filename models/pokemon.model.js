@@ -16,7 +16,7 @@ export default class pokemonModel {
     return data
       .json()
       .then((data) =>
-        data.flavor_text_entries[0].flavor_text.replace(
+        data.flavor_text_entries.filter((textEntry) => textEntry.language.name === 'en')[0].flavor_text.replace(
           /(\r\n|\n|\r|\f)/gm,
           " "
         )
