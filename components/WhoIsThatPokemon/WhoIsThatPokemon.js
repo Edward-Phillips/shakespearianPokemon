@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { GridRow } from "./GridRow/GridRow";
-import availablePokemon from "../Pokesearch/availablePokemon";
+import availablePokemon from "../PokeSearch/availablePokemon";
 import HiddenPokemonDisplay from "./HiddenPokemonDisplay/HiddenPokemonDisplay";
 
 export default function WhoIsThatPokemon() {
