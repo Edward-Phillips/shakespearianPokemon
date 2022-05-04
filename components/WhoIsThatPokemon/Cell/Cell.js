@@ -63,7 +63,6 @@ export default function Cell({
   };
 
   const handleKeyDown = (e) => {
-    console.log(e);
     if (e.key ==="Backspace" && value=== "") {
       focusPreviousInput(e.target);
     }
@@ -73,7 +72,7 @@ export default function Cell({
     <>
       <input
         onKeyDown={(e)=>handleKeyDown(e)}
-        id={`${rowNumber}${index}`}
+        id={`${rowNumber}${word.length}${index}`}
         data-index={index}
         disabled={submit}
         maxLength="1"
