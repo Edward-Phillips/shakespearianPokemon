@@ -5,7 +5,7 @@ export default class pokemonModel {
     this.name = name;
     if (cache[name]) {
       this.description = cache[name].description;
-      this.image = cache[name].image;
+      this.sprite = cache[name].sprite;
     } else {
       cache[name] = {};
     }
@@ -36,13 +36,13 @@ export default class pokemonModel {
   }
 
   async getPokemonImage () {
-    if (this.image) {
-      return this.image;
+    if (this.sprite) {
+      return this.sprite;
     }
     const pokemonInfo = fetch(`https://pokeapi.co/api/v2/pokemon/${this.name}`);
-    this.cache.image = await pokemonInfo.then((data) =>
+    this.cache.sprite = await pokemonInfo.then((data) =>
       this.parsePokemonImage(data)
     );
-    return await this.cache.image;
+    return await this.cache.sprite;
   }
 };

@@ -9,7 +9,7 @@ export default async function pokemonHandler(req, res) {
     res.status(200).json({
       name: id,
       description: await(shakespearianPokemonServiceOutput).then(data=> data.description),
-      image: await(shakespearianPokemonServiceOutput).then(data=> data.image),
+      sprite: await(shakespearianPokemonServiceOutput).then(data=> data.sprite),
     });
   } catch (error) {
     res.status(500).json({

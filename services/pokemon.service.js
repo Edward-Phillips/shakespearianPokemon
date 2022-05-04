@@ -6,6 +6,6 @@ export default async function pokemonService(pokemonName) {
   const image = pokemonModelInstance.getPokemonImage();
   return {
     description: await description,
-    image: await image,
+    sprite: await image,
   }
 }

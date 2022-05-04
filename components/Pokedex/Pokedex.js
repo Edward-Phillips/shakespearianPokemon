@@ -6,7 +6,7 @@ import styles from './Pokedex.module.css';
 export default function Pokedex() {
   const [pokemonCache, setPokemonCache] = useState({});
   const [currentPokemonInformation, setCurrentPokemonInformation] =
-    useState({ name: "", image: "", description: "" });
+    useState({ name: "", sprite: "", description: "" });
 
   const handleSelectedPokemonChange = (selectedPokemon) => {
     if (selectedPokemon) {
@@ -19,14 +19,14 @@ export default function Pokedex() {
           .then((data) => {
             setCurrentPokemonInformation({
               name: data.name,
-              image: data.image,
+              sprite: data.sprite,
               description: data.description,
             });
             setPokemonCache({
               ...pokemonCache,
               [pokemonName]: {
                 name: data.name,
-                image: data.image,
+                sprite: data.sprite,
                 description: data.description,
               },
             });
