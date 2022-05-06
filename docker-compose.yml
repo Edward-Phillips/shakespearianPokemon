@@ -13,7 +13,9 @@ services:
     cap_add:
       - SYS_NICE
     ports:
-      - "3306:3306"
+      - "3306:3306" 
+    profiles:
+    - database
 
   nextjs:
         build: .
@@ -24,5 +26,3 @@ services:
           SHADOW_DATABASE_URL: ${DOCKER_SHADOW_DATABASE_URL}
           FUNTRANSLATIONS_API_SECRET: ${FUNTRANSLATIONS_API_SECRET}
           POKEAPI_ADDRESS: ${POKEAPI_ADDRESS}
-        depends_on:
-          - mysql_db
