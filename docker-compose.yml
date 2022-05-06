@@ -1,0 +1,28 @@
+version: '3'
+services:
+
+  mysql_db:
+    image: mysql
+    volumes:
+      - ./setup.sql:/docker-entrypoint-initdb.d/setup.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: guest
+      MYSQL_DATABASE: primary
+      MYSQL_USER: superguest
+      MYSQL_PASSWORD: guest
+    cap_add:
+      - SYS_NICE
+    ports:
+      - "3306:3306"
+
+  nextjs:
+        build: .
+        ports:
+          - "3000:3000"
+        environment:
+          DATABASE_URL: ${DOCKER_DATABASE_URL}
+          SHADOW_DATABASE_URL: ${DOCKER_SHADOW_DATABASE_URL}
+          FUNTRANSLATIONS_API_SECRET: ${FUNTRANSLATIONS_API_SECRET}
+          POKEAPI_ADDRESS: ${POKEAPI_ADDRESS}
+        depends_on:
+          - mysql_db
