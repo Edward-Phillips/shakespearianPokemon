@@ -7,6 +7,7 @@ FROM node:lts as builder
 WORKDIR /my-project
 COPY . .
 COPY --from=dependencies /my-project/node_modules ./node_modules
+RUN yarn generate
 RUN yarn build
 
 FROM node:lts as runner
@@ -20,9 +21,5 @@ COPY --from=builder /my-project/node_modules ./node_modules
 COPY --from=builder /my-project/package.json ./package.json
 COPY --from=builder /my-project/prisma ./prisma
 
-# use Prisma to 
-# 1. generate the schema
-# 2. migrate the database
-RUN yarn generate
 EXPOSE 3000
 CMD ["yarn", "start"]
