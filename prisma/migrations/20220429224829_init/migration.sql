@@ -11,7 +11,6 @@ CREATE TABLE `PokemonDetails` (
 -- CreateTable
 CREATE TABLE `shakespeareTranslations` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
-    `pokemonId` INTEGER NOT NULL,
     `input` VARCHAR(191) NOT NULL,
     `output` VARCHAR(191) NOT NULL,
 
