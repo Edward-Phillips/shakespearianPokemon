@@ -18,6 +18,11 @@ COPY --from=builder /my-project/public ./public
 COPY --from=builder /my-project/.next ./.next
 COPY --from=builder /my-project/node_modules ./node_modules
 COPY --from=builder /my-project/package.json ./package.json
+COPY --from=builder /my-project/prisma ./prisma
 
+# use Prisma to 
+# 1. generate the schema
+# 2. migrate the database
+RUN yarn generate
 EXPOSE 3000
 CMD ["yarn", "start"]
