@@ -8,7 +8,7 @@ It is recommended to use docker with the database profile for a quick and easy s
 ## Using Docker
 
 1. [Install Docker](https://docs.docker.com/get-docker/) and [docker-compse](https://docs.docker.com/compose/install/) on your machine.
-1. you will need to set your environmental variables to configure your api url, database urls and  shakespeare translation key if you have one. check out the .env.example file for more information on the database urls.
+1. you will need to set your environmental variables in a .env file to configure your api url, database urls and  shakespeare translation key if you have one. check out the .env.example file for more information on the database urls.
 1. checkout the repository:
 
 ```
@@ -38,7 +38,7 @@ then, install the dependencies:
 ```
 npm install
 ```
-You will need to configure the environmental variables as in the .env.example file, except docker_database urls will not be required.
+You will need to configure the environmental variables in an .env file as in the .env.example file, except docker_database urls will not be required.
 on first time setup of the database you will need to run the following prisma command to create the database from the schema and also generate the prisma client:
 ```
 npx prisma migrate dev
