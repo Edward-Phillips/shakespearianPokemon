@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "generate": "prisma migrate dev",
+    "generate": "prisma generate",
     "test": "jest",
     "start": "next start"
   },
