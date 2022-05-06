@@ -30,14 +30,28 @@ npm run build && npm run start
 ## Using Docker
 
 1. [Install Docker](https://docs.docker.com/get-docker/) on your machine.
-1. Build your container: `docker build -t shakespearianPokemon .`.
-1. Run your container: `docker run -p 3000:3000 shakespearianPokemon`.
-1. unfortunately the docker container does not handle fetchErrors well despite them being contained in a try/catch block. Due to time constraints this was not resolved. - Fortunately the frontend uses validation to avoid malformed requests being sent to the back end.
+1. you will need to set your environmental variables to configure your api url, database urls and  shakespeare translation key if you have one.
+1. Build your container: `docker build -t shakespearianpokemon .`.
+1. Run your container: `docker run -p 3000:3000 shakespearianpokemon`.
 
 You can view your images created with `docker images`.
 ## Running Locally
 
-First, run the development server:
+First, you will want to configure your database 
+- I have used mysql, but if you want to change that you can edit in the schema.prisma file.
+You will need 2 environmental variables, one to your DATABASE_URL and one to to your SHADOW_DATABASE_URL, both of which you will need to set in the .env and on deployment.
+To do this you need to run the following command:
+
+``` prisma migrate dev```
+
+
+This will run the migrations for your database.
+
+Then you will need to configure youre environment variables. There are 4 environment variables to set, but only 3 are required.
+ - FUNTRANSLATIONS_API_SECRET - this key is optional, but without it the api is limited to 5 calls an hour.
+  - POKEAPI_ADDRESS - this is the address of the backend that will be answering your requests, http://localhost:3000/api/pokemon/ works for development.
+  - DATABASE_URL - prisma database urls - mysql is currently a requirement
+  - SHADOW_DATABASE_URL - prisma database urls - mysql is currently a requirement
 
 ```bash
 npm run dev
@@ -52,14 +66,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 I have used vercel to deploy this application, if you would like to do the same you can follow the instructions here: https://nextjs.org/docs/deployment
 
-You can configure vercel to deploy on push to the main branch of your project if [using github](https://vercel.com/docs/concepts/git/vercel-for-github). This requires giving vercel access to your github repository. If following this method you will be have the option to include environmental variables for the deployment. This project uses 2 variables: an API key to funnytranslations if you have one (not required) and the url to the API for the frontend in case you would like the frontend to point to a pre-existing shakespearian pokemon API.
+You can configure vercel to deploy on push to the main branch of your project if [using github](https://vercel.com/docs/concepts/git/vercel-for-github). This requires giving vercel access to your github repository. If following this method you will be have the option to include environmental variables for the deployment. This project uses 4 variables: 
+- the DATABASE_URL  & SHADOW_DATABASE_URL env varibles
+- an API key to funnytranslations if you have one (not required) stored under FUNTRANSLATIONS_API_SECRET
+- the url to the API for the frontend in case you would like the frontend to point to a pre-existing shakespearian pokemon API.
 
-## Feature wishlist
-There are some additional features I would like to add.
- - long term caching
-    - currently the API stores the cache data in memory, in theory due to the largely static nature of both external APIs it would be possible to entirely remove the use of the external apis and fetch the data from our own database.
-    - a step in this direction would be to decouple the model from the API and use a database class to handle the data requests, as it would make it easier to change data sources.
- - Better error handling.
-   - this has now been resolved, the dockerfile has also been updated to handle fetch errors.
- - The idea is to encourage engagement with pokemon in young children, so a guess that pokemon game mode is a must. So I have added a whos that pokemon game under the route `localhost:3000/whosthatpokemon`.
- - types - typescript would be ideal but propTypes would be satisfactory.
+
+## current objectives:
+
+Who is that Pokemon objectives:
+- submit bug = seems to be submitting when delete is pressed and all the inputs are full
+- restyle to more closely match Wordle
+- successfully configure docker-compose up to have the database running and talking to the API.
+- improve victory screen
+- add cookies to start tracking stats
+- refactor success logic to lift state out of cell components and into gridRow component or even whoIsthatPokemon component for ease of sharing state to scoreModal component.
+- refactor database code to use any database type.
