@@ -3,10 +3,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "generate": "prisma migrate dev",
     "test": "jest",
     "start": "next start"
   },
+  "prisma": {
+    "schema": "prisma/schema.prisma"
+  },
   "dependencies": {
+    "@prisma/client": "^3.13.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.2",
     "dotenv": "^16.0.0",
