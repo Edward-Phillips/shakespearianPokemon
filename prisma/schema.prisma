@@ -6,20 +6,20 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
-  url      = env("DATABASE_URL")
+  provider          = "mysql"
+  url               = env("DATABASE_URL")
   shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
 }
 
 model PokemonDetails {
-  id        Int @id @default(autoincrement())
-  name      String
+  id          Int    @id @default(autoincrement())
+  name        String
   description String
-  image     String
+  image       String
 }
 
 model shakespeareTranslations {
-  id        Int @id @default(autoincrement())
-  input     String
-  output    String
+  id     Int    @id @default(autoincrement())
+  input  String
+  output String
 }
