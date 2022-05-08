@@ -9,7 +9,7 @@ it's just a fun little project using pokeapi.co and a funtranslations api to mak
 See the current objectives to see what's being worked on.
 ## How to use
 
-To run this project you will need [npm and nodeJS](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [docker](https://docs.docker.com/get-started/), and [git](https://git-scm.com/).
+To run this project you will need [npm and nodeJS](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [yarn](https://yarnpkg.com/lang/en/docs/install/), [docker](https://docs.docker.com/get-started/), and [git](https://git-scm.com/).
 
 It is recommended to use docker with the database profile for a quick and easy setup.
 
@@ -28,10 +28,10 @@ then, install the dependencies:
 ```
 yarn install
 ```
-1. you can run the docker container with just the node app using an external database by updating `docker.env` with new database_url variables for your external database and then running:
+1. you can run the docker container with just the node app using an external database (NOTE: external database MUST be mysql) by updating `docker.env` with new database_url variables for your external database and then running:
 
 ```
-docker-compose up -d
+docker-compose up --build -d
 ```
 
 1. if you wanted to spin up a database locally for the app seeded with some data to avoid making too many api calls you can run:
@@ -40,6 +40,12 @@ docker-compose --profile database up --build -d
 ```
 
 This runs the mysql_db service in the docker-compose.yml file. If you have updated the service names in docker-compose.yml, ensure the environment variables set in the docker.env file reflect those changes.
+
+To confirm the Database is set up as expected, you can use prisma studio:
+```
+npx prisma studio
+```
+As long as you have set your environmental variables as in env.example and have not edited docker-compose.yml prisma will be able to connect to the database running in the container.
 
 ## Running the app without docker
 
@@ -94,3 +100,8 @@ Who is that Pokemon objectives:
 - refactor success logic to lift state out of cell components and into gridRow component or even whoIsthatPokemon component for ease of sharing state to scoreModal component.
 - add try catch to db query to handle invalid database details, but not to block request entirely.
 - drop shakespearian search and switch to pokedex search, based on pokemon seen in the who's that pokemon game. -- requires cookie consent or user sign up to track pokedex performance
+
+
+## feedback
+
+Please feel free to open an issue or submit a pull request on the repository with any suggestions, keen to improve everything!
