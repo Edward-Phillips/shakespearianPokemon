@@ -21,8 +21,5 @@ services:
         build: .
         ports:
           - "3000:3000"
-        environment:
-          DATABASE_URL: ${DOCKER_DATABASE_URL}
-          SHADOW_DATABASE_URL: ${DOCKER_SHADOW_DATABASE_URL}
-          FUNTRANSLATIONS_API_SECRET: ${FUNTRANSLATIONS_API_SECRET}
-          POKEAPI_ADDRESS: ${POKEAPI_ADDRESS}
+        env_file:
+          - docker.env
