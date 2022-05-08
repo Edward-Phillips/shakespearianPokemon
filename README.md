@@ -7,9 +7,8 @@ It is recommended to use docker with the database profile for a quick and easy s
 
 ## Using Docker
 
-1. [Install Docker](https://docs.docker.com/get-docker/) and [docker-compse](https://docs.docker.com/compose/install/) on your machine.
-1. you will need to set your environmental variables in a .env file to configure your api url, database urls and  shakespeare translation key if you have one. check out the .env.example file for more information on the database urls.
-1. checkout the repository:
+1. [Install Docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) on your machine.
+The environmental variables are set in the 'docker.env.' file, if you have a funtranslation api key, set it there under FUNTRANSLATIONS_API_SECRET. If you are using an external pokemon api, update the POKEAPI_ADDRESS variable.
 
 ```
 git clone https://github.com/Edward-Phillips/shakespearianPokemon.git
@@ -19,9 +18,9 @@ git clone https://github.com/Edward-Phillips/shakespearianPokemon.git
 docker-compose up -d
 ```
 
-1. if you wanted to spin up a database locally for the app you can run:
+1. if you wanted to spin up a database locally for the app seeded with some data to avoid making too many api calls you can run:
 ```
-docker-compose up --profile database -d
+docker-compose --profile database up --build -d
 ```
 This runs the mysql_db service in the docker-compose.yml file. Be sure that your docker_database urls point at mysql_db and not local host as they are networking within the container.
 
@@ -74,4 +73,5 @@ Who is that Pokemon objectives:
 - improve victory screen
 - add cookies to start tracking stats
 - refactor success logic to lift state out of cell components and into gridRow component or even whoIsthatPokemon component for ease of sharing state to scoreModal component.
-- refactor database code to use any database type.
+- add try catch to db query to handle invalid database details, but not to block request entirely.
+- drop shakespearian search and switch to pokedex search, based on pokemon seen in the who's that pokemon game. -- requires cookie consent or user sign up to track pokedex performance
