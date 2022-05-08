@@ -63,6 +63,9 @@ npm install
 ```
 
 You will need to configure the environmental variables in an .env file as in the .env.example file, except docker_database urls will not be required.
+
+## External Databases:
+
 on first time setup of the database you will need to run the following prisma command to create the database from the schema and also generate the prisma client:
 ```
 npx prisma migrate dev
