@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Pokedex from "../components/Pokedex/Pokedex";
+import PokedexSearch from "../components/PokedexSearch/PokedexSearch";
 import Link from "next/link";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Link href="/whosthatpokemon">Try and guess the pokemon!</Link>
-        <Pokedex />
+        <PokedexSearch />
     </div>
   );
 }
