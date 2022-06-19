@@ -1,17 +1,20 @@
 .outerContainer {
+  position: relative;
   display: grid;
-  background-color: darkblue;
-  border-radius: 10px;
-  width: 450px;
-  height: 375px;
-  margin: 20px;
+  background-color:#828282;
+  width: 300px;
+  height: 300px;
   align-content: space-evenly;
-  padding: 20px;
-  background-image:url(./whosthatpokemon.webp);
   background-size:contain;
-  @media screen and (max-width: 450px) {
-    width: 100%;
-  }
+  box-shadow: inset 17px 17px 35px #6f6f6f,
+            inset -17px -17px 35px #969696;
+  border:5px ridge rgb(255 255 255 / 50%);
+}
+
+.hintButton {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .pokemonDisplayContainer {
@@ -26,9 +29,8 @@
 
 .pokemonDisplayFigure {
   display: grid;
-  width: 200px;
   place-items: center;
-  place-self: center start;;
+  place-self: center start;
 }
 
 .pokemonDisplayCaption {
@@ -39,9 +41,8 @@
 }
 
 .pokemonDisplayImage {
-  margin-left: -40px;
-  width: 150px;
-  place-self: end start;
+  width: 200px;
+  place-self: end end;
 }
 
 .pokemonDisplayDescription {
@@ -51,6 +52,8 @@
   padding: 10px;
   max-width: 400px;
   margin: 10px;
+  position: relative;
+  bottom: 35px;
 }
 
 .obscured {
