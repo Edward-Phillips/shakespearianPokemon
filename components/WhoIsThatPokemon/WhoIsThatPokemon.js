@@ -43,7 +43,7 @@ export default function WhoIsThatPokemon() {
           setThatPokemon({
             name: thatPokemon.label ?? 'bulbasaur',
             sprite: data.sprite ?? 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
-            description: data.description ?? 'A Bulbasaur',
+            description: data.description ?? 'These pokemon are small, squat amphibian and plant Pokémon that move on all four legs, and have blue-green bodies with darker blue-green spots.',
           });
         });
       setReset(false);
