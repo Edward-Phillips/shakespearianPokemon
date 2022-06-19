@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { GridRow } from "./GridRow/GridRow";
 import availablePokemon from "../PokeSearch/availablePokemon";
 import HiddenPokemonDisplay from "./HiddenPokemonDisplay/HiddenPokemonDisplay";
-import styles from './WhoIsThatPokemon.module.css';
+import Pokedex from "../Pokedex/Pokedex";
 import ReactModal from 'react-modal';
 import ScoreModal from "./ScoreModal/ScoreModal";
 
@@ -35,18 +35,21 @@ export default function WhoIsThatPokemon() {
       return;
     }
     try {
+      console.log({thatPokemon});
+
       fetch(process.env.POKEAPI_ADDRESS + thatPokemon.value)
         .then((response) => response.json())
         .then((data) => {
           setThatPokemon({
-            name: thatPokemon.label,
-            sprite: data.sprite,
-            description: data.description,
+            name: thatPokemon.label ?? 'bulbasaur',
+            sprite: data.sprite ?? 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
+            description: data.description ?? 'A Bulbasaur',
           });
         });
       setReset(false);
     } catch (error) {
       console.log(error);
+      setThatPokemon({sprite: 'something'});
     }
   }, [thatPokemon, reset]);
 
@@ -65,7 +68,7 @@ export default function WhoIsThatPokemon() {
     }
   }, [submitCount]);
   return (
-    <div className={styles.container}>
+    <Pokedex>
       <HiddenPokemonDisplay
         pokemonInfo={thatPokemon}
         loading={!(thatPokemon.name ?? false)}
@@ -81,6 +84,6 @@ export default function WhoIsThatPokemon() {
         reset={reset}
       />
       <ReactModal isOpen={modalOpen}><ScoreModal closeModal={() => setModalOpen(false)} wins={winCount} lost={submitCount === guesses} playAgain={handlePlayAgain} /></ReactModal>
-    </div>
+    </Pokedex>
   );
 }
