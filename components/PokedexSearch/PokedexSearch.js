@@ -1,9 +1,10 @@
 import React, {useState}from "react";
+import Pokedex from '../Pokedex/Pokedex';
 import PokeSearch from "../PokeSearch/PokeSearch";
 import PokemonDisplay from "../PokemonDisplay/PokemonDisplay";
 import styles from './PokedexSearch.module.css';
 
-export default function Pokedex() {
+export default function PokedexSearch() {
   const [pokemonCache, setPokemonCache] = useState({});
   const [currentPokemonInformation, setCurrentPokemonInformation] =
     useState({ name: "", sprite: "", description: "" });
@@ -41,8 +42,12 @@ export default function Pokedex() {
   };
   return (
     <div className={styles.pokedexContainer}>
-      <PokeSearch onSelectedPokemonChange={handleSelectedPokemonChange} />
+    <Pokedex navbar={{title: "play Who's that Pokemon-dle", href: "/whosthatpokemon"}}>
+    <section style={{display: 'grid', gridTemplateRows: '1fr 1fr', placeItems: 'start center'}}>
       <PokemonDisplay pokemonInfo={currentPokemonInformation} />
+      <PokeSearch onSelectedPokemonChange={handleSelectedPokemonChange} />
+    </section>
+    </Pokedex>
     </div>
   );
 }

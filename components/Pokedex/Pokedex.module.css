@@ -1,15 +1,30 @@
 .container {
   display: grid;
-  place-items: center;
   background-image: url('pokedex.svg');
+  width: 450px;
+  height: 900px;
+  margin: auto;
+  margin-top: -150px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 10px;
-  margin-right:10px;
-  border-radius: 20px;
-  align-items: center;
-  grid-gap: 10px;
-  padding-top: 200px;
-  box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.5), inset -8px -8px 16px 0px rgba(0, 0, 0, 0.6), inset 0px 11px 11px 0px rgb(108, 37, 37);
-  backdrop-filter: blur(5px);
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.27fr 0.2fr 2.4fr;
+  gap: 0px 0px;
+  grid-template-areas: "." "navbar" "content";
+  border-radius: 10px;
+}
+@media screen and (max-width: 450px) {
+  .container {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0px;
+    margin-top: 0px;
+  }
+}
+
+.navbar {
+  grid-area: navbar;
+  display: grid;
+  grid-template-columns: 3.25fr 2.25fr 0.7fr;
+  grid-template-areas: ". text button";
 }
