@@ -42,7 +42,7 @@ export default function PokedexSearch() {
   };
   return (
     <div className={styles.pokedexContainer}>
-    <Pokedex navbar={{title: "play Who's that Pokemon-dle", href: "/whosthatpokemon"}}>
+    <Pokedex navbar={{title: "play Who's that Pokemon-dle", href: "/"}}>
     <section style={{display: 'grid', gridTemplateRows: '1fr 1fr', placeItems: 'start center'}}>
       <PokemonDisplay pokemonInfo={currentPokemonInformation} />
       <PokeSearch onSelectedPokemonChange={handleSelectedPokemonChange} />

@@ -66,7 +66,7 @@ export default function WhoIsThatPokemon() {
     }
   }, [submitCount]);
   return (
-    <Pokedex navbar={{title: 'go to pokedex', href:'/'}}>
+    <Pokedex navbar={{title: 'go to pokedex', href:'/pokedex'}}>
     <section style={{display: 'grid', gridTemplateRows: '1fr 0.1fr 1fr', placeItems: 'center'}}>
       <HiddenPokemonDisplay
         pokemonInfo={thatPokemon}
