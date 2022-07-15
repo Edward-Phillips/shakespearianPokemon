@@ -21,19 +21,32 @@ export default class pokemonModel {
         sprite: this.sprite,
       };
     }
-    const pokemon = await prisma.pokemonDetails.findFirst({
-      where: { name: { equals: this.name } },
-    });
-    if (pokemon) {
-      return pokemon;
+    try {
+      const pokemon = await prisma.pokemonDetails.findFirst({
+        where: { name: { equals: this.name } },
+      });
+      if (pokemon) {
+        return pokemon;
+      }
+    } catch(e) {
+      const description = await this.getPokemonDescription()
+      const image =  await this.getPokemonImage()
+      try {
+        return await prisma.pokemonDetails.create({
+          data: {
+            name: this.name,
+            description,
+            image,
+          }
+        });
+      } catch (e) {
+        return {
+          name: this.name,
+          description: await this.getPokemonDescription(),
+          image: await this.getPokemonImage(),
+        };
+      }
     }
-    return prisma.pokemonDetails.create({
-      data: {
-        name: this.name,
-        description: await this.getPokemonDescription(),
-        image: await this.getPokemonImage(),
-  }
-    });
   }
 
   parsePokemonDescription(data) {
@@ -50,27 +63,24 @@ export default class pokemonModel {
       .json()
       .then((data) => data.sprites.other["official-artwork"].front_default);
   }
+
+
   async getPokemonDescription() {
     if (this.description) {
       return this.description;
     }
-    try {
-      const databasePokemon = await prisma.pokemonDetails.findMany({
-        where: { name: { equals: this.name } },
-      });
-    
-      const pokemonSpeciesInfo = fetch(
-        `https://pokeapi.co/api/v2/pokemon-species/${this.name}`
-      );
-
-      this.cache.description = await pokemonSpeciesInfo.then((data) =>
-        this.parsePokemonDescription(data)
-      );
-      return await this.cache.description;
-    } catch (e) {
-      console.log(e);
-      return "we searched far and wide but could not find this pokemon";
-    }
+      try {
+        const pokemonSpeciesInfo = fetch(
+          `https://pokeapi.co/api/v2/pokemon-species/${this.name}`
+        );
+        this.cache.description = await pokemonSpeciesInfo.then((data) =>
+          this.parsePokemonDescription(data)
+        );
+        return await this.cache.description;
+      } catch (e) {
+        console.log(e);
+        return "we searched far and wide but could not find this pokemon";
+      }
   }
 
   async getPokemonImage() {
