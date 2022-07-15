@@ -5,6 +5,7 @@
 it's just a fun little project using pokeapi.co and a funtranslations api to make a couple of different tools:
  - pokemon search, a search tool for pokemon, which returns an image of the pokemon, their name and a shakespearian description.
  - Whos That Pokemon?  A wordle-style game to guess the pokemon from an outline and a shakespearian description.
+ - NOTE: Shakespearian descriptions have been disabled due to lack of interest, to re-enable shakespearian descriptions if running locally, change the POKEAPI_ADDRESS environmental variable from `/api/pokemon/` to `/api/shakespearianpokemon/`
 
 See the current objectives to see what's being worked on.
 ## How to use
