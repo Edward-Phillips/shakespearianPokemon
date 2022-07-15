@@ -22,7 +22,7 @@ export default class pokemonModel {
       };
     }
     try {
-      const pokemon = await prisma.PokemonDetails.findFirst({
+      const pokemon = await prisma.pokemonDetails.findFirst({
         where: { name: { equals: this.name } },
       });
       if (pokemon) {
@@ -32,7 +32,7 @@ export default class pokemonModel {
       const description = await this.getPokemonDescription()
       const image =  await this.getPokemonImage()
       try {
-        return await prisma.PokemonDetails.create({
+        return await prisma.pokemonDetails.create({
           data: {
             name: this.name,
             description,
