@@ -9,7 +9,7 @@ export default function whosThatPokemon() {
         <title>Who is that Pokemon?</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-        <WhoIsThatPokemon />
+      <WhoIsThatPokemon />
     </div>
   );
 }

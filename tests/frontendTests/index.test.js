@@ -5,19 +5,14 @@ import { enableFetchMocks } from "jest-fetch-mock";
 
 enableFetchMocks();
 
-const mockPokemonAPIRequest = (
-  pokemonName,
-  pokemonDescription,
-  pokemonImage,
-) =>
-  fetch
-    .mockResponseOnce(
-      JSON.stringify({
-        name: pokemonName,
-        image: pokemonImage,
-        description: pokemonDescription,
-      })
-    )
+const mockPokemonAPIRequest = (pokemonName, pokemonDescription, pokemonImage) =>
+  fetch.mockResponseOnce(
+    JSON.stringify({
+      name: pokemonName,
+      image: pokemonImage,
+      description: pokemonDescription,
+    })
+  );
 
 describe("Home", () => {
   it("prompts the user to pick a pokemon", () => {
@@ -49,16 +44,26 @@ describe("Home", () => {
   it("renders a pokemon display with an image, caption and description", async () => {
     render(<Home />);
 
-    mockPokemonAPIRequest('nidoking', 'A dangerous poison gas drifts from its mouth.', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png');
+    mockPokemonAPIRequest(
+      "nidoking",
+      "A dangerous poison gas drifts from its mouth.",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png"
+    );
 
     const pokemonList = screen.getByLabelText("search");
     fireEvent(pokemonList, new MouseEvent("click", { bubbles: true }));
     fireEvent.change(pokemonList, { target: { value: "nidoking" } });
     const nidokingImage = waitFor(() => screen.findByRole("img"));
-    const nidokingcaption = screen.findByRole('caption', {name: 'nidoking'});
-    const nidokingdescription = screen.findByText("A dangerous poison gas drifts from its mouth.");
-    waitFor(() => expect(nidokingImage.src).toBe('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png'))
-    waitFor(() => expect(nidokingcaption.textContent).toBe('nidoking'));
+    const nidokingcaption = screen.findByRole("caption", { name: "nidoking" });
+    const nidokingdescription = screen.findByText(
+      "A dangerous poison gas drifts from its mouth."
+    );
+    waitFor(() =>
+      expect(nidokingImage.src).toBe(
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png"
+      )
+    );
+    waitFor(() => expect(nidokingcaption.textContent).toBe("nidoking"));
     waitFor(() => expect(nidokingdescription).toBeInTheDocument());
   });
 });

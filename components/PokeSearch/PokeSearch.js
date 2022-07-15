@@ -9,22 +9,27 @@ export default function PokeSearch({ onSelectedPokemonChange }) {
   const handleSearch = () => {
     const filteredResults = availablePokemon.filter((pokemon) => {
       return pokemon.value.includes(searchTerm);
-
     });
 
     setSearchResults(filteredResults);
-  }
+  };
 
   return (
     <>
       <div>
-        <input type="textarea" value={searchTerm} onChange={e => setSearchTerm(e.target.value)}></input>
+        <input
+          type="textarea"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        ></input>
         <button onClick={handleSearch}>Search</button>
       </div>
       <ul className={styles.resultsList}>
         {searchResults.map((result) => {
           return (
-            <li onClick={()=>onSelectedPokemonChange(result)}>{result.value}</li>
+            <li onClick={() => onSelectedPokemonChange(result)}>
+              {result.value}
+            </li>
           );
         })}
       </ul>

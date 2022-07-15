@@ -2,7 +2,7 @@ import shakespearianPokemonService from "../../services/shakespearianPokemon.ser
 import { enableFetchMocks } from "jest-fetch-mock";
 import dotenv from "dotenv";
 
-dotenv.config({ path: '../config.env.test' });
+dotenv.config({ path: "../config.env.test" });
 
 enableFetchMocks();
 
@@ -12,35 +12,38 @@ const mockPokemonAndShakespearTranslationRequests = (
   pokemonImage,
   translatedText
 ) =>
-  fetch.mockResponseOnce(
-    JSON.stringify({
-      name: pokemonName,
-      flavor_text_entries: [
-        {
-          flavor_text: pokemonDescription,
-        },
-      ],
-    })
-  ).mockResponseOnce(
-    JSON.stringify({
-      sprites: {
-        other: {
-          "official-artwork": {
-            front_default: pokemonImage,
+  fetch
+    .mockResponseOnce(
+      JSON.stringify({
+        name: pokemonName,
+        flavor_text_entries: [
+          {
+            flavor_text: pokemonDescription,
+          },
+        ],
+      })
+    )
+    .mockResponseOnce(
+      JSON.stringify({
+        sprites: {
+          other: {
+            "official-artwork": {
+              front_default: pokemonImage,
+            },
           },
         },
-      },
-    })
-  ).mockResponseOnce(
-    JSON.stringify({
-      success: {
-        total: 1,
-      },
-      contents: {
-        translated: translatedText,
-      },
-    })
-  );
+      })
+    )
+    .mockResponseOnce(
+      JSON.stringify({
+        success: {
+          total: 1,
+        },
+        contents: {
+          translated: translatedText,
+        },
+      })
+    );
 
 describe("shakespearianPokemon", () => {
   it("should return the name of the pokemon, a shakespearian description of the pokemon and an image of the pokemon", async () => {

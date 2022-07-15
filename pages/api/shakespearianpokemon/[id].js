@@ -3,7 +3,9 @@ import shakespearianPokemonService from "../../../services/shakespearianPokemon.
 export default async function pokemonHandler(req, res) {
   const { id } = req.query;
   try {
-    const shakespearianPokemonServiceOutput = await shakespearianPokemonService(id);
+    const shakespearianPokemonServiceOutput = await shakespearianPokemonService(
+      id
+    );
     res.status(200).json({
       name: id,
       description: shakespearianPokemonServiceOutput.description,

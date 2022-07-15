@@ -17,7 +17,7 @@ export default function Cell({
     setValue(e.target.value);
     setFillState(!(e.target.value === ""));
     focusNextInput(e.target);
-    if (e.target.value === '') {
+    if (e.target.value === "") {
       setIsInPosition(false);
       setIsInWord(false);
       setIsCorrect(false);
@@ -41,7 +41,7 @@ export default function Cell({
     if (target.previousSibling) {
       target.previousSibling.focus();
     }
-  }
+  };
 
   useEffect(() => handleSubmit(), [submit]);
 
@@ -63,15 +63,15 @@ export default function Cell({
   };
 
   const handleKeyDown = (e) => {
-    if (e.key ==="Backspace" && value=== "") {
+    if (e.key === "Backspace" && value === "") {
       focusPreviousInput(e.target);
     }
-  }
+  };
 
   return (
     <>
       <input
-        onKeyDown={(e)=>handleKeyDown(e)}
+        onKeyDown={(e) => handleKeyDown(e)}
         id={`${rowNumber}${word.length}${index}`}
         data-index={index}
         disabled={submit}

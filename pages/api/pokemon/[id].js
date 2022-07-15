@@ -1,4 +1,3 @@
-
 import pokemonService from "../../../services/pokemon.service";
 
 export default async function pokemonHandler(req, res) {

@@ -28,16 +28,16 @@ export default class pokemonModel {
       if (pokemon) {
         return pokemon;
       }
-    } catch(e) {
-      const description = await this.getPokemonDescription()
-      const image =  await this.getPokemonImage()
+    } catch (e) {
+      const description = await this.getPokemonDescription();
+      const image = await this.getPokemonImage();
       try {
         return await prisma.pokemonDetails.create({
           data: {
             name: this.name,
             description,
             image,
-          }
+          },
         });
       } catch (e) {
         return {
@@ -64,23 +64,22 @@ export default class pokemonModel {
       .then((data) => data.sprites.other["official-artwork"].front_default);
   }
 
-
   async getPokemonDescription() {
     if (this.description) {
       return this.description;
     }
-      try {
-        const pokemonSpeciesInfo = fetch(
-          `https://pokeapi.co/api/v2/pokemon-species/${this.name}`
-        );
-        this.cache.description = await pokemonSpeciesInfo.then((data) =>
-          this.parsePokemonDescription(data)
-        );
-        return await this.cache.description;
-      } catch (e) {
-        console.log(e);
-        return "we searched far and wide but could not find this pokemon";
-      }
+    try {
+      const pokemonSpeciesInfo = fetch(
+        `https://pokeapi.co/api/v2/pokemon-species/${this.name}`
+      );
+      this.cache.description = await pokemonSpeciesInfo.then((data) =>
+        this.parsePokemonDescription(data)
+      );
+      return await this.cache.description;
+    } catch (e) {
+      console.log(e);
+      return "we searched far and wide but could not find this pokemon";
+    }
   }
 
   async getPokemonImage() {
