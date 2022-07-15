@@ -8,7 +8,7 @@ export function GridRow({guesses, word, setIsCorrect, isCorrect, incrementSubmit
       {Array(guesses)
         .fill(0)
         .map((_, index) => {
-          return <Grid word={word} row={index} setIsCorrect={setIsCorrect} isCorrect={isCorrect} incrementSubmitCount={incrementSubmitCount} reset={reset} />;
+          return <Grid word={word} key={`gridrow${index}`} row={index} setIsCorrect={setIsCorrect} isCorrect={isCorrect} incrementSubmitCount={incrementSubmitCount} reset={reset} />;
         })}
     </div>
   );
