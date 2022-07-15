@@ -36,7 +36,6 @@ export default function WhoIsThatPokemon() {
         fetch(process.env.POKEAPI_ADDRESS + newPokemon.value)
         .then((response) => response.json())
         .then((data) => {
-          console.log({data});
           setThatPokemon({
             name: data.name ?? 'bulbasaur',
             sprite: data.sprite ?? 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
