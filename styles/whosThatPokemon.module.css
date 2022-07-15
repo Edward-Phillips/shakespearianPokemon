@@ -4,10 +4,3 @@
   display: grid;
   place-items: center;
 }
-
-.link {
-  border: solid black 2px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: red;
-}
