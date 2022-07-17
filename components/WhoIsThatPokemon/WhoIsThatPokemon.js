@@ -7,9 +7,7 @@ import ReactModal from "react-modal";
 import ScoreModal from "./ScoreModal/ScoreModal";
 
 export default function WhoIsThatPokemon() {
-  const [thatPokemon, setThatPokemon] = useState(
-    availablePokemon[Math.floor(Math.random() * availablePokemon.length)]
-  );
+  const [thatPokemon, setThatPokemon] = useState("bulbasaur");
 
   const [isCorrect, setIsCorrect] = useState(false);
   const [winCount, setWinCount] = useState(0);
@@ -20,6 +18,7 @@ export default function WhoIsThatPokemon() {
 
   useEffect(() => {
     ReactModal.setAppElement("body");
+    handlePlayAgain();
   }, []);
 
   const handlePlayAgain = () => {
