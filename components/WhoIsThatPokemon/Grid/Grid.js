@@ -18,7 +18,7 @@ export function Grid({
     if (e.target.value === "" && e.key === "Tab") {
       e.preventDefault();
     }
-    e.target.value !== "" && e.keyCode !== 9 &&
+    e.target.value !== "" && (e.keyCode !== 9 || e.key === 'Enter') &&
     !submit &&
     checkFillState
       ? setSubmit(!submit)
