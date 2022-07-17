@@ -1,13 +1,6 @@
 .container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: grid;
   place-items: center;
-}
-
-.link {
-  border: solid black 2px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: red;
 }

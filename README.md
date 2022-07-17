@@ -6,6 +6,7 @@ it's just a fun little project using pokeapi.co and a funtranslations api to mak
  - shakespearian-pokemon.vercel.app - `main` branch - initial MVP of a tool to search for pokemon and give shakespearian descriptions, good exercise in using multiple APIs to handle data. I also added on a pokemon wordle style game inspired by the "Who's that Pokeomon?" advert break games in the pokemon series.
  - pokemondle.edphillips.co.uk - `pokemondle` branch - I decided to focus on Who's that Pokemon? wordle (pokemondle) and to try to get the 
  - Whos That Pokemon?  A wordle-style game to guess the pokemon from an outline and a shakespearian description.
+ - NOTE: Shakespearian descriptions have been disabled due to lack of interest, to re-enable shakespearian descriptions if running locally, change the POKEAPI_ADDRESS environmental variable from `/api/pokemon/` to `/api/shakespearianpokemon/`
 
 See the current objectives to see what's being worked on.
 ## How to use

@@ -1,5 +1,5 @@
 import { cache } from "../caches/shakespeareTranslation.cache.js";
-import prisma from '../db/prisma';
+import prisma from "../db/prisma";
 
 export default class shakespeareTranslationModel {
   constructor(inputText) {
@@ -13,9 +13,10 @@ export default class shakespeareTranslationModel {
   }
 
   async getOrCreateShakespeareTranslation() {
-    const shakespeareTranslation = await prisma.shakespeareTranslations.findFirst({
-      where: { input: { equals: this.inputText } },
-    });
+    const shakespeareTranslation =
+      await prisma.shakespeareTranslations.findFirst({
+        where: { input: { equals: this.inputText } },
+      });
     if (shakespeareTranslation) {
       return shakespeareTranslation;
     }
@@ -23,7 +24,7 @@ export default class shakespeareTranslationModel {
       data: {
         input: this.inputText,
         output: await this.getTranslatedText(),
-      }
+      },
     });
   }
 
@@ -36,7 +37,6 @@ export default class shakespeareTranslationModel {
       return this.translatedText;
     }
     try {
-
       const translatorResponse = fetch(
         `https://api.funtranslations.com/translate/shakespeare.json?text=${this.inputText}`,
         {
@@ -46,14 +46,14 @@ export default class shakespeareTranslationModel {
             "X-Funtranslations-Api-Secret": `${process.env.FUNTRANSLATIONS_API_SECRET}`,
           },
         }
-        );
-        this.cache.translatedText = await translatorResponse.then((data) =>
+      );
+      this.cache.translatedText = await translatorResponse.then((data) =>
         this.parseTranslatedText(data)
-        );
-        return await this.cache.translatedText;
-      } catch (e) {
-        console.log(e);
-        return "We did search far and wide but couldst not findeth this pokemon";
-      }
+      );
+      return await this.cache.translatedText;
+    } catch (e) {
+      console.log(e);
+      return "We did search far and wide but couldst not findeth this pokemon";
+    }
   }
 }

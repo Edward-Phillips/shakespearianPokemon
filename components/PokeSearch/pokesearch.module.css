@@ -1,7 +1,28 @@
 .pokeSearch {
   margin-top: 25px;
   width: 300px;
-  background-color: red;
   padding: 20px;
   border-radius: 5px;
+}
+
+.resultsList::-webkit-scrollbar {
+  background-color: red;
+  width: 15px;
+}
+
+.resultsList::-webkit-scrollbar-thumb {
+  background-color: yellow;
+  width: 13px;
+  height: 35px;
+}
+.resultsList::-webkit-scrollbar-track {
+  background-color: #c9c9c9;
+}
+
+.resultsList {
+  overflow-y: scroll;
+  height: 250px;
+  background-color: #c9c9c9;
+  color: #00e1ff;
+  width: 300px;
 }

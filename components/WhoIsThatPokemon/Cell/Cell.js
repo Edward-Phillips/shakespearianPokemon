@@ -7,8 +7,7 @@ export default function Cell({
   submit,
   setFillState,
   rowNumber,
-  setIsCorrect,
-}) {
+  setIsCorrect}) {
   const [value, setValue] = React.useState("");
   const [isInWord, setIsInWord] = React.useState(false);
   const [isInPosition, setIsInPosition] = React.useState(false);
@@ -16,23 +15,23 @@ export default function Cell({
   const handleChange = (e) => {
     setValue(e.target.value);
     setFillState(!(e.target.value === ""));
-    focusNextInput(e.target);
-    if (e.target.value === '') {
+    focusNextInput(e);
+    if (e.target.value === "") {
       setIsInPosition(false);
       setIsInWord(false);
       setIsCorrect(false);
     }
   };
 
-  const focusNextInput = (target) => {
-    if (target.value === word[index]) {
+  const focusNextInput = (event) => {
+    if (event.target.value === word[index]) {
       setIsCorrect(true);
     } else {
       setIsCorrect(false);
     }
-    if (!(target.value === "")) {
-      if (target.nextSibling) {
-        target.nextSibling.focus();
+    if (!(event.target.value === "")) {
+      if (event.target.nextSibling) {
+        event.target.nextSibling.focus();
       }
     }
   };
@@ -41,7 +40,7 @@ export default function Cell({
     if (target.previousSibling) {
       target.previousSibling.focus();
     }
-  }
+  };
 
   useEffect(() => handleSubmit(), [submit]);
 
@@ -63,19 +62,19 @@ export default function Cell({
   };
 
   const handleKeyDown = (e) => {
-    if (e.key ==="Backspace" && value=== "") {
+    if (e.key === "Backspace" && value === "") {
       focusPreviousInput(e.target);
     }
-  }
+  };
 
   return (
     <>
       <input
-        onKeyDown={(e)=>handleKeyDown(e)}
+        onKeyDown={(e) => handleKeyDown(e)}
         id={`${rowNumber}${word.length}${index}`}
         data-index={index}
         disabled={submit}
-        maxLength="1"
+        maxLength={1}
         type="text"
         value={value}
         onChange={handleChange}

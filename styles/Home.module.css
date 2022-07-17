@@ -1,5 +1,6 @@
 .container {
-  margin: auto;
+  width: 100%;
   display: grid;
-  height: 100vh;
+  height: 100%;
+  place-items: center;
 }

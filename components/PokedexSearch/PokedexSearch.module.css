@@ -1,11 +1,9 @@
 .pokedexContainer {
   place-self: center;
   display: grid;
-  grid-template-areas:  "." ".";
-  grid-template-rows: 20% 80%;
   place-items: center center;
   height: 500px;
-  width: 500px;
+  width: 750px;
   border-radius: 5px;
 }
 

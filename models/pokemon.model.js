@@ -50,19 +50,15 @@ export default class pokemonModel {
       .json()
       .then((data) => data.sprites.other["official-artwork"].front_default);
   }
+
   async getPokemonDescription() {
     if (this.description) {
       return this.description;
     }
     try {
-      const databasePokemon = await prisma.pokemonDetails.findMany({
-        where: { name: { equals: this.name } },
-      });
-    
       const pokemonSpeciesInfo = fetch(
         `https://pokeapi.co/api/v2/pokemon-species/${this.name}`
       );
-
       this.cache.description = await pokemonSpeciesInfo.then((data) =>
         this.parsePokemonDescription(data)
       );

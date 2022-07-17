@@ -1,3590 +1,3590 @@
 module.exports = [
   {
-      "value": "bulbasaur",
-      "label": "bulbasaur"
+    value: "bulbasaur",
+    label: "bulbasaur",
   },
   {
-      "value": "ivysaur",
-      "label": "ivysaur"
+    value: "ivysaur",
+    label: "ivysaur",
   },
   {
-      "value": "venusaur",
-      "label": "venusaur"
+    value: "venusaur",
+    label: "venusaur",
   },
   {
-      "value": "charmander",
-      "label": "charmander"
+    value: "charmander",
+    label: "charmander",
   },
   {
-      "value": "charmeleon",
-      "label": "charmeleon"
+    value: "charmeleon",
+    label: "charmeleon",
   },
   {
-      "value": "charizard",
-      "label": "charizard"
+    value: "charizard",
+    label: "charizard",
   },
   {
-      "value": "squirtle",
-      "label": "squirtle"
+    value: "squirtle",
+    label: "squirtle",
   },
   {
-      "value": "wartortle",
-      "label": "wartortle"
+    value: "wartortle",
+    label: "wartortle",
   },
   {
-      "value": "blastoise",
-      "label": "blastoise"
+    value: "blastoise",
+    label: "blastoise",
   },
   {
-      "value": "caterpie",
-      "label": "caterpie"
+    value: "caterpie",
+    label: "caterpie",
   },
   {
-      "value": "metapod",
-      "label": "metapod"
+    value: "metapod",
+    label: "metapod",
   },
   {
-      "value": "butterfree",
-      "label": "butterfree"
+    value: "butterfree",
+    label: "butterfree",
   },
   {
-      "value": "weedle",
-      "label": "weedle"
+    value: "weedle",
+    label: "weedle",
   },
   {
-      "value": "kakuna",
-      "label": "kakuna"
+    value: "kakuna",
+    label: "kakuna",
   },
   {
-      "value": "beedrill",
-      "label": "beedrill"
+    value: "beedrill",
+    label: "beedrill",
   },
   {
-      "value": "pidgey",
-      "label": "pidgey"
+    value: "pidgey",
+    label: "pidgey",
   },
   {
-      "value": "pidgeotto",
-      "label": "pidgeotto"
+    value: "pidgeotto",
+    label: "pidgeotto",
   },
   {
-      "value": "pidgeot",
-      "label": "pidgeot"
+    value: "pidgeot",
+    label: "pidgeot",
   },
   {
-      "value": "rattata",
-      "label": "rattata"
+    value: "rattata",
+    label: "rattata",
   },
   {
-      "value": "raticate",
-      "label": "raticate"
+    value: "raticate",
+    label: "raticate",
   },
   {
-      "value": "spearow",
-      "label": "spearow"
+    value: "spearow",
+    label: "spearow",
   },
   {
-      "value": "fearow",
-      "label": "fearow"
+    value: "fearow",
+    label: "fearow",
   },
   {
-      "value": "ekans",
-      "label": "ekans"
+    value: "ekans",
+    label: "ekans",
   },
   {
-      "value": "arbok",
-      "label": "arbok"
+    value: "arbok",
+    label: "arbok",
   },
   {
-      "value": "pikachu",
-      "label": "pikachu"
+    value: "pikachu",
+    label: "pikachu",
   },
   {
-      "value": "raichu",
-      "label": "raichu"
+    value: "raichu",
+    label: "raichu",
   },
   {
-      "value": "sandshrew",
-      "label": "sandshrew"
+    value: "sandshrew",
+    label: "sandshrew",
   },
   {
-      "value": "sandslash",
-      "label": "sandslash"
+    value: "sandslash",
+    label: "sandslash",
   },
   {
-      "value": "nidoran-f",
-      "label": "nidoran"
+    value: "nidoran-f",
+    label: "nidoran",
   },
   {
-      "value": "nidorina",
-      "label": "nidorina"
+    value: "nidorina",
+    label: "nidorina",
   },
   {
-      "value": "nidoqueen",
-      "label": "nidoqueen"
+    value: "nidoqueen",
+    label: "nidoqueen",
   },
   {
-      "value": "nidoran-m",
-      "label": "nidoran"
+    value: "nidoran-m",
+    label: "nidoran",
   },
   {
-      "value": "nidorino",
-      "label": "nidorino"
+    value: "nidorino",
+    label: "nidorino",
   },
   {
-      "value": "nidoking",
-      "label": "nidoking"
+    value: "nidoking",
+    label: "nidoking",
   },
   {
-      "value": "clefairy",
-      "label": "clefairy"
+    value: "clefairy",
+    label: "clefairy",
   },
   {
-      "value": "clefable",
-      "label": "clefable"
+    value: "clefable",
+    label: "clefable",
   },
   {
-      "value": "vulpix",
-      "label": "vulpix"
+    value: "vulpix",
+    label: "vulpix",
   },
   {
-      "value": "ninetales",
-      "label": "ninetales"
+    value: "ninetales",
+    label: "ninetales",
   },
   {
-      "value": "jigglypuff",
-      "label": "jigglypuff"
+    value: "jigglypuff",
+    label: "jigglypuff",
   },
   {
-      "value": "wigglytuff",
-      "label": "wigglytuff"
+    value: "wigglytuff",
+    label: "wigglytuff",
   },
   {
-      "value": "zubat",
-      "label": "zubat"
+    value: "zubat",
+    label: "zubat",
   },
   {
-      "value": "golbat",
-      "label": "golbat"
+    value: "golbat",
+    label: "golbat",
   },
   {
-      "value": "oddish",
-      "label": "oddish"
+    value: "oddish",
+    label: "oddish",
   },
   {
-      "value": "gloom",
-      "label": "gloom"
+    value: "gloom",
+    label: "gloom",
   },
   {
-      "value": "vileplume",
-      "label": "vileplume"
+    value: "vileplume",
+    label: "vileplume",
   },
   {
-      "value": "paras",
-      "label": "paras"
+    value: "paras",
+    label: "paras",
   },
   {
-      "value": "parasect",
-      "label": "parasect"
+    value: "parasect",
+    label: "parasect",
   },
   {
-      "value": "venonat",
-      "label": "venonat"
+    value: "venonat",
+    label: "venonat",
   },
   {
-      "value": "venomoth",
-      "label": "venomoth"
+    value: "venomoth",
+    label: "venomoth",
   },
   {
-      "value": "diglett",
-      "label": "diglett"
+    value: "diglett",
+    label: "diglett",
   },
   {
-      "value": "dugtrio",
-      "label": "dugtrio"
+    value: "dugtrio",
+    label: "dugtrio",
   },
   {
-      "value": "meowth",
-      "label": "meowth"
+    value: "meowth",
+    label: "meowth",
   },
   {
-      "value": "persian",
-      "label": "persian"
+    value: "persian",
+    label: "persian",
   },
   {
-      "value": "psyduck",
-      "label": "psyduck"
+    value: "psyduck",
+    label: "psyduck",
   },
   {
-      "value": "golduck",
-      "label": "golduck"
+    value: "golduck",
+    label: "golduck",
   },
   {
-      "value": "mankey",
-      "label": "mankey"
+    value: "mankey",
+    label: "mankey",
   },
   {
-      "value": "primeape",
-      "label": "primeape"
+    value: "primeape",
+    label: "primeape",
   },
   {
-      "value": "growlithe",
-      "label": "growlithe"
+    value: "growlithe",
+    label: "growlithe",
   },
   {
-      "value": "arcanine",
-      "label": "arcanine"
+    value: "arcanine",
+    label: "arcanine",
   },
   {
-      "value": "poliwag",
-      "label": "poliwag"
+    value: "poliwag",
+    label: "poliwag",
   },
   {
-      "value": "poliwhirl",
-      "label": "poliwhirl"
+    value: "poliwhirl",
+    label: "poliwhirl",
   },
   {
-      "value": "poliwrath",
-      "label": "poliwrath"
+    value: "poliwrath",
+    label: "poliwrath",
   },
   {
-      "value": "abra",
-      "label": "abra"
+    value: "abra",
+    label: "abra",
   },
   {
-      "value": "kadabra",
-      "label": "kadabra"
+    value: "kadabra",
+    label: "kadabra",
   },
   {
-      "value": "alakazam",
-      "label": "alakazam"
+    value: "alakazam",
+    label: "alakazam",
   },
   {
-      "value": "machop",
-      "label": "machop"
+    value: "machop",
+    label: "machop",
   },
   {
-      "value": "machoke",
-      "label": "machoke"
+    value: "machoke",
+    label: "machoke",
   },
   {
-      "value": "machamp",
-      "label": "machamp"
+    value: "machamp",
+    label: "machamp",
   },
   {
-      "value": "bellsprout",
-      "label": "bellsprout"
+    value: "bellsprout",
+    label: "bellsprout",
   },
   {
-      "value": "weepinbell",
-      "label": "weepinbell"
+    value: "weepinbell",
+    label: "weepinbell",
   },
   {
-      "value": "victreebel",
-      "label": "victreebel"
+    value: "victreebel",
+    label: "victreebel",
   },
   {
-      "value": "tentacool",
-      "label": "tentacool"
+    value: "tentacool",
+    label: "tentacool",
   },
   {
-      "value": "tentacruel",
-      "label": "tentacruel"
+    value: "tentacruel",
+    label: "tentacruel",
   },
   {
-      "value": "geodude",
-      "label": "geodude"
+    value: "geodude",
+    label: "geodude",
   },
   {
-      "value": "graveler",
-      "label": "graveler"
+    value: "graveler",
+    label: "graveler",
   },
   {
-      "value": "golem",
-      "label": "golem"
+    value: "golem",
+    label: "golem",
   },
   {
-      "value": "ponyta",
-      "label": "ponyta"
+    value: "ponyta",
+    label: "ponyta",
   },
   {
-      "value": "rapidash",
-      "label": "rapidash"
+    value: "rapidash",
+    label: "rapidash",
   },
   {
-      "value": "slowpoke",
-      "label": "slowpoke"
+    value: "slowpoke",
+    label: "slowpoke",
   },
   {
-      "value": "slowbro",
-      "label": "slowbro"
+    value: "slowbro",
+    label: "slowbro",
   },
   {
-      "value": "magnemite",
-      "label": "magnemite"
+    value: "magnemite",
+    label: "magnemite",
   },
   {
-      "value": "magneton",
-      "label": "magneton"
+    value: "magneton",
+    label: "magneton",
   },
   {
-      "value": "farfetchd",
-      "label": "farfetchd"
+    value: "farfetchd",
+    label: "farfetchd",
   },
   {
-      "value": "doduo",
-      "label": "doduo"
+    value: "doduo",
+    label: "doduo",
   },
   {
-      "value": "dodrio",
-      "label": "dodrio"
+    value: "dodrio",
+    label: "dodrio",
   },
   {
-      "value": "seel",
-      "label": "seel"
+    value: "seel",
+    label: "seel",
   },
   {
-      "value": "dewgong",
-      "label": "dewgong"
+    value: "dewgong",
+    label: "dewgong",
   },
   {
-      "value": "grimer",
-      "label": "grimer"
+    value: "grimer",
+    label: "grimer",
   },
   {
-      "value": "muk",
-      "label": "muk"
+    value: "muk",
+    label: "muk",
   },
   {
-      "value": "shellder",
-      "label": "shellder"
+    value: "shellder",
+    label: "shellder",
   },
   {
-      "value": "cloyster",
-      "label": "cloyster"
+    value: "cloyster",
+    label: "cloyster",
   },
   {
-      "value": "gastly",
-      "label": "gastly"
+    value: "gastly",
+    label: "gastly",
   },
   {
-      "value": "haunter",
-      "label": "haunter"
+    value: "haunter",
+    label: "haunter",
   },
   {
-      "value": "gengar",
-      "label": "gengar"
+    value: "gengar",
+    label: "gengar",
   },
   {
-      "value": "onix",
-      "label": "onix"
+    value: "onix",
+    label: "onix",
   },
   {
-      "value": "drowzee",
-      "label": "drowzee"
+    value: "drowzee",
+    label: "drowzee",
   },
   {
-      "value": "hypno",
-      "label": "hypno"
+    value: "hypno",
+    label: "hypno",
   },
   {
-      "value": "krabby",
-      "label": "krabby"
+    value: "krabby",
+    label: "krabby",
   },
   {
-      "value": "kingler",
-      "label": "kingler"
+    value: "kingler",
+    label: "kingler",
   },
   {
-      "value": "voltorb",
-      "label": "voltorb"
+    value: "voltorb",
+    label: "voltorb",
   },
   {
-      "value": "electrode",
-      "label": "electrode"
+    value: "electrode",
+    label: "electrode",
   },
   {
-      "value": "exeggcute",
-      "label": "exeggcute"
+    value: "exeggcute",
+    label: "exeggcute",
   },
   {
-      "value": "exeggutor",
-      "label": "exeggutor"
+    value: "exeggutor",
+    label: "exeggutor",
   },
   {
-      "value": "cubone",
-      "label": "cubone"
+    value: "cubone",
+    label: "cubone",
   },
   {
-      "value": "marowak",
-      "label": "marowak"
+    value: "marowak",
+    label: "marowak",
   },
   {
-      "value": "hitmonlee",
-      "label": "hitmonlee"
+    value: "hitmonlee",
+    label: "hitmonlee",
   },
   {
-      "value": "hitmonchan",
-      "label": "hitmonchan"
+    value: "hitmonchan",
+    label: "hitmonchan",
   },
   {
-      "value": "lickitung",
-      "label": "lickitung"
+    value: "lickitung",
+    label: "lickitung",
   },
   {
-      "value": "koffing",
-      "label": "koffing"
+    value: "koffing",
+    label: "koffing",
   },
   {
-      "value": "weezing",
-      "label": "weezing"
+    value: "weezing",
+    label: "weezing",
   },
   {
-      "value": "rhyhorn",
-      "label": "rhyhorn"
+    value: "rhyhorn",
+    label: "rhyhorn",
   },
   {
-      "value": "rhydon",
-      "label": "rhydon"
+    value: "rhydon",
+    label: "rhydon",
   },
   {
-      "value": "chansey",
-      "label": "chansey"
+    value: "chansey",
+    label: "chansey",
   },
   {
-      "value": "tangela",
-      "label": "tangela"
+    value: "tangela",
+    label: "tangela",
   },
   {
-      "value": "kangaskhan",
-      "label": "kangaskhan"
+    value: "kangaskhan",
+    label: "kangaskhan",
   },
   {
-      "value": "horsea",
-      "label": "horsea"
+    value: "horsea",
+    label: "horsea",
   },
   {
-      "value": "seadra",
-      "label": "seadra"
+    value: "seadra",
+    label: "seadra",
   },
   {
-      "value": "goldeen",
-      "label": "goldeen"
+    value: "goldeen",
+    label: "goldeen",
   },
   {
-      "value": "seaking",
-      "label": "seaking"
+    value: "seaking",
+    label: "seaking",
   },
   {
-      "value": "staryu",
-      "label": "staryu"
+    value: "staryu",
+    label: "staryu",
   },
   {
-      "value": "starmie",
-      "label": "starmie"
+    value: "starmie",
+    label: "starmie",
   },
   {
-      "value": "mr-mime",
-      "label": "mr mime"
+    value: "mr-mime",
+    label: "mr mime",
   },
   {
-      "value": "scyther",
-      "label": "scyther"
+    value: "scyther",
+    label: "scyther",
   },
   {
-      "value": "jynx",
-      "label": "jynx"
+    value: "jynx",
+    label: "jynx",
   },
   {
-      "value": "electabuzz",
-      "label": "electabuzz"
+    value: "electabuzz",
+    label: "electabuzz",
   },
   {
-      "value": "magmar",
-      "label": "magmar"
+    value: "magmar",
+    label: "magmar",
   },
   {
-      "value": "pinsir",
-      "label": "pinsir"
+    value: "pinsir",
+    label: "pinsir",
   },
   {
-      "value": "tauros",
-      "label": "tauros"
+    value: "tauros",
+    label: "tauros",
   },
   {
-      "value": "magikarp",
-      "label": "magikarp"
+    value: "magikarp",
+    label: "magikarp",
   },
   {
-      "value": "gyarados",
-      "label": "gyarados"
+    value: "gyarados",
+    label: "gyarados",
   },
   {
-      "value": "lapras",
-      "label": "lapras"
+    value: "lapras",
+    label: "lapras",
   },
   {
-      "value": "ditto",
-      "label": "ditto"
+    value: "ditto",
+    label: "ditto",
   },
   {
-      "value": "eevee",
-      "label": "eevee"
+    value: "eevee",
+    label: "eevee",
   },
   {
-      "value": "vaporeon",
-      "label": "vaporeon"
+    value: "vaporeon",
+    label: "vaporeon",
   },
   {
-      "value": "jolteon",
-      "label": "jolteon"
+    value: "jolteon",
+    label: "jolteon",
   },
   {
-      "value": "flareon",
-      "label": "flareon"
+    value: "flareon",
+    label: "flareon",
   },
   {
-      "value": "porygon",
-      "label": "porygon"
+    value: "porygon",
+    label: "porygon",
   },
   {
-      "value": "omanyte",
-      "label": "omanyte"
+    value: "omanyte",
+    label: "omanyte",
   },
   {
-      "value": "omastar",
-      "label": "omastar"
+    value: "omastar",
+    label: "omastar",
   },
   {
-      "value": "kabuto",
-      "label": "kabuto"
+    value: "kabuto",
+    label: "kabuto",
   },
   {
-      "value": "kabutops",
-      "label": "kabutops"
+    value: "kabutops",
+    label: "kabutops",
   },
   {
-      "value": "aerodactyl",
-      "label": "aerodactyl"
+    value: "aerodactyl",
+    label: "aerodactyl",
   },
   {
-      "value": "snorlax",
-      "label": "snorlax"
+    value: "snorlax",
+    label: "snorlax",
   },
   {
-      "value": "articuno",
-      "label": "articuno"
+    value: "articuno",
+    label: "articuno",
   },
   {
-      "value": "zapdos",
-      "label": "zapdos"
+    value: "zapdos",
+    label: "zapdos",
   },
   {
-      "value": "moltres",
-      "label": "moltres"
+    value: "moltres",
+    label: "moltres",
   },
   {
-      "value": "dratini",
-      "label": "dratini"
+    value: "dratini",
+    label: "dratini",
   },
   {
-      "value": "dragonair",
-      "label": "dragonair"
+    value: "dragonair",
+    label: "dragonair",
   },
   {
-      "value": "dragonite",
-      "label": "dragonite"
+    value: "dragonite",
+    label: "dragonite",
   },
   {
-      "value": "mewtwo",
-      "label": "mewtwo"
+    value: "mewtwo",
+    label: "mewtwo",
   },
   {
-      "value": "mew",
-      "label": "mew"
+    value: "mew",
+    label: "mew",
   },
   {
-      "value": "chikorita",
-      "label": "chikorita"
+    value: "chikorita",
+    label: "chikorita",
   },
   {
-      "value": "bayleef",
-      "label": "bayleef"
+    value: "bayleef",
+    label: "bayleef",
   },
   {
-      "value": "meganium",
-      "label": "meganium"
+    value: "meganium",
+    label: "meganium",
   },
   {
-      "value": "cyndaquil",
-      "label": "cyndaquil"
+    value: "cyndaquil",
+    label: "cyndaquil",
   },
   {
-      "value": "quilava",
-      "label": "quilava"
+    value: "quilava",
+    label: "quilava",
   },
   {
-      "value": "typhlosion",
-      "label": "typhlosion"
+    value: "typhlosion",
+    label: "typhlosion",
   },
   {
-      "value": "totodile",
-      "label": "totodile"
+    value: "totodile",
+    label: "totodile",
   },
   {
-      "value": "croconaw",
-      "label": "croconaw"
+    value: "croconaw",
+    label: "croconaw",
   },
   {
-      "value": "feraligatr",
-      "label": "feraligatr"
+    value: "feraligatr",
+    label: "feraligatr",
   },
   {
-      "value": "sentret",
-      "label": "sentret"
+    value: "sentret",
+    label: "sentret",
   },
   {
-      "value": "furret",
-      "label": "furret"
+    value: "furret",
+    label: "furret",
   },
   {
-      "value": "hoothoot",
-      "label": "hoothoot"
+    value: "hoothoot",
+    label: "hoothoot",
   },
   {
-      "value": "noctowl",
-      "label": "noctowl"
+    value: "noctowl",
+    label: "noctowl",
   },
   {
-      "value": "ledyba",
-      "label": "ledyba"
+    value: "ledyba",
+    label: "ledyba",
   },
   {
-      "value": "ledian",
-      "label": "ledian"
+    value: "ledian",
+    label: "ledian",
   },
   {
-      "value": "spinarak",
-      "label": "spinarak"
+    value: "spinarak",
+    label: "spinarak",
   },
   {
-      "value": "ariados",
-      "label": "ariados"
+    value: "ariados",
+    label: "ariados",
   },
   {
-      "value": "crobat",
-      "label": "crobat"
+    value: "crobat",
+    label: "crobat",
   },
   {
-      "value": "chinchou",
-      "label": "chinchou"
+    value: "chinchou",
+    label: "chinchou",
   },
   {
-      "value": "lanturn",
-      "label": "lanturn"
+    value: "lanturn",
+    label: "lanturn",
   },
   {
-      "value": "pichu",
-      "label": "pichu"
+    value: "pichu",
+    label: "pichu",
   },
   {
-      "value": "cleffa",
-      "label": "cleffa"
+    value: "cleffa",
+    label: "cleffa",
   },
   {
-      "value": "igglybuff",
-      "label": "igglybuff"
+    value: "igglybuff",
+    label: "igglybuff",
   },
   {
-      "value": "togepi",
-      "label": "togepi"
+    value: "togepi",
+    label: "togepi",
   },
   {
-      "value": "togetic",
-      "label": "togetic"
+    value: "togetic",
+    label: "togetic",
   },
   {
-      "value": "natu",
-      "label": "natu"
+    value: "natu",
+    label: "natu",
   },
   {
-      "value": "xatu",
-      "label": "xatu"
+    value: "xatu",
+    label: "xatu",
   },
   {
-      "value": "mareep",
-      "label": "mareep"
+    value: "mareep",
+    label: "mareep",
   },
   {
-      "value": "flaaffy",
-      "label": "flaaffy"
+    value: "flaaffy",
+    label: "flaaffy",
   },
   {
-      "value": "ampharos",
-      "label": "ampharos"
+    value: "ampharos",
+    label: "ampharos",
   },
   {
-      "value": "bellossom",
-      "label": "bellossom"
+    value: "bellossom",
+    label: "bellossom",
   },
   {
-      "value": "marill",
-      "label": "marill"
+    value: "marill",
+    label: "marill",
   },
   {
-      "value": "azumarill",
-      "label": "azumarill"
+    value: "azumarill",
+    label: "azumarill",
   },
   {
-      "value": "sudowoodo",
-      "label": "sudowoodo"
+    value: "sudowoodo",
+    label: "sudowoodo",
   },
   {
-      "value": "politoed",
-      "label": "politoed"
+    value: "politoed",
+    label: "politoed",
   },
   {
-      "value": "hoppip",
-      "label": "hoppip"
+    value: "hoppip",
+    label: "hoppip",
   },
   {
-      "value": "skiploom",
-      "label": "skiploom"
+    value: "skiploom",
+    label: "skiploom",
   },
   {
-      "value": "jumpluff",
-      "label": "jumpluff"
+    value: "jumpluff",
+    label: "jumpluff",
   },
   {
-      "value": "aipom",
-      "label": "aipom"
+    value: "aipom",
+    label: "aipom",
   },
   {
-      "value": "sunkern",
-      "label": "sunkern"
+    value: "sunkern",
+    label: "sunkern",
   },
   {
-      "value": "sunflora",
-      "label": "sunflora"
+    value: "sunflora",
+    label: "sunflora",
   },
   {
-      "value": "yanma",
-      "label": "yanma"
+    value: "yanma",
+    label: "yanma",
   },
   {
-      "value": "wooper",
-      "label": "wooper"
+    value: "wooper",
+    label: "wooper",
   },
   {
-      "value": "quagsire",
-      "label": "quagsire"
+    value: "quagsire",
+    label: "quagsire",
   },
   {
-      "value": "espeon",
-      "label": "espeon"
+    value: "espeon",
+    label: "espeon",
   },
   {
-      "value": "umbreon",
-      "label": "umbreon"
+    value: "umbreon",
+    label: "umbreon",
   },
   {
-      "value": "murkrow",
-      "label": "murkrow"
+    value: "murkrow",
+    label: "murkrow",
   },
   {
-      "value": "slowking",
-      "label": "slowking"
+    value: "slowking",
+    label: "slowking",
   },
   {
-      "value": "misdreavus",
-      "label": "misdreavus"
+    value: "misdreavus",
+    label: "misdreavus",
   },
   {
-      "value": "unown",
-      "label": "unown"
+    value: "unown",
+    label: "unown",
   },
   {
-      "value": "wobbuffet",
-      "label": "wobbuffet"
+    value: "wobbuffet",
+    label: "wobbuffet",
   },
   {
-      "value": "girafarig",
-      "label": "girafarig"
+    value: "girafarig",
+    label: "girafarig",
   },
   {
-      "value": "pineco",
-      "label": "pineco"
+    value: "pineco",
+    label: "pineco",
   },
   {
-      "value": "forretress",
-      "label": "forretress"
+    value: "forretress",
+    label: "forretress",
   },
   {
-      "value": "dunsparce",
-      "label": "dunsparce"
+    value: "dunsparce",
+    label: "dunsparce",
   },
   {
-      "value": "gligar",
-      "label": "gligar"
+    value: "gligar",
+    label: "gligar",
   },
   {
-      "value": "steelix",
-      "label": "steelix"
+    value: "steelix",
+    label: "steelix",
   },
   {
-      "value": "snubbull",
-      "label": "snubbull"
+    value: "snubbull",
+    label: "snubbull",
   },
   {
-      "value": "granbull",
-      "label": "granbull"
+    value: "granbull",
+    label: "granbull",
   },
   {
-      "value": "qwilfish",
-      "label": "qwilfish"
+    value: "qwilfish",
+    label: "qwilfish",
   },
   {
-      "value": "scizor",
-      "label": "scizor"
+    value: "scizor",
+    label: "scizor",
   },
   {
-      "value": "shuckle",
-      "label": "shuckle"
+    value: "shuckle",
+    label: "shuckle",
   },
   {
-      "value": "heracross",
-      "label": "heracross"
+    value: "heracross",
+    label: "heracross",
   },
   {
-      "value": "sneasel",
-      "label": "sneasel"
+    value: "sneasel",
+    label: "sneasel",
   },
   {
-      "value": "teddiursa",
-      "label": "teddiursa"
+    value: "teddiursa",
+    label: "teddiursa",
   },
   {
-      "value": "ursaring",
-      "label": "ursaring"
+    value: "ursaring",
+    label: "ursaring",
   },
   {
-      "value": "slugma",
-      "label": "slugma"
+    value: "slugma",
+    label: "slugma",
   },
   {
-      "value": "magcargo",
-      "label": "magcargo"
+    value: "magcargo",
+    label: "magcargo",
   },
   {
-      "value": "swinub",
-      "label": "swinub"
+    value: "swinub",
+    label: "swinub",
   },
   {
-      "value": "piloswine",
-      "label": "piloswine"
+    value: "piloswine",
+    label: "piloswine",
   },
   {
-      "value": "corsola",
-      "label": "corsola"
+    value: "corsola",
+    label: "corsola",
   },
   {
-      "value": "remoraid",
-      "label": "remoraid"
+    value: "remoraid",
+    label: "remoraid",
   },
   {
-      "value": "octillery",
-      "label": "octillery"
+    value: "octillery",
+    label: "octillery",
   },
   {
-      "value": "delibird",
-      "label": "delibird"
+    value: "delibird",
+    label: "delibird",
   },
   {
-      "value": "mantine",
-      "label": "mantine"
+    value: "mantine",
+    label: "mantine",
   },
   {
-      "value": "skarmory",
-      "label": "skarmory"
+    value: "skarmory",
+    label: "skarmory",
   },
   {
-      "value": "houndour",
-      "label": "houndour"
+    value: "houndour",
+    label: "houndour",
   },
   {
-      "value": "houndoom",
-      "label": "houndoom"
+    value: "houndoom",
+    label: "houndoom",
   },
   {
-      "value": "kingdra",
-      "label": "kingdra"
+    value: "kingdra",
+    label: "kingdra",
   },
   {
-      "value": "phanpy",
-      "label": "phanpy"
+    value: "phanpy",
+    label: "phanpy",
   },
   {
-      "value": "donphan",
-      "label": "donphan"
+    value: "donphan",
+    label: "donphan",
   },
   {
-      "value": "porygon2",
-      "label": "porygon2"
+    value: "porygon2",
+    label: "porygon2",
   },
   {
-      "value": "stantler",
-      "label": "stantler"
+    value: "stantler",
+    label: "stantler",
   },
   {
-      "value": "smeargle",
-      "label": "smeargle"
+    value: "smeargle",
+    label: "smeargle",
   },
   {
-      "value": "tyrogue",
-      "label": "tyrogue"
+    value: "tyrogue",
+    label: "tyrogue",
   },
   {
-      "value": "hitmontop",
-      "label": "hitmontop"
+    value: "hitmontop",
+    label: "hitmontop",
   },
   {
-      "value": "smoochum",
-      "label": "smoochum"
+    value: "smoochum",
+    label: "smoochum",
   },
   {
-      "value": "elekid",
-      "label": "elekid"
+    value: "elekid",
+    label: "elekid",
   },
   {
-      "value": "magby",
-      "label": "magby"
+    value: "magby",
+    label: "magby",
   },
   {
-      "value": "miltank",
-      "label": "miltank"
+    value: "miltank",
+    label: "miltank",
   },
   {
-      "value": "blissey",
-      "label": "blissey"
+    value: "blissey",
+    label: "blissey",
   },
   {
-      "value": "raikou",
-      "label": "raikou"
+    value: "raikou",
+    label: "raikou",
   },
   {
-      "value": "entei",
-      "label": "entei"
+    value: "entei",
+    label: "entei",
   },
   {
-      "value": "suicune",
-      "label": "suicune"
+    value: "suicune",
+    label: "suicune",
   },
   {
-      "value": "larvitar",
-      "label": "larvitar"
+    value: "larvitar",
+    label: "larvitar",
   },
   {
-      "value": "pupitar",
-      "label": "pupitar"
+    value: "pupitar",
+    label: "pupitar",
   },
   {
-      "value": "tyranitar",
-      "label": "tyranitar"
+    value: "tyranitar",
+    label: "tyranitar",
   },
   {
-      "value": "lugia",
-      "label": "lugia"
+    value: "lugia",
+    label: "lugia",
   },
   {
-      "value": "ho-oh",
-      "label": "ho oh"
+    value: "ho-oh",
+    label: "ho oh",
   },
   {
-      "value": "celebi",
-      "label": "celebi"
+    value: "celebi",
+    label: "celebi",
   },
   {
-      "value": "treecko",
-      "label": "treecko"
+    value: "treecko",
+    label: "treecko",
   },
   {
-      "value": "grovyle",
-      "label": "grovyle"
+    value: "grovyle",
+    label: "grovyle",
   },
   {
-      "value": "sceptile",
-      "label": "sceptile"
+    value: "sceptile",
+    label: "sceptile",
   },
   {
-      "value": "torchic",
-      "label": "torchic"
+    value: "torchic",
+    label: "torchic",
   },
   {
-      "value": "combusken",
-      "label": "combusken"
+    value: "combusken",
+    label: "combusken",
   },
   {
-      "value": "blaziken",
-      "label": "blaziken"
+    value: "blaziken",
+    label: "blaziken",
   },
   {
-      "value": "mudkip",
-      "label": "mudkip"
+    value: "mudkip",
+    label: "mudkip",
   },
   {
-      "value": "marshtomp",
-      "label": "marshtomp"
+    value: "marshtomp",
+    label: "marshtomp",
   },
   {
-      "value": "swampert",
-      "label": "swampert"
+    value: "swampert",
+    label: "swampert",
   },
   {
-      "value": "poochyena",
-      "label": "poochyena"
+    value: "poochyena",
+    label: "poochyena",
   },
   {
-      "value": "mightyena",
-      "label": "mightyena"
+    value: "mightyena",
+    label: "mightyena",
   },
   {
-      "value": "zigzagoon",
-      "label": "zigzagoon"
+    value: "zigzagoon",
+    label: "zigzagoon",
   },
   {
-      "value": "linoone",
-      "label": "linoone"
+    value: "linoone",
+    label: "linoone",
   },
   {
-      "value": "wurmple",
-      "label": "wurmple"
+    value: "wurmple",
+    label: "wurmple",
   },
   {
-      "value": "silcoon",
-      "label": "silcoon"
+    value: "silcoon",
+    label: "silcoon",
   },
   {
-      "value": "beautifly",
-      "label": "beautifly"
+    value: "beautifly",
+    label: "beautifly",
   },
   {
-      "value": "cascoon",
-      "label": "cascoon"
+    value: "cascoon",
+    label: "cascoon",
   },
   {
-      "value": "dustox",
-      "label": "dustox"
+    value: "dustox",
+    label: "dustox",
   },
   {
-      "value": "lotad",
-      "label": "lotad"
+    value: "lotad",
+    label: "lotad",
   },
   {
-      "value": "lombre",
-      "label": "lombre"
+    value: "lombre",
+    label: "lombre",
   },
   {
-      "value": "ludicolo",
-      "label": "ludicolo"
+    value: "ludicolo",
+    label: "ludicolo",
   },
   {
-      "value": "seedot",
-      "label": "seedot"
+    value: "seedot",
+    label: "seedot",
   },
   {
-      "value": "nuzleaf",
-      "label": "nuzleaf"
+    value: "nuzleaf",
+    label: "nuzleaf",
   },
   {
-      "value": "shiftry",
-      "label": "shiftry"
+    value: "shiftry",
+    label: "shiftry",
   },
   {
-      "value": "taillow",
-      "label": "taillow"
+    value: "taillow",
+    label: "taillow",
   },
   {
-      "value": "swellow",
-      "label": "swellow"
+    value: "swellow",
+    label: "swellow",
   },
   {
-      "value": "wingull",
-      "label": "wingull"
+    value: "wingull",
+    label: "wingull",
   },
   {
-      "value": "pelipper",
-      "label": "pelipper"
+    value: "pelipper",
+    label: "pelipper",
   },
   {
-      "value": "ralts",
-      "label": "ralts"
+    value: "ralts",
+    label: "ralts",
   },
   {
-      "value": "kirlia",
-      "label": "kirlia"
+    value: "kirlia",
+    label: "kirlia",
   },
   {
-      "value": "gardevoir",
-      "label": "gardevoir"
+    value: "gardevoir",
+    label: "gardevoir",
   },
   {
-      "value": "surskit",
-      "label": "surskit"
+    value: "surskit",
+    label: "surskit",
   },
   {
-      "value": "masquerain",
-      "label": "masquerain"
+    value: "masquerain",
+    label: "masquerain",
   },
   {
-      "value": "shroomish",
-      "label": "shroomish"
+    value: "shroomish",
+    label: "shroomish",
   },
   {
-      "value": "breloom",
-      "label": "breloom"
+    value: "breloom",
+    label: "breloom",
   },
   {
-      "value": "slakoth",
-      "label": "slakoth"
+    value: "slakoth",
+    label: "slakoth",
   },
   {
-      "value": "vigoroth",
-      "label": "vigoroth"
+    value: "vigoroth",
+    label: "vigoroth",
   },
   {
-      "value": "slaking",
-      "label": "slaking"
+    value: "slaking",
+    label: "slaking",
   },
   {
-      "value": "nincada",
-      "label": "nincada"
+    value: "nincada",
+    label: "nincada",
   },
   {
-      "value": "ninjask",
-      "label": "ninjask"
+    value: "ninjask",
+    label: "ninjask",
   },
   {
-      "value": "shedinja",
-      "label": "shedinja"
+    value: "shedinja",
+    label: "shedinja",
   },
   {
-      "value": "whismur",
-      "label": "whismur"
+    value: "whismur",
+    label: "whismur",
   },
   {
-      "value": "loudred",
-      "label": "loudred"
+    value: "loudred",
+    label: "loudred",
   },
   {
-      "value": "exploud",
-      "label": "exploud"
+    value: "exploud",
+    label: "exploud",
   },
   {
-      "value": "makuhita",
-      "label": "makuhita"
+    value: "makuhita",
+    label: "makuhita",
   },
   {
-      "value": "hariyama",
-      "label": "hariyama"
+    value: "hariyama",
+    label: "hariyama",
   },
   {
-      "value": "azurill",
-      "label": "azurill"
+    value: "azurill",
+    label: "azurill",
   },
   {
-      "value": "nosepass",
-      "label": "nosepass"
+    value: "nosepass",
+    label: "nosepass",
   },
   {
-      "value": "skitty",
-      "label": "skitty"
+    value: "skitty",
+    label: "skitty",
   },
   {
-      "value": "delcatty",
-      "label": "delcatty"
+    value: "delcatty",
+    label: "delcatty",
   },
   {
-      "value": "sableye",
-      "label": "sableye"
+    value: "sableye",
+    label: "sableye",
   },
   {
-      "value": "mawile",
-      "label": "mawile"
+    value: "mawile",
+    label: "mawile",
   },
   {
-      "value": "aron",
-      "label": "aron"
+    value: "aron",
+    label: "aron",
   },
   {
-      "value": "lairon",
-      "label": "lairon"
+    value: "lairon",
+    label: "lairon",
   },
   {
-      "value": "aggron",
-      "label": "aggron"
+    value: "aggron",
+    label: "aggron",
   },
   {
-      "value": "meditite",
-      "label": "meditite"
+    value: "meditite",
+    label: "meditite",
   },
   {
-      "value": "medicham",
-      "label": "medicham"
+    value: "medicham",
+    label: "medicham",
   },
   {
-      "value": "electrike",
-      "label": "electrike"
+    value: "electrike",
+    label: "electrike",
   },
   {
-      "value": "manectric",
-      "label": "manectric"
+    value: "manectric",
+    label: "manectric",
   },
   {
-      "value": "plusle",
-      "label": "plusle"
+    value: "plusle",
+    label: "plusle",
   },
   {
-      "value": "minun",
-      "label": "minun"
+    value: "minun",
+    label: "minun",
   },
   {
-      "value": "volbeat",
-      "label": "volbeat"
+    value: "volbeat",
+    label: "volbeat",
   },
   {
-      "value": "illumise",
-      "label": "illumise"
+    value: "illumise",
+    label: "illumise",
   },
   {
-      "value": "roselia",
-      "label": "roselia"
+    value: "roselia",
+    label: "roselia",
   },
   {
-      "value": "gulpin",
-      "label": "gulpin"
+    value: "gulpin",
+    label: "gulpin",
   },
   {
-      "value": "swalot",
-      "label": "swalot"
+    value: "swalot",
+    label: "swalot",
   },
   {
-      "value": "carvanha",
-      "label": "carvanha"
+    value: "carvanha",
+    label: "carvanha",
   },
   {
-      "value": "sharpedo",
-      "label": "sharpedo"
+    value: "sharpedo",
+    label: "sharpedo",
   },
   {
-      "value": "wailmer",
-      "label": "wailmer"
+    value: "wailmer",
+    label: "wailmer",
   },
   {
-      "value": "wailord",
-      "label": "wailord"
+    value: "wailord",
+    label: "wailord",
   },
   {
-      "value": "numel",
-      "label": "numel"
+    value: "numel",
+    label: "numel",
   },
   {
-      "value": "camerupt",
-      "label": "camerupt"
+    value: "camerupt",
+    label: "camerupt",
   },
   {
-      "value": "torkoal",
-      "label": "torkoal"
+    value: "torkoal",
+    label: "torkoal",
   },
   {
-      "value": "spoink",
-      "label": "spoink"
+    value: "spoink",
+    label: "spoink",
   },
   {
-      "value": "grumpig",
-      "label": "grumpig"
+    value: "grumpig",
+    label: "grumpig",
   },
   {
-      "value": "spinda",
-      "label": "spinda"
+    value: "spinda",
+    label: "spinda",
   },
   {
-      "value": "trapinch",
-      "label": "trapinch"
+    value: "trapinch",
+    label: "trapinch",
   },
   {
-      "value": "vibrava",
-      "label": "vibrava"
+    value: "vibrava",
+    label: "vibrava",
   },
   {
-      "value": "flygon",
-      "label": "flygon"
+    value: "flygon",
+    label: "flygon",
   },
   {
-      "value": "cacnea",
-      "label": "cacnea"
+    value: "cacnea",
+    label: "cacnea",
   },
   {
-      "value": "cacturne",
-      "label": "cacturne"
+    value: "cacturne",
+    label: "cacturne",
   },
   {
-      "value": "swablu",
-      "label": "swablu"
+    value: "swablu",
+    label: "swablu",
   },
   {
-      "value": "altaria",
-      "label": "altaria"
+    value: "altaria",
+    label: "altaria",
   },
   {
-      "value": "zangoose",
-      "label": "zangoose"
+    value: "zangoose",
+    label: "zangoose",
   },
   {
-      "value": "seviper",
-      "label": "seviper"
+    value: "seviper",
+    label: "seviper",
   },
   {
-      "value": "lunatone",
-      "label": "lunatone"
+    value: "lunatone",
+    label: "lunatone",
   },
   {
-      "value": "solrock",
-      "label": "solrock"
+    value: "solrock",
+    label: "solrock",
   },
   {
-      "value": "barboach",
-      "label": "barboach"
+    value: "barboach",
+    label: "barboach",
   },
   {
-      "value": "whiscash",
-      "label": "whiscash"
+    value: "whiscash",
+    label: "whiscash",
   },
   {
-      "value": "corphish",
-      "label": "corphish"
+    value: "corphish",
+    label: "corphish",
   },
   {
-      "value": "crawdaunt",
-      "label": "crawdaunt"
+    value: "crawdaunt",
+    label: "crawdaunt",
   },
   {
-      "value": "baltoy",
-      "label": "baltoy"
+    value: "baltoy",
+    label: "baltoy",
   },
   {
-      "value": "claydol",
-      "label": "claydol"
+    value: "claydol",
+    label: "claydol",
   },
   {
-      "value": "lileep",
-      "label": "lileep"
+    value: "lileep",
+    label: "lileep",
   },
   {
-      "value": "cradily",
-      "label": "cradily"
+    value: "cradily",
+    label: "cradily",
   },
   {
-      "value": "anorith",
-      "label": "anorith"
+    value: "anorith",
+    label: "anorith",
   },
   {
-      "value": "armaldo",
-      "label": "armaldo"
+    value: "armaldo",
+    label: "armaldo",
   },
   {
-      "value": "feebas",
-      "label": "feebas"
+    value: "feebas",
+    label: "feebas",
   },
   {
-      "value": "milotic",
-      "label": "milotic"
+    value: "milotic",
+    label: "milotic",
   },
   {
-      "value": "castform",
-      "label": "castform"
+    value: "castform",
+    label: "castform",
   },
   {
-      "value": "kecleon",
-      "label": "kecleon"
+    value: "kecleon",
+    label: "kecleon",
   },
   {
-      "value": "shuppet",
-      "label": "shuppet"
+    value: "shuppet",
+    label: "shuppet",
   },
   {
-      "value": "banette",
-      "label": "banette"
+    value: "banette",
+    label: "banette",
   },
   {
-      "value": "duskull",
-      "label": "duskull"
+    value: "duskull",
+    label: "duskull",
   },
   {
-      "value": "dusclops",
-      "label": "dusclops"
+    value: "dusclops",
+    label: "dusclops",
   },
   {
-      "value": "tropius",
-      "label": "tropius"
+    value: "tropius",
+    label: "tropius",
   },
   {
-      "value": "chimecho",
-      "label": "chimecho"
+    value: "chimecho",
+    label: "chimecho",
   },
   {
-      "value": "absol",
-      "label": "absol"
+    value: "absol",
+    label: "absol",
   },
   {
-      "value": "wynaut",
-      "label": "wynaut"
+    value: "wynaut",
+    label: "wynaut",
   },
   {
-      "value": "snorunt",
-      "label": "snorunt"
+    value: "snorunt",
+    label: "snorunt",
   },
   {
-      "value": "glalie",
-      "label": "glalie"
+    value: "glalie",
+    label: "glalie",
   },
   {
-      "value": "spheal",
-      "label": "spheal"
+    value: "spheal",
+    label: "spheal",
   },
   {
-      "value": "sealeo",
-      "label": "sealeo"
+    value: "sealeo",
+    label: "sealeo",
   },
   {
-      "value": "walrein",
-      "label": "walrein"
+    value: "walrein",
+    label: "walrein",
   },
   {
-      "value": "clamperl",
-      "label": "clamperl"
+    value: "clamperl",
+    label: "clamperl",
   },
   {
-      "value": "huntail",
-      "label": "huntail"
+    value: "huntail",
+    label: "huntail",
   },
   {
-      "value": "gorebyss",
-      "label": "gorebyss"
+    value: "gorebyss",
+    label: "gorebyss",
   },
   {
-      "value": "relicanth",
-      "label": "relicanth"
+    value: "relicanth",
+    label: "relicanth",
   },
   {
-      "value": "luvdisc",
-      "label": "luvdisc"
+    value: "luvdisc",
+    label: "luvdisc",
   },
   {
-      "value": "bagon",
-      "label": "bagon"
+    value: "bagon",
+    label: "bagon",
   },
   {
-      "value": "shelgon",
-      "label": "shelgon"
+    value: "shelgon",
+    label: "shelgon",
   },
   {
-      "value": "salamence",
-      "label": "salamence"
+    value: "salamence",
+    label: "salamence",
   },
   {
-      "value": "beldum",
-      "label": "beldum"
+    value: "beldum",
+    label: "beldum",
   },
   {
-      "value": "metang",
-      "label": "metang"
+    value: "metang",
+    label: "metang",
   },
   {
-      "value": "metagross",
-      "label": "metagross"
+    value: "metagross",
+    label: "metagross",
   },
   {
-      "value": "regirock",
-      "label": "regirock"
+    value: "regirock",
+    label: "regirock",
   },
   {
-      "value": "regice",
-      "label": "regice"
+    value: "regice",
+    label: "regice",
   },
   {
-      "value": "registeel",
-      "label": "registeel"
+    value: "registeel",
+    label: "registeel",
   },
   {
-      "value": "latias",
-      "label": "latias"
+    value: "latias",
+    label: "latias",
   },
   {
-      "value": "latios",
-      "label": "latios"
+    value: "latios",
+    label: "latios",
   },
   {
-      "value": "kyogre",
-      "label": "kyogre"
+    value: "kyogre",
+    label: "kyogre",
   },
   {
-      "value": "groudon",
-      "label": "groudon"
+    value: "groudon",
+    label: "groudon",
   },
   {
-      "value": "rayquaza",
-      "label": "rayquaza"
+    value: "rayquaza",
+    label: "rayquaza",
   },
   {
-      "value": "jirachi",
-      "label": "jirachi"
+    value: "jirachi",
+    label: "jirachi",
   },
   {
-      "value": "deoxys-normal",
-      "label": "deoxys"
+    value: "deoxys-normal",
+    label: "deoxys",
   },
   {
-      "value": "turtwig",
-      "label": "turtwig"
+    value: "turtwig",
+    label: "turtwig",
   },
   {
-      "value": "grotle",
-      "label": "grotle"
+    value: "grotle",
+    label: "grotle",
   },
   {
-      "value": "torterra",
-      "label": "torterra"
+    value: "torterra",
+    label: "torterra",
   },
   {
-      "value": "chimchar",
-      "label": "chimchar"
+    value: "chimchar",
+    label: "chimchar",
   },
   {
-      "value": "monferno",
-      "label": "monferno"
+    value: "monferno",
+    label: "monferno",
   },
   {
-      "value": "infernape",
-      "label": "infernape"
+    value: "infernape",
+    label: "infernape",
   },
   {
-      "value": "piplup",
-      "label": "piplup"
+    value: "piplup",
+    label: "piplup",
   },
   {
-      "value": "prinplup",
-      "label": "prinplup"
+    value: "prinplup",
+    label: "prinplup",
   },
   {
-      "value": "empoleon",
-      "label": "empoleon"
+    value: "empoleon",
+    label: "empoleon",
   },
   {
-      "value": "starly",
-      "label": "starly"
+    value: "starly",
+    label: "starly",
   },
   {
-      "value": "staravia",
-      "label": "staravia"
+    value: "staravia",
+    label: "staravia",
   },
   {
-      "value": "staraptor",
-      "label": "staraptor"
+    value: "staraptor",
+    label: "staraptor",
   },
   {
-      "value": "bidoof",
-      "label": "bidoof"
+    value: "bidoof",
+    label: "bidoof",
   },
   {
-      "value": "bibarel",
-      "label": "bibarel"
+    value: "bibarel",
+    label: "bibarel",
   },
   {
-      "value": "kricketot",
-      "label": "kricketot"
+    value: "kricketot",
+    label: "kricketot",
   },
   {
-      "value": "kricketune",
-      "label": "kricketune"
+    value: "kricketune",
+    label: "kricketune",
   },
   {
-      "value": "shinx",
-      "label": "shinx"
+    value: "shinx",
+    label: "shinx",
   },
   {
-      "value": "luxio",
-      "label": "luxio"
+    value: "luxio",
+    label: "luxio",
   },
   {
-      "value": "luxray",
-      "label": "luxray"
+    value: "luxray",
+    label: "luxray",
   },
   {
-      "value": "budew",
-      "label": "budew"
+    value: "budew",
+    label: "budew",
   },
   {
-      "value": "roserade",
-      "label": "roserade"
+    value: "roserade",
+    label: "roserade",
   },
   {
-      "value": "cranidos",
-      "label": "cranidos"
+    value: "cranidos",
+    label: "cranidos",
   },
   {
-      "value": "rampardos",
-      "label": "rampardos"
+    value: "rampardos",
+    label: "rampardos",
   },
   {
-      "value": "shieldon",
-      "label": "shieldon"
+    value: "shieldon",
+    label: "shieldon",
   },
   {
-      "value": "bastiodon",
-      "label": "bastiodon"
+    value: "bastiodon",
+    label: "bastiodon",
   },
   {
-      "value": "burmy",
-      "label": "burmy"
+    value: "burmy",
+    label: "burmy",
   },
   {
-      "value": "wormadam-plant",
-      "label": "wormadam"
+    value: "wormadam-plant",
+    label: "wormadam",
   },
   {
-      "value": "mothim",
-      "label": "mothim"
+    value: "mothim",
+    label: "mothim",
   },
   {
-      "value": "combee",
-      "label": "combee"
+    value: "combee",
+    label: "combee",
   },
   {
-      "value": "vespiquen",
-      "label": "vespiquen"
+    value: "vespiquen",
+    label: "vespiquen",
   },
   {
-      "value": "pachirisu",
-      "label": "pachirisu"
+    value: "pachirisu",
+    label: "pachirisu",
   },
   {
-      "value": "buizel",
-      "label": "buizel"
+    value: "buizel",
+    label: "buizel",
   },
   {
-      "value": "floatzel",
-      "label": "floatzel"
+    value: "floatzel",
+    label: "floatzel",
   },
   {
-      "value": "cherubi",
-      "label": "cherubi"
+    value: "cherubi",
+    label: "cherubi",
   },
   {
-      "value": "cherrim",
-      "label": "cherrim"
+    value: "cherrim",
+    label: "cherrim",
   },
   {
-      "value": "shellos",
-      "label": "shellos"
+    value: "shellos",
+    label: "shellos",
   },
   {
-      "value": "gastrodon",
-      "label": "gastrodon"
+    value: "gastrodon",
+    label: "gastrodon",
   },
   {
-      "value": "ambipom",
-      "label": "ambipom"
+    value: "ambipom",
+    label: "ambipom",
   },
   {
-      "value": "drifloon",
-      "label": "drifloon"
+    value: "drifloon",
+    label: "drifloon",
   },
   {
-      "value": "drifblim",
-      "label": "drifblim"
+    value: "drifblim",
+    label: "drifblim",
   },
   {
-      "value": "buneary",
-      "label": "buneary"
+    value: "buneary",
+    label: "buneary",
   },
   {
-      "value": "lopunny",
-      "label": "lopunny"
+    value: "lopunny",
+    label: "lopunny",
   },
   {
-      "value": "mismagius",
-      "label": "mismagius"
+    value: "mismagius",
+    label: "mismagius",
   },
   {
-      "value": "honchkrow",
-      "label": "honchkrow"
+    value: "honchkrow",
+    label: "honchkrow",
   },
   {
-      "value": "glameow",
-      "label": "glameow"
+    value: "glameow",
+    label: "glameow",
   },
   {
-      "value": "purugly",
-      "label": "purugly"
+    value: "purugly",
+    label: "purugly",
   },
   {
-      "value": "chingling",
-      "label": "chingling"
+    value: "chingling",
+    label: "chingling",
   },
   {
-      "value": "stunky",
-      "label": "stunky"
+    value: "stunky",
+    label: "stunky",
   },
   {
-      "value": "skuntank",
-      "label": "skuntank"
+    value: "skuntank",
+    label: "skuntank",
   },
   {
-      "value": "bronzor",
-      "label": "bronzor"
+    value: "bronzor",
+    label: "bronzor",
   },
   {
-      "value": "bronzong",
-      "label": "bronzong"
+    value: "bronzong",
+    label: "bronzong",
   },
   {
-      "value": "bonsly",
-      "label": "bonsly"
+    value: "bonsly",
+    label: "bonsly",
   },
   {
-      "value": "mime-jr",
-      "label": "mime jr"
+    value: "mime-jr",
+    label: "mime jr",
   },
   {
-      "value": "happiny",
-      "label": "happiny"
+    value: "happiny",
+    label: "happiny",
   },
   {
-      "value": "chatot",
-      "label": "chatot"
+    value: "chatot",
+    label: "chatot",
   },
   {
-      "value": "spiritomb",
-      "label": "spiritomb"
+    value: "spiritomb",
+    label: "spiritomb",
   },
   {
-      "value": "gible",
-      "label": "gible"
+    value: "gible",
+    label: "gible",
   },
   {
-      "value": "gabite",
-      "label": "gabite"
+    value: "gabite",
+    label: "gabite",
   },
   {
-      "value": "garchomp",
-      "label": "garchomp"
+    value: "garchomp",
+    label: "garchomp",
   },
   {
-      "value": "munchlax",
-      "label": "munchlax"
+    value: "munchlax",
+    label: "munchlax",
   },
   {
-      "value": "riolu",
-      "label": "riolu"
+    value: "riolu",
+    label: "riolu",
   },
   {
-      "value": "lucario",
-      "label": "lucario"
+    value: "lucario",
+    label: "lucario",
   },
   {
-      "value": "hippopotas",
-      "label": "hippopotas"
+    value: "hippopotas",
+    label: "hippopotas",
   },
   {
-      "value": "hippowdon",
-      "label": "hippowdon"
+    value: "hippowdon",
+    label: "hippowdon",
   },
   {
-      "value": "skorupi",
-      "label": "skorupi"
+    value: "skorupi",
+    label: "skorupi",
   },
   {
-      "value": "drapion",
-      "label": "drapion"
+    value: "drapion",
+    label: "drapion",
   },
   {
-      "value": "croagunk",
-      "label": "croagunk"
+    value: "croagunk",
+    label: "croagunk",
   },
   {
-      "value": "toxicroak",
-      "label": "toxicroak"
+    value: "toxicroak",
+    label: "toxicroak",
   },
   {
-      "value": "carnivine",
-      "label": "carnivine"
+    value: "carnivine",
+    label: "carnivine",
   },
   {
-      "value": "finneon",
-      "label": "finneon"
+    value: "finneon",
+    label: "finneon",
   },
   {
-      "value": "lumineon",
-      "label": "lumineon"
+    value: "lumineon",
+    label: "lumineon",
   },
   {
-      "value": "mantyke",
-      "label": "mantyke"
+    value: "mantyke",
+    label: "mantyke",
   },
   {
-      "value": "snover",
-      "label": "snover"
+    value: "snover",
+    label: "snover",
   },
   {
-      "value": "abomasnow",
-      "label": "abomasnow"
+    value: "abomasnow",
+    label: "abomasnow",
   },
   {
-      "value": "weavile",
-      "label": "weavile"
+    value: "weavile",
+    label: "weavile",
   },
   {
-      "value": "magnezone",
-      "label": "magnezone"
+    value: "magnezone",
+    label: "magnezone",
   },
   {
-      "value": "lickilicky",
-      "label": "lickilicky"
+    value: "lickilicky",
+    label: "lickilicky",
   },
   {
-      "value": "rhyperior",
-      "label": "rhyperior"
+    value: "rhyperior",
+    label: "rhyperior",
   },
   {
-      "value": "tangrowth",
-      "label": "tangrowth"
+    value: "tangrowth",
+    label: "tangrowth",
   },
   {
-      "value": "electivire",
-      "label": "electivire"
+    value: "electivire",
+    label: "electivire",
   },
   {
-      "value": "magmortar",
-      "label": "magmortar"
+    value: "magmortar",
+    label: "magmortar",
   },
   {
-      "value": "togekiss",
-      "label": "togekiss"
+    value: "togekiss",
+    label: "togekiss",
   },
   {
-      "value": "yanmega",
-      "label": "yanmega"
+    value: "yanmega",
+    label: "yanmega",
   },
   {
-      "value": "leafeon",
-      "label": "leafeon"
+    value: "leafeon",
+    label: "leafeon",
   },
   {
-      "value": "glaceon",
-      "label": "glaceon"
+    value: "glaceon",
+    label: "glaceon",
   },
   {
-      "value": "gliscor",
-      "label": "gliscor"
+    value: "gliscor",
+    label: "gliscor",
   },
   {
-      "value": "mamoswine",
-      "label": "mamoswine"
+    value: "mamoswine",
+    label: "mamoswine",
   },
   {
-      "value": "porygon-z",
-      "label": "porygon"
+    value: "porygon-z",
+    label: "porygon",
   },
   {
-      "value": "gallade",
-      "label": "gallade"
+    value: "gallade",
+    label: "gallade",
   },
   {
-      "value": "probopass",
-      "label": "probopass"
+    value: "probopass",
+    label: "probopass",
   },
   {
-      "value": "dusknoir",
-      "label": "dusknoir"
+    value: "dusknoir",
+    label: "dusknoir",
   },
   {
-      "value": "froslass",
-      "label": "froslass"
+    value: "froslass",
+    label: "froslass",
   },
   {
-      "value": "rotom",
-      "label": "rotom"
+    value: "rotom",
+    label: "rotom",
   },
   {
-      "value": "uxie",
-      "label": "uxie"
+    value: "uxie",
+    label: "uxie",
   },
   {
-      "value": "mesprit",
-      "label": "mesprit"
+    value: "mesprit",
+    label: "mesprit",
   },
   {
-      "value": "azelf",
-      "label": "azelf"
+    value: "azelf",
+    label: "azelf",
   },
   {
-      "value": "dialga",
-      "label": "dialga"
+    value: "dialga",
+    label: "dialga",
   },
   {
-      "value": "palkia",
-      "label": "palkia"
+    value: "palkia",
+    label: "palkia",
   },
   {
-      "value": "heatran",
-      "label": "heatran"
+    value: "heatran",
+    label: "heatran",
   },
   {
-      "value": "regigigas",
-      "label": "regigigas"
+    value: "regigigas",
+    label: "regigigas",
   },
   {
-      "value": "giratina-altered",
-      "label": "giratina"
+    value: "giratina-altered",
+    label: "giratina",
   },
   {
-      "value": "cresselia",
-      "label": "cresselia"
+    value: "cresselia",
+    label: "cresselia",
   },
   {
-      "value": "phione",
-      "label": "phione"
+    value: "phione",
+    label: "phione",
   },
   {
-      "value": "manaphy",
-      "label": "manaphy"
+    value: "manaphy",
+    label: "manaphy",
   },
   {
-      "value": "darkrai",
-      "label": "darkrai"
+    value: "darkrai",
+    label: "darkrai",
   },
   {
-      "value": "shaymin-land",
-      "label": "shaymin"
+    value: "shaymin-land",
+    label: "shaymin",
   },
   {
-      "value": "arceus",
-      "label": "arceus"
+    value: "arceus",
+    label: "arceus",
   },
   {
-      "value": "victini",
-      "label": "victini"
+    value: "victini",
+    label: "victini",
   },
   {
-      "value": "snivy",
-      "label": "snivy"
+    value: "snivy",
+    label: "snivy",
   },
   {
-      "value": "servine",
-      "label": "servine"
+    value: "servine",
+    label: "servine",
   },
   {
-      "value": "serperior",
-      "label": "serperior"
+    value: "serperior",
+    label: "serperior",
   },
   {
-      "value": "tepig",
-      "label": "tepig"
+    value: "tepig",
+    label: "tepig",
   },
   {
-      "value": "pignite",
-      "label": "pignite"
+    value: "pignite",
+    label: "pignite",
   },
   {
-      "value": "emboar",
-      "label": "emboar"
+    value: "emboar",
+    label: "emboar",
   },
   {
-      "value": "oshawott",
-      "label": "oshawott"
+    value: "oshawott",
+    label: "oshawott",
   },
   {
-      "value": "dewott",
-      "label": "dewott"
+    value: "dewott",
+    label: "dewott",
   },
   {
-      "value": "samurott",
-      "label": "samurott"
+    value: "samurott",
+    label: "samurott",
   },
   {
-      "value": "patrat",
-      "label": "patrat"
+    value: "patrat",
+    label: "patrat",
   },
   {
-      "value": "watchog",
-      "label": "watchog"
+    value: "watchog",
+    label: "watchog",
   },
   {
-      "value": "lillipup",
-      "label": "lillipup"
+    value: "lillipup",
+    label: "lillipup",
   },
   {
-      "value": "herdier",
-      "label": "herdier"
+    value: "herdier",
+    label: "herdier",
   },
   {
-      "value": "stoutland",
-      "label": "stoutland"
+    value: "stoutland",
+    label: "stoutland",
   },
   {
-      "value": "purrloin",
-      "label": "purrloin"
+    value: "purrloin",
+    label: "purrloin",
   },
   {
-      "value": "liepard",
-      "label": "liepard"
+    value: "liepard",
+    label: "liepard",
   },
   {
-      "value": "pansage",
-      "label": "pansage"
+    value: "pansage",
+    label: "pansage",
   },
   {
-      "value": "simisage",
-      "label": "simisage"
+    value: "simisage",
+    label: "simisage",
   },
   {
-      "value": "pansear",
-      "label": "pansear"
+    value: "pansear",
+    label: "pansear",
   },
   {
-      "value": "simisear",
-      "label": "simisear"
+    value: "simisear",
+    label: "simisear",
   },
   {
-      "value": "panpour",
-      "label": "panpour"
+    value: "panpour",
+    label: "panpour",
   },
   {
-      "value": "simipour",
-      "label": "simipour"
+    value: "simipour",
+    label: "simipour",
   },
   {
-      "value": "munna",
-      "label": "munna"
+    value: "munna",
+    label: "munna",
   },
   {
-      "value": "musharna",
-      "label": "musharna"
+    value: "musharna",
+    label: "musharna",
   },
   {
-      "value": "pidove",
-      "label": "pidove"
+    value: "pidove",
+    label: "pidove",
   },
   {
-      "value": "tranquill",
-      "label": "tranquill"
+    value: "tranquill",
+    label: "tranquill",
   },
   {
-      "value": "unfezant",
-      "label": "unfezant"
+    value: "unfezant",
+    label: "unfezant",
   },
   {
-      "value": "blitzle",
-      "label": "blitzle"
+    value: "blitzle",
+    label: "blitzle",
   },
   {
-      "value": "zebstrika",
-      "label": "zebstrika"
+    value: "zebstrika",
+    label: "zebstrika",
   },
   {
-      "value": "roggenrola",
-      "label": "roggenrola"
+    value: "roggenrola",
+    label: "roggenrola",
   },
   {
-      "value": "boldore",
-      "label": "boldore"
+    value: "boldore",
+    label: "boldore",
   },
   {
-      "value": "gigalith",
-      "label": "gigalith"
+    value: "gigalith",
+    label: "gigalith",
   },
   {
-      "value": "woobat",
-      "label": "woobat"
+    value: "woobat",
+    label: "woobat",
   },
   {
-      "value": "swoobat",
-      "label": "swoobat"
+    value: "swoobat",
+    label: "swoobat",
   },
   {
-      "value": "drilbur",
-      "label": "drilbur"
+    value: "drilbur",
+    label: "drilbur",
   },
   {
-      "value": "excadrill",
-      "label": "excadrill"
+    value: "excadrill",
+    label: "excadrill",
   },
   {
-      "value": "audino",
-      "label": "audino"
+    value: "audino",
+    label: "audino",
   },
   {
-      "value": "timburr",
-      "label": "timburr"
+    value: "timburr",
+    label: "timburr",
   },
   {
-      "value": "gurdurr",
-      "label": "gurdurr"
+    value: "gurdurr",
+    label: "gurdurr",
   },
   {
-      "value": "conkeldurr",
-      "label": "conkeldurr"
+    value: "conkeldurr",
+    label: "conkeldurr",
   },
   {
-      "value": "tympole",
-      "label": "tympole"
+    value: "tympole",
+    label: "tympole",
   },
   {
-      "value": "palpitoad",
-      "label": "palpitoad"
+    value: "palpitoad",
+    label: "palpitoad",
   },
   {
-      "value": "seismitoad",
-      "label": "seismitoad"
+    value: "seismitoad",
+    label: "seismitoad",
   },
   {
-      "value": "throh",
-      "label": "throh"
+    value: "throh",
+    label: "throh",
   },
   {
-      "value": "sawk",
-      "label": "sawk"
+    value: "sawk",
+    label: "sawk",
   },
   {
-      "value": "sewaddle",
-      "label": "sewaddle"
+    value: "sewaddle",
+    label: "sewaddle",
   },
   {
-      "value": "swadloon",
-      "label": "swadloon"
+    value: "swadloon",
+    label: "swadloon",
   },
   {
-      "value": "leavanny",
-      "label": "leavanny"
+    value: "leavanny",
+    label: "leavanny",
   },
   {
-      "value": "venipede",
-      "label": "venipede"
+    value: "venipede",
+    label: "venipede",
   },
   {
-      "value": "whirlipede",
-      "label": "whirlipede"
+    value: "whirlipede",
+    label: "whirlipede",
   },
   {
-      "value": "scolipede",
-      "label": "scolipede"
+    value: "scolipede",
+    label: "scolipede",
   },
   {
-      "value": "cottonee",
-      "label": "cottonee"
+    value: "cottonee",
+    label: "cottonee",
   },
   {
-      "value": "whimsicott",
-      "label": "whimsicott"
+    value: "whimsicott",
+    label: "whimsicott",
   },
   {
-      "value": "petilil",
-      "label": "petilil"
+    value: "petilil",
+    label: "petilil",
   },
   {
-      "value": "lilligant",
-      "label": "lilligant"
+    value: "lilligant",
+    label: "lilligant",
   },
   {
-      "value": "basculin-red-striped",
-      "label": "basculin"
+    value: "basculin-red-striped",
+    label: "basculin",
   },
   {
-      "value": "sandile",
-      "label": "sandile"
+    value: "sandile",
+    label: "sandile",
   },
   {
-      "value": "krokorok",
-      "label": "krokorok"
+    value: "krokorok",
+    label: "krokorok",
   },
   {
-      "value": "krookodile",
-      "label": "krookodile"
+    value: "krookodile",
+    label: "krookodile",
   },
   {
-      "value": "darumaka",
-      "label": "darumaka"
+    value: "darumaka",
+    label: "darumaka",
   },
   {
-      "value": "darmanitan-standard",
-      "label": "darmanitan"
+    value: "darmanitan-standard",
+    label: "darmanitan",
   },
   {
-      "value": "maractus",
-      "label": "maractus"
+    value: "maractus",
+    label: "maractus",
   },
   {
-      "value": "dwebble",
-      "label": "dwebble"
+    value: "dwebble",
+    label: "dwebble",
   },
   {
-      "value": "crustle",
-      "label": "crustle"
+    value: "crustle",
+    label: "crustle",
   },
   {
-      "value": "scraggy",
-      "label": "scraggy"
+    value: "scraggy",
+    label: "scraggy",
   },
   {
-      "value": "scrafty",
-      "label": "scrafty"
+    value: "scrafty",
+    label: "scrafty",
   },
   {
-      "value": "sigilyph",
-      "label": "sigilyph"
+    value: "sigilyph",
+    label: "sigilyph",
   },
   {
-      "value": "yamask",
-      "label": "yamask"
+    value: "yamask",
+    label: "yamask",
   },
   {
-      "value": "cofagrigus",
-      "label": "cofagrigus"
+    value: "cofagrigus",
+    label: "cofagrigus",
   },
   {
-      "value": "tirtouga",
-      "label": "tirtouga"
+    value: "tirtouga",
+    label: "tirtouga",
   },
   {
-      "value": "carracosta",
-      "label": "carracosta"
+    value: "carracosta",
+    label: "carracosta",
   },
   {
-      "value": "archen",
-      "label": "archen"
+    value: "archen",
+    label: "archen",
   },
   {
-      "value": "archeops",
-      "label": "archeops"
+    value: "archeops",
+    label: "archeops",
   },
   {
-      "value": "trubbish",
-      "label": "trubbish"
+    value: "trubbish",
+    label: "trubbish",
   },
   {
-      "value": "garbodor",
-      "label": "garbodor"
+    value: "garbodor",
+    label: "garbodor",
   },
   {
-      "value": "zorua",
-      "label": "zorua"
+    value: "zorua",
+    label: "zorua",
   },
   {
-      "value": "zoroark",
-      "label": "zoroark"
+    value: "zoroark",
+    label: "zoroark",
   },
   {
-      "value": "minccino",
-      "label": "minccino"
+    value: "minccino",
+    label: "minccino",
   },
   {
-      "value": "cinccino",
-      "label": "cinccino"
+    value: "cinccino",
+    label: "cinccino",
   },
   {
-      "value": "gothita",
-      "label": "gothita"
+    value: "gothita",
+    label: "gothita",
   },
   {
-      "value": "gothorita",
-      "label": "gothorita"
+    value: "gothorita",
+    label: "gothorita",
   },
   {
-      "value": "gothitelle",
-      "label": "gothitelle"
+    value: "gothitelle",
+    label: "gothitelle",
   },
   {
-      "value": "solosis",
-      "label": "solosis"
+    value: "solosis",
+    label: "solosis",
   },
   {
-      "value": "duosion",
-      "label": "duosion"
+    value: "duosion",
+    label: "duosion",
   },
   {
-      "value": "reuniclus",
-      "label": "reuniclus"
+    value: "reuniclus",
+    label: "reuniclus",
   },
   {
-      "value": "ducklett",
-      "label": "ducklett"
+    value: "ducklett",
+    label: "ducklett",
   },
   {
-      "value": "swanna",
-      "label": "swanna"
+    value: "swanna",
+    label: "swanna",
   },
   {
-      "value": "vanillite",
-      "label": "vanillite"
+    value: "vanillite",
+    label: "vanillite",
   },
   {
-      "value": "vanillish",
-      "label": "vanillish"
+    value: "vanillish",
+    label: "vanillish",
   },
   {
-      "value": "vanilluxe",
-      "label": "vanilluxe"
+    value: "vanilluxe",
+    label: "vanilluxe",
   },
   {
-      "value": "deerling",
-      "label": "deerling"
+    value: "deerling",
+    label: "deerling",
   },
   {
-      "value": "sawsbuck",
-      "label": "sawsbuck"
+    value: "sawsbuck",
+    label: "sawsbuck",
   },
   {
-      "value": "emolga",
-      "label": "emolga"
+    value: "emolga",
+    label: "emolga",
   },
   {
-      "value": "karrablast",
-      "label": "karrablast"
+    value: "karrablast",
+    label: "karrablast",
   },
   {
-      "value": "escavalier",
-      "label": "escavalier"
+    value: "escavalier",
+    label: "escavalier",
   },
   {
-      "value": "foongus",
-      "label": "foongus"
+    value: "foongus",
+    label: "foongus",
   },
   {
-      "value": "amoonguss",
-      "label": "amoonguss"
+    value: "amoonguss",
+    label: "amoonguss",
   },
   {
-      "value": "frillish",
-      "label": "frillish"
+    value: "frillish",
+    label: "frillish",
   },
   {
-      "value": "jellicent",
-      "label": "jellicent"
+    value: "jellicent",
+    label: "jellicent",
   },
   {
-      "value": "alomomola",
-      "label": "alomomola"
+    value: "alomomola",
+    label: "alomomola",
   },
   {
-      "value": "joltik",
-      "label": "joltik"
+    value: "joltik",
+    label: "joltik",
   },
   {
-      "value": "galvantula",
-      "label": "galvantula"
+    value: "galvantula",
+    label: "galvantula",
   },
   {
-      "value": "ferroseed",
-      "label": "ferroseed"
+    value: "ferroseed",
+    label: "ferroseed",
   },
   {
-      "value": "ferrothorn",
-      "label": "ferrothorn"
+    value: "ferrothorn",
+    label: "ferrothorn",
   },
   {
-      "value": "klink",
-      "label": "klink"
+    value: "klink",
+    label: "klink",
   },
   {
-      "value": "klang",
-      "label": "klang"
+    value: "klang",
+    label: "klang",
   },
   {
-      "value": "klinklang",
-      "label": "klinklang"
+    value: "klinklang",
+    label: "klinklang",
   },
   {
-      "value": "tynamo",
-      "label": "tynamo"
+    value: "tynamo",
+    label: "tynamo",
   },
   {
-      "value": "eelektrik",
-      "label": "eelektrik"
+    value: "eelektrik",
+    label: "eelektrik",
   },
   {
-      "value": "eelektross",
-      "label": "eelektross"
+    value: "eelektross",
+    label: "eelektross",
   },
   {
-      "value": "elgyem",
-      "label": "elgyem"
+    value: "elgyem",
+    label: "elgyem",
   },
   {
-      "value": "beheeyem",
-      "label": "beheeyem"
+    value: "beheeyem",
+    label: "beheeyem",
   },
   {
-      "value": "litwick",
-      "label": "litwick"
+    value: "litwick",
+    label: "litwick",
   },
   {
-      "value": "lampent",
-      "label": "lampent"
+    value: "lampent",
+    label: "lampent",
   },
   {
-      "value": "chandelure",
-      "label": "chandelure"
+    value: "chandelure",
+    label: "chandelure",
   },
   {
-      "value": "axew",
-      "label": "axew"
+    value: "axew",
+    label: "axew",
   },
   {
-      "value": "fraxure",
-      "label": "fraxure"
+    value: "fraxure",
+    label: "fraxure",
   },
   {
-      "value": "haxorus",
-      "label": "haxorus"
+    value: "haxorus",
+    label: "haxorus",
   },
   {
-      "value": "cubchoo",
-      "label": "cubchoo"
+    value: "cubchoo",
+    label: "cubchoo",
   },
   {
-      "value": "beartic",
-      "label": "beartic"
+    value: "beartic",
+    label: "beartic",
   },
   {
-      "value": "cryogonal",
-      "label": "cryogonal"
+    value: "cryogonal",
+    label: "cryogonal",
   },
   {
-      "value": "shelmet",
-      "label": "shelmet"
+    value: "shelmet",
+    label: "shelmet",
   },
   {
-      "value": "accelgor",
-      "label": "accelgor"
+    value: "accelgor",
+    label: "accelgor",
   },
   {
-      "value": "stunfisk",
-      "label": "stunfisk"
+    value: "stunfisk",
+    label: "stunfisk",
   },
   {
-      "value": "mienfoo",
-      "label": "mienfoo"
+    value: "mienfoo",
+    label: "mienfoo",
   },
   {
-      "value": "mienshao",
-      "label": "mienshao"
+    value: "mienshao",
+    label: "mienshao",
   },
   {
-      "value": "druddigon",
-      "label": "druddigon"
+    value: "druddigon",
+    label: "druddigon",
   },
   {
-      "value": "golett",
-      "label": "golett"
+    value: "golett",
+    label: "golett",
   },
   {
-      "value": "golurk",
-      "label": "golurk"
+    value: "golurk",
+    label: "golurk",
   },
   {
-      "value": "pawniard",
-      "label": "pawniard"
+    value: "pawniard",
+    label: "pawniard",
   },
   {
-      "value": "bisharp",
-      "label": "bisharp"
+    value: "bisharp",
+    label: "bisharp",
   },
   {
-      "value": "bouffalant",
-      "label": "bouffalant"
+    value: "bouffalant",
+    label: "bouffalant",
   },
   {
-      "value": "rufflet",
-      "label": "rufflet"
+    value: "rufflet",
+    label: "rufflet",
   },
   {
-      "value": "braviary",
-      "label": "braviary"
+    value: "braviary",
+    label: "braviary",
   },
   {
-      "value": "vullaby",
-      "label": "vullaby"
+    value: "vullaby",
+    label: "vullaby",
   },
   {
-      "value": "mandibuzz",
-      "label": "mandibuzz"
+    value: "mandibuzz",
+    label: "mandibuzz",
   },
   {
-      "value": "heatmor",
-      "label": "heatmor"
+    value: "heatmor",
+    label: "heatmor",
   },
   {
-      "value": "durant",
-      "label": "durant"
+    value: "durant",
+    label: "durant",
   },
   {
-      "value": "deino",
-      "label": "deino"
+    value: "deino",
+    label: "deino",
   },
   {
-      "value": "zweilous",
-      "label": "zweilous"
+    value: "zweilous",
+    label: "zweilous",
   },
   {
-      "value": "hydreigon",
-      "label": "hydreigon"
+    value: "hydreigon",
+    label: "hydreigon",
   },
   {
-      "value": "larvesta",
-      "label": "larvesta"
+    value: "larvesta",
+    label: "larvesta",
   },
   {
-      "value": "volcarona",
-      "label": "volcarona"
+    value: "volcarona",
+    label: "volcarona",
   },
   {
-      "value": "cobalion",
-      "label": "cobalion"
+    value: "cobalion",
+    label: "cobalion",
   },
   {
-      "value": "terrakion",
-      "label": "terrakion"
+    value: "terrakion",
+    label: "terrakion",
   },
   {
-      "value": "virizion",
-      "label": "virizion"
+    value: "virizion",
+    label: "virizion",
   },
   {
-      "value": "tornadus-incarnate",
-      "label": "tornaduse"
+    value: "tornadus-incarnate",
+    label: "tornaduse",
   },
   {
-      "value": "thundurus-incarnate",
-      "label": "thundurus"
+    value: "thundurus-incarnate",
+    label: "thundurus",
   },
   {
-      "value": "reshiram",
-      "label": "reshiram"
+    value: "reshiram",
+    label: "reshiram",
   },
   {
-      "value": "zekrom",
-      "label": "zekrom"
+    value: "zekrom",
+    label: "zekrom",
   },
   {
-      "value": "landorus-incarnate",
-      "label": "landorus"
+    value: "landorus-incarnate",
+    label: "landorus",
   },
   {
-      "value": "kyurem",
-      "label": "kyurem"
+    value: "kyurem",
+    label: "kyurem",
   },
   {
-      "value": "keldeo-ordinary",
-      "label": "keldeo"
+    value: "keldeo-ordinary",
+    label: "keldeo",
   },
   {
-      "value": "meloetta-aria",
-      "label": "meloetta"
+    value: "meloetta-aria",
+    label: "meloetta",
   },
   {
-      "value": "genesect",
-      "label": "genesect"
+    value: "genesect",
+    label: "genesect",
   },
   {
-      "value": "chespin",
-      "label": "chespin"
+    value: "chespin",
+    label: "chespin",
   },
   {
-      "value": "quilladin",
-      "label": "quilladin"
+    value: "quilladin",
+    label: "quilladin",
   },
   {
-      "value": "chesnaught",
-      "label": "chesnaught"
+    value: "chesnaught",
+    label: "chesnaught",
   },
   {
-      "value": "fennekin",
-      "label": "fennekin"
+    value: "fennekin",
+    label: "fennekin",
   },
   {
-      "value": "braixen",
-      "label": "braixen"
+    value: "braixen",
+    label: "braixen",
   },
   {
-      "value": "delphox",
-      "label": "delphox"
+    value: "delphox",
+    label: "delphox",
   },
   {
-      "value": "froakie",
-      "label": "froakie"
+    value: "froakie",
+    label: "froakie",
   },
   {
-      "value": "frogadier",
-      "label": "frogadier"
+    value: "frogadier",
+    label: "frogadier",
   },
   {
-      "value": "greninja",
-      "label": "greninja"
+    value: "greninja",
+    label: "greninja",
   },
   {
-      "value": "bunnelby",
-      "label": "bunnelby"
+    value: "bunnelby",
+    label: "bunnelby",
   },
   {
-      "value": "diggersby",
-      "label": "diggersby"
+    value: "diggersby",
+    label: "diggersby",
   },
   {
-      "value": "fletchling",
-      "label": "fletchling"
+    value: "fletchling",
+    label: "fletchling",
   },
   {
-      "value": "fletchinder",
-      "label": "fletchinder"
+    value: "fletchinder",
+    label: "fletchinder",
   },
   {
-      "value": "talonflame",
-      "label": "talonflame"
+    value: "talonflame",
+    label: "talonflame",
   },
   {
-      "value": "scatterbug",
-      "label": "scatterbug"
+    value: "scatterbug",
+    label: "scatterbug",
   },
   {
-      "value": "spewpa",
-      "label": "spewpa"
+    value: "spewpa",
+    label: "spewpa",
   },
   {
-      "value": "vivillon",
-      "label": "vivillon"
+    value: "vivillon",
+    label: "vivillon",
   },
   {
-      "value": "litleo",
-      "label": "litleo"
+    value: "litleo",
+    label: "litleo",
   },
   {
-      "value": "pyroar",
-      "label": "pyroar"
+    value: "pyroar",
+    label: "pyroar",
   },
   {
-      "value": "flabebe",
-      "label": "flabebe"
+    value: "flabebe",
+    label: "flabebe",
   },
   {
-      "value": "floette",
-      "label": "floette"
+    value: "floette",
+    label: "floette",
   },
   {
-      "value": "florges",
-      "label": "florges"
+    value: "florges",
+    label: "florges",
   },
   {
-      "value": "skiddo",
-      "label": "skiddo"
+    value: "skiddo",
+    label: "skiddo",
   },
   {
-      "value": "gogoat",
-      "label": "gogoat"
+    value: "gogoat",
+    label: "gogoat",
   },
   {
-      "value": "pancham",
-      "label": "pancham"
+    value: "pancham",
+    label: "pancham",
   },
   {
-      "value": "pangoro",
-      "label": "pangoro"
+    value: "pangoro",
+    label: "pangoro",
   },
   {
-      "value": "furfrou",
-      "label": "furfrou"
+    value: "furfrou",
+    label: "furfrou",
   },
   {
-      "value": "espurr",
-      "label": "espurr"
+    value: "espurr",
+    label: "espurr",
   },
   {
-      "value": "meowstic-male",
-      "label": "meowstic"
+    value: "meowstic-male",
+    label: "meowstic",
   },
   {
-      "value": "honedge",
-      "label": "honedge"
+    value: "honedge",
+    label: "honedge",
   },
   {
-      "value": "doublade",
-      "label": "doublade"
+    value: "doublade",
+    label: "doublade",
   },
   {
-      "value": "aegislash-shield",
-      "label": "aegislash"
+    value: "aegislash-shield",
+    label: "aegislash",
   },
   {
-      "value": "spritzee",
-      "label": "spritzee"
+    value: "spritzee",
+    label: "spritzee",
   },
   {
-      "value": "aromatisse",
-      "label": "aromatisse"
+    value: "aromatisse",
+    label: "aromatisse",
   },
   {
-      "value": "swirlix",
-      "label": "swirlix"
+    value: "swirlix",
+    label: "swirlix",
   },
   {
-      "value": "slurpuff",
-      "label": "slurpuff"
+    value: "slurpuff",
+    label: "slurpuff",
   },
   {
-      "value": "inkay",
-      "label": "inkay"
+    value: "inkay",
+    label: "inkay",
   },
   {
-      "value": "malamar",
-      "label": "malamar"
+    value: "malamar",
+    label: "malamar",
   },
   {
-      "value": "binacle",
-      "label": "binacle"
+    value: "binacle",
+    label: "binacle",
   },
   {
-      "value": "barbaracle",
-      "label": "barbaracle"
+    value: "barbaracle",
+    label: "barbaracle",
   },
   {
-      "value": "skrelp",
-      "label": "skrelp"
+    value: "skrelp",
+    label: "skrelp",
   },
   {
-      "value": "dragalge",
-      "label": "dragalge"
+    value: "dragalge",
+    label: "dragalge",
   },
   {
-      "value": "clauncher",
-      "label": "clauncher"
+    value: "clauncher",
+    label: "clauncher",
   },
   {
-      "value": "clawitzer",
-      "label": "clawitzer"
+    value: "clawitzer",
+    label: "clawitzer",
   },
   {
-      "value": "helioptile",
-      "label": "helioptile"
+    value: "helioptile",
+    label: "helioptile",
   },
   {
-      "value": "heliolisk",
-      "label": "heliolisk"
+    value: "heliolisk",
+    label: "heliolisk",
   },
   {
-      "value": "tyrunt",
-      "label": "tyrunt"
+    value: "tyrunt",
+    label: "tyrunt",
   },
   {
-      "value": "tyrantrum",
-      "label": "tyrantrum"
+    value: "tyrantrum",
+    label: "tyrantrum",
   },
   {
-      "value": "amaura",
-      "label": "amaura"
+    value: "amaura",
+    label: "amaura",
   },
   {
-      "value": "aurorus",
-      "label": "aurorus"
+    value: "aurorus",
+    label: "aurorus",
   },
   {
-      "value": "sylveon",
-      "label": "sylveon"
+    value: "sylveon",
+    label: "sylveon",
   },
   {
-      "value": "hawlucha",
-      "label": "hawlucha"
+    value: "hawlucha",
+    label: "hawlucha",
   },
   {
-      "value": "dedenne",
-      "label": "dedenne"
+    value: "dedenne",
+    label: "dedenne",
   },
   {
-      "value": "carbink",
-      "label": "carbink"
+    value: "carbink",
+    label: "carbink",
   },
   {
-      "value": "goomy",
-      "label": "goomy"
+    value: "goomy",
+    label: "goomy",
   },
   {
-      "value": "sliggoo",
-      "label": "sliggoo"
+    value: "sliggoo",
+    label: "sliggoo",
   },
   {
-      "value": "goodra",
-      "label": "goodra"
+    value: "goodra",
+    label: "goodra",
   },
   {
-      "value": "klefki",
-      "label": "klefki"
+    value: "klefki",
+    label: "klefki",
   },
   {
-      "value": "phantump",
-      "label": "phantump"
+    value: "phantump",
+    label: "phantump",
   },
   {
-      "value": "trevenant",
-      "label": "trevenant"
+    value: "trevenant",
+    label: "trevenant",
   },
   {
-      "value": "pumpkaboo-average",
-      "label": "pumpkaboo"
+    value: "pumpkaboo-average",
+    label: "pumpkaboo",
   },
   {
-      "value": "gourgeist-average",
-      "label": "gourgeist"
+    value: "gourgeist-average",
+    label: "gourgeist",
   },
   {
-      "value": "bergmite",
-      "label": "bergmite"
+    value: "bergmite",
+    label: "bergmite",
   },
   {
-      "value": "avalugg",
-      "label": "avalugg"
+    value: "avalugg",
+    label: "avalugg",
   },
   {
-      "value": "noibat",
-      "label": "noibat"
+    value: "noibat",
+    label: "noibat",
   },
   {
-      "value": "noivern",
-      "label": "noivern"
+    value: "noivern",
+    label: "noivern",
   },
   {
-      "value": "xerneas",
-      "label": "xerneas"
+    value: "xerneas",
+    label: "xerneas",
   },
   {
-      "value": "yveltal",
-      "label": "yveltal"
+    value: "yveltal",
+    label: "yveltal",
   },
   {
-      "value": "zygarde-50",
-      "label": "zygarde"
+    value: "zygarde-50",
+    label: "zygarde",
   },
   {
-      "value": "diancie",
-      "label": "diancie"
+    value: "diancie",
+    label: "diancie",
   },
   {
-      "value": "hoopa",
-      "label": "hoopa"
+    value: "hoopa",
+    label: "hoopa",
   },
   {
-      "value": "volcanion",
-      "label": "volcanion"
+    value: "volcanion",
+    label: "volcanion",
   },
   {
-      "value": "rowlet",
-      "label": "rowlet"
+    value: "rowlet",
+    label: "rowlet",
   },
   {
-      "value": "dartrix",
-      "label": "dartrix"
+    value: "dartrix",
+    label: "dartrix",
   },
   {
-      "value": "decidueye",
-      "label": "decidueye"
+    value: "decidueye",
+    label: "decidueye",
   },
   {
-      "value": "litten",
-      "label": "litten"
+    value: "litten",
+    label: "litten",
   },
   {
-      "value": "torracat",
-      "label": "torracat"
+    value: "torracat",
+    label: "torracat",
   },
   {
-      "value": "incineroar",
-      "label": "incineroar"
+    value: "incineroar",
+    label: "incineroar",
   },
   {
-      "value": "popplio",
-      "label": "popplio"
+    value: "popplio",
+    label: "popplio",
   },
   {
-      "value": "brionne",
-      "label": "brionne"
+    value: "brionne",
+    label: "brionne",
   },
   {
-      "value": "primarina",
-      "label": "primarina"
+    value: "primarina",
+    label: "primarina",
   },
   {
-      "value": "pikipek",
-      "label": "pikipek"
+    value: "pikipek",
+    label: "pikipek",
   },
   {
-      "value": "trumbeak",
-      "label": "trumbeak"
+    value: "trumbeak",
+    label: "trumbeak",
   },
   {
-      "value": "toucannon",
-      "label": "toucannon"
+    value: "toucannon",
+    label: "toucannon",
   },
   {
-      "value": "yungoos",
-      "label": "yungoos"
+    value: "yungoos",
+    label: "yungoos",
   },
   {
-      "value": "gumshoos",
-      "label": "gumshoos"
+    value: "gumshoos",
+    label: "gumshoos",
   },
   {
-      "value": "grubbin",
-      "label": "grubbin"
+    value: "grubbin",
+    label: "grubbin",
   },
   {
-      "value": "charjabug",
-      "label": "charjabug"
+    value: "charjabug",
+    label: "charjabug",
   },
   {
-      "value": "vikavolt",
-      "label": "vikavolt"
+    value: "vikavolt",
+    label: "vikavolt",
   },
   {
-      "value": "crabrawler",
-      "label": "crabrawler"
+    value: "crabrawler",
+    label: "crabrawler",
   },
   {
-      "value": "crabominable",
-      "label": "crabominable"
+    value: "crabominable",
+    label: "crabominable",
   },
   {
-      "value": "oricorio-baile",
-      "label": "oricorio"
+    value: "oricorio-baile",
+    label: "oricorio",
   },
   {
-      "value": "cutiefly",
-      "label": "cutiefly"
+    value: "cutiefly",
+    label: "cutiefly",
   },
   {
-      "value": "ribombee",
-      "label": "ribombee"
+    value: "ribombee",
+    label: "ribombee",
   },
   {
-      "value": "rockruff",
-      "label": "rockruff"
+    value: "rockruff",
+    label: "rockruff",
   },
   {
-      "value": "lycanroc-midday",
-      "label": "lycanroc"
+    value: "lycanroc-midday",
+    label: "lycanroc",
   },
   {
-      "value": "wishiwashi-solo",
-      "label": "wishiwashi"
+    value: "wishiwashi-solo",
+    label: "wishiwashi",
   },
   {
-      "value": "mareanie",
-      "label": "mareanie"
+    value: "mareanie",
+    label: "mareanie",
   },
   {
-      "value": "toxapex",
-      "label": "toxapex"
+    value: "toxapex",
+    label: "toxapex",
   },
   {
-      "value": "mudbray",
-      "label": "mudbray"
+    value: "mudbray",
+    label: "mudbray",
   },
   {
-      "value": "mudsdale",
-      "label": "mudsdale"
+    value: "mudsdale",
+    label: "mudsdale",
   },
   {
-      "value": "dewpider",
-      "label": "dewpider"
+    value: "dewpider",
+    label: "dewpider",
   },
   {
-      "value": "araquanid",
-      "label": "araquanid"
+    value: "araquanid",
+    label: "araquanid",
   },
   {
-      "value": "fomantis",
-      "label": "fomantis"
+    value: "fomantis",
+    label: "fomantis",
   },
   {
-      "value": "lurantis",
-      "label": "lurantis"
+    value: "lurantis",
+    label: "lurantis",
   },
   {
-      "value": "morelull",
-      "label": "morelull"
+    value: "morelull",
+    label: "morelull",
   },
   {
-      "value": "shiinotic",
-      "label": "shiinotic"
+    value: "shiinotic",
+    label: "shiinotic",
   },
   {
-      "value": "salandit",
-      "label": "salandit"
+    value: "salandit",
+    label: "salandit",
   },
   {
-      "value": "salazzle",
-      "label": "salazzle"
+    value: "salazzle",
+    label: "salazzle",
   },
   {
-      "value": "stufful",
-      "label": "stufful"
+    value: "stufful",
+    label: "stufful",
   },
   {
-      "value": "bewear",
-      "label": "bewear"
+    value: "bewear",
+    label: "bewear",
   },
   {
-      "value": "bounsweet",
-      "label": "bounsweet"
+    value: "bounsweet",
+    label: "bounsweet",
   },
   {
-      "value": "steenee",
-      "label": "steenee"
+    value: "steenee",
+    label: "steenee",
   },
   {
-      "value": "tsareena",
-      "label": "tsareena"
+    value: "tsareena",
+    label: "tsareena",
   },
   {
-      "value": "comfey",
-      "label": "comfey"
+    value: "comfey",
+    label: "comfey",
   },
   {
-      "value": "oranguru",
-      "label": "oranguru"
+    value: "oranguru",
+    label: "oranguru",
   },
   {
-      "value": "passimian",
-      "label": "passimian"
+    value: "passimian",
+    label: "passimian",
   },
   {
-      "value": "wimpod",
-      "label": "wimpod"
+    value: "wimpod",
+    label: "wimpod",
   },
   {
-      "value": "golisopod",
-      "label": "golisopod"
+    value: "golisopod",
+    label: "golisopod",
   },
   {
-      "value": "sandygast",
-      "label": "sandygast"
+    value: "sandygast",
+    label: "sandygast",
   },
   {
-      "value": "palossand",
-      "label": "palossand"
+    value: "palossand",
+    label: "palossand",
   },
   {
-      "value": "pyukumuku",
-      "label": "pyukumuku"
+    value: "pyukumuku",
+    label: "pyukumuku",
   },
   {
-      "value": "silvally",
-      "label": "silvally"
+    value: "silvally",
+    label: "silvally",
   },
   {
-      "value": "minior-red-meteor",
-      "label": "minior"
+    value: "minior-red-meteor",
+    label: "minior",
   },
   {
-      "value": "komala",
-      "label": "komala"
+    value: "komala",
+    label: "komala",
   },
   {
-      "value": "turtonator",
-      "label": "turtonator"
+    value: "turtonator",
+    label: "turtonator",
   },
   {
-      "value": "togedemaru",
-      "label": "togedemaru"
+    value: "togedemaru",
+    label: "togedemaru",
   },
   {
-      "value": "mimikyu-disguised",
-      "label": "mimikyu"
+    value: "mimikyu-disguised",
+    label: "mimikyu",
   },
   {
-      "value": "bruxish",
-      "label": "bruxish"
+    value: "bruxish",
+    label: "bruxish",
   },
   {
-      "value": "drampa",
-      "label": "drampa"
+    value: "drampa",
+    label: "drampa",
   },
   {
-      "value": "dhelmise",
-      "label": "dhelmise"
+    value: "dhelmise",
+    label: "dhelmise",
   },
   {
-      "value": "jangmo-o",
-      "label": "jangmo-o"
+    value: "jangmo-o",
+    label: "jangmo-o",
   },
   {
-      "value": "hakamo-o",
-      "label": "hakamo-o"
+    value: "hakamo-o",
+    label: "hakamo-o",
   },
   {
-      "value": "kommo-o",
-      "label": "kommo-o"
+    value: "kommo-o",
+    label: "kommo-o",
   },
   {
-      "value": "tapu-koko",
-      "label": "tapu koko"
+    value: "tapu-koko",
+    label: "tapu koko",
   },
   {
-      "value": "tapu-lele",
-      "label": "tapu lele"
+    value: "tapu-lele",
+    label: "tapu lele",
   },
   {
-      "value": "tapu-bulu",
-      "label": "tapu bulu"
+    value: "tapu-bulu",
+    label: "tapu bulu",
   },
   {
-      "value": "tapu-fini",
-      "label": "tapu fini"
+    value: "tapu-fini",
+    label: "tapu fini",
   },
   {
-      "value": "cosmog",
-      "label": "cosmog"
+    value: "cosmog",
+    label: "cosmog",
   },
   {
-      "value": "cosmoem",
-      "label": "cosmoem"
+    value: "cosmoem",
+    label: "cosmoem",
   },
   {
-      "value": "solgaleo",
-      "label": "solgaleo"
+    value: "solgaleo",
+    label: "solgaleo",
   },
   {
-      "value": "lunala",
-      "label": "lunala"
+    value: "lunala",
+    label: "lunala",
   },
   {
-      "value": "nihilego",
-      "label": "nihilego"
+    value: "nihilego",
+    label: "nihilego",
   },
   {
-      "value": "buzzwole",
-      "label": "buzzwole"
+    value: "buzzwole",
+    label: "buzzwole",
   },
   {
-      "value": "pheromosa",
-      "label": "pheromosa"
+    value: "pheromosa",
+    label: "pheromosa",
   },
   {
-      "value": "xurkitree",
-      "label": "xurkitree"
+    value: "xurkitree",
+    label: "xurkitree",
   },
   {
-      "value": "celesteela",
-      "label": "celesteela"
+    value: "celesteela",
+    label: "celesteela",
   },
   {
-      "value": "kartana",
-      "label": "kartana"
+    value: "kartana",
+    label: "kartana",
   },
   {
-      "value": "guzzlord",
-      "label": "guzzlord"
+    value: "guzzlord",
+    label: "guzzlord",
   },
   {
-      "value": "necrozma",
-      "label": "necrozma"
+    value: "necrozma",
+    label: "necrozma",
   },
   {
-      "value": "magearna",
-      "label": "magearna"
+    value: "magearna",
+    label: "magearna",
   },
   {
-      "value": "marshadow",
-      "label": "marshadow"
+    value: "marshadow",
+    label: "marshadow",
   },
   {
-      "value": "poipole",
-      "label": "poipole"
+    value: "poipole",
+    label: "poipole",
   },
   {
-      "value": "naganadel",
-      "label": "naganadel"
+    value: "naganadel",
+    label: "naganadel",
   },
   {
-      "value": "stakataka",
-      "label": "stakataka"
+    value: "stakataka",
+    label: "stakataka",
   },
   {
-      "value": "blacephalon",
-      "label": "blacephalon"
+    value: "blacephalon",
+    label: "blacephalon",
   },
   {
-      "value": "zeraora",
-      "label": "zeraora"
+    value: "zeraora",
+    label: "zeraora",
   },
   {
-      "value": "meltan",
-      "label": "meltan"
+    value: "meltan",
+    label: "meltan",
   },
   {
-      "value": "melmetal",
-      "label": "melmetal"
+    value: "melmetal",
+    label: "melmetal",
   },
   {
-      "value": "grookey",
-      "label": "grookey"
+    value: "grookey",
+    label: "grookey",
   },
   {
-      "value": "thwackey",
-      "label": "thwackey"
+    value: "thwackey",
+    label: "thwackey",
   },
   {
-      "value": "rillaboom",
-      "label": "rillaboom"
+    value: "rillaboom",
+    label: "rillaboom",
   },
   {
-      "value": "scorbunny",
-      "label": "scorbunny"
+    value: "scorbunny",
+    label: "scorbunny",
   },
   {
-      "value": "raboot",
-      "label": "raboot"
+    value: "raboot",
+    label: "raboot",
   },
   {
-      "value": "cinderace",
-      "label": "cinderace"
+    value: "cinderace",
+    label: "cinderace",
   },
   {
-      "value": "sobble",
-      "label": "sobble"
+    value: "sobble",
+    label: "sobble",
   },
   {
-      "value": "drizzile",
-      "label": "drizzile"
+    value: "drizzile",
+    label: "drizzile",
   },
   {
-      "value": "inteleon",
-      "label": "inteleon"
+    value: "inteleon",
+    label: "inteleon",
   },
   {
-      "value": "skwovet",
-      "label": "skwovet"
+    value: "skwovet",
+    label: "skwovet",
   },
   {
-      "value": "greedent",
-      "label": "greedent"
+    value: "greedent",
+    label: "greedent",
   },
   {
-      "value": "rookidee",
-      "label": "rookidee"
+    value: "rookidee",
+    label: "rookidee",
   },
   {
-      "value": "corvisquire",
-      "label": "corvisquire"
+    value: "corvisquire",
+    label: "corvisquire",
   },
   {
-      "value": "corviknight",
-      "label": "corviknight"
+    value: "corviknight",
+    label: "corviknight",
   },
   {
-      "value": "blipbug",
-      "label": "blipbug"
+    value: "blipbug",
+    label: "blipbug",
   },
   {
-      "value": "dottler",
-      "label": "dottler"
+    value: "dottler",
+    label: "dottler",
   },
   {
-      "value": "orbeetle",
-      "label": "orbeetle"
+    value: "orbeetle",
+    label: "orbeetle",
   },
   {
-      "value": "nickit",
-      "label": "nickit"
+    value: "nickit",
+    label: "nickit",
   },
   {
-      "value": "thievul",
-      "label": "thievul"
+    value: "thievul",
+    label: "thievul",
   },
   {
-      "value": "gossifleur",
-      "label": "gossifleur"
+    value: "gossifleur",
+    label: "gossifleur",
   },
   {
-      "value": "eldegoss",
-      "label": "eldegoss"
+    value: "eldegoss",
+    label: "eldegoss",
   },
   {
-      "value": "wooloo",
-      "label": "wooloo"
+    value: "wooloo",
+    label: "wooloo",
   },
   {
-      "value": "dubwool",
-      "label": "dubwool"
+    value: "dubwool",
+    label: "dubwool",
   },
   {
-      "value": "chewtle",
-      "label": "chewtle"
+    value: "chewtle",
+    label: "chewtle",
   },
   {
-      "value": "drednaw",
-      "label": "drednaw"
+    value: "drednaw",
+    label: "drednaw",
   },
   {
-      "value": "yamper",
-      "label": "yamper"
+    value: "yamper",
+    label: "yamper",
   },
   {
-      "value": "boltund",
-      "label": "boltund"
+    value: "boltund",
+    label: "boltund",
   },
   {
-      "value": "rolycoly",
-      "label": "rolycoly"
+    value: "rolycoly",
+    label: "rolycoly",
   },
   {
-      "value": "carkol",
-      "label": "carkol"
+    value: "carkol",
+    label: "carkol",
   },
   {
-      "value": "coalossal",
-      "label": "coalossal"
+    value: "coalossal",
+    label: "coalossal",
   },
   {
-      "value": "applin",
-      "label": "applin"
+    value: "applin",
+    label: "applin",
   },
   {
-      "value": "flapple",
-      "label": "flapple"
+    value: "flapple",
+    label: "flapple",
   },
   {
-      "value": "appletun",
-      "label": "appletun"
+    value: "appletun",
+    label: "appletun",
   },
   {
-      "value": "silicobra",
-      "label": "silicobra"
+    value: "silicobra",
+    label: "silicobra",
   },
   {
-      "value": "sandaconda",
-      "label": "sandaconda"
+    value: "sandaconda",
+    label: "sandaconda",
   },
   {
-      "value": "cramorant",
-      "label": "cramorant"
+    value: "cramorant",
+    label: "cramorant",
   },
   {
-      "value": "arrokuda",
-      "label": "arrokuda"
+    value: "arrokuda",
+    label: "arrokuda",
   },
   {
-      "value": "barraskewda",
-      "label": "barraskewda"
+    value: "barraskewda",
+    label: "barraskewda",
   },
   {
-      "value": "toxel",
-      "label": "toxel"
+    value: "toxel",
+    label: "toxel",
   },
   {
-      "value": "toxtricity-amped",
-      "label": "toxtricity amped"
+    value: "toxtricity-amped",
+    label: "toxtricity amped",
   },
   {
-      "value": "sizzlipede",
-      "label": "sizzlipede"
+    value: "sizzlipede",
+    label: "sizzlipede",
   },
   {
-      "value": "centiskorch",
-      "label": "centiskorch"
+    value: "centiskorch",
+    label: "centiskorch",
   },
   {
-      "value": "clobbopus",
-      "label": "clobbopus"
+    value: "clobbopus",
+    label: "clobbopus",
   },
   {
-      "value": "grapploct",
-      "label": "grapploct"
+    value: "grapploct",
+    label: "grapploct",
   },
   {
-      "value": "sinistea",
-      "label": "sinistea"
+    value: "sinistea",
+    label: "sinistea",
   },
   {
-      "value": "polteageist",
-      "label": "polteageist"
+    value: "polteageist",
+    label: "polteageist",
   },
   {
-      "value": "hatenna",
-      "label": "hatenna"
+    value: "hatenna",
+    label: "hatenna",
   },
   {
-      "value": "hattrem",
-      "label": "hattrem"
+    value: "hattrem",
+    label: "hattrem",
   },
   {
-      "value": "hatterene",
-      "label": "hatterene"
+    value: "hatterene",
+    label: "hatterene",
   },
   {
-      "value": "impidimp",
-      "label": "impidimp"
+    value: "impidimp",
+    label: "impidimp",
   },
   {
-      "value": "morgrem",
-      "label": "morgrem"
+    value: "morgrem",
+    label: "morgrem",
   },
   {
-      "value": "grimmsnarl",
-      "label": "grimmsnarl"
+    value: "grimmsnarl",
+    label: "grimmsnarl",
   },
   {
-      "value": "obstagoon",
-      "label": "obstagoon"
+    value: "obstagoon",
+    label: "obstagoon",
   },
   {
-      "value": "perrserker",
-      "label": "perrserker"
+    value: "perrserker",
+    label: "perrserker",
   },
   {
-      "value": "cursola",
-      "label": "cursola"
+    value: "cursola",
+    label: "cursola",
   },
   {
-      "value": "sirfetchd",
-      "label": "sirfetchd"
+    value: "sirfetchd",
+    label: "sirfetchd",
   },
   {
-      "value": "mr-rime",
-      "label": "mr rime"
+    value: "mr-rime",
+    label: "mr rime",
   },
   {
-      "value": "runerigus",
-      "label": "runerigus"
+    value: "runerigus",
+    label: "runerigus",
   },
   {
-      "value": "milcery",
-      "label": "milcery"
+    value: "milcery",
+    label: "milcery",
   },
   {
-      "value": "alcremie",
-      "label": "alcremie"
+    value: "alcremie",
+    label: "alcremie",
   },
   {
-      "value": "falinks",
-      "label": "falinks"
+    value: "falinks",
+    label: "falinks",
   },
   {
-      "value": "pincurchin",
-      "label": "pincurchin"
+    value: "pincurchin",
+    label: "pincurchin",
   },
   {
-      "value": "snom",
-      "label": "snom"
+    value: "snom",
+    label: "snom",
   },
   {
-      "value": "frosmoth",
-      "label": "frosmoth"
+    value: "frosmoth",
+    label: "frosmoth",
   },
   {
-      "value": "stonjourner",
-      "label": "stonjourner"
+    value: "stonjourner",
+    label: "stonjourner",
   },
   {
-      "value": "eiscue-ice",
-      "label": "eiscue"
+    value: "eiscue-ice",
+    label: "eiscue",
   },
   {
-      "value": "indeedee-male",
-      "label": "indeedee"
+    value: "indeedee-male",
+    label: "indeedee",
   },
   {
-      "value": "morpeko-full-belly",
-      "label": "morpeko"
+    value: "morpeko-full-belly",
+    label: "morpeko",
   },
   {
-      "value": "cufant",
-      "label": "cufant"
+    value: "cufant",
+    label: "cufant",
   },
   {
-      "value": "copperajah",
-      "label": "copperajah"
+    value: "copperajah",
+    label: "copperajah",
   },
   {
-      "value": "dracozolt",
-      "label": "dracozolt"
+    value: "dracozolt",
+    label: "dracozolt",
   },
   {
-      "value": "arctozolt",
-      "label": "arctozolt"
+    value: "arctozolt",
+    label: "arctozolt",
   },
   {
-      "value": "dracovish",
-      "label": "dracovish"
+    value: "dracovish",
+    label: "dracovish",
   },
   {
-      "value": "arctovish",
-      "label": "arctovish"
+    value: "arctovish",
+    label: "arctovish",
   },
   {
-      "value": "duraludon",
-      "label": "duraludon"
+    value: "duraludon",
+    label: "duraludon",
   },
   {
-      "value": "dreepy",
-      "label": "dreepy"
+    value: "dreepy",
+    label: "dreepy",
   },
   {
-      "value": "drakloak",
-      "label": "drakloak"
+    value: "drakloak",
+    label: "drakloak",
   },
   {
-      "value": "dragapult",
-      "label": "dragapult"
+    value: "dragapult",
+    label: "dragapult",
   },
   {
-      "value": "zacian",
-      "label": "zacian"
+    value: "zacian",
+    label: "zacian",
   },
   {
-      "value": "zamazenta",
-      "label": "zamazenta"
+    value: "zamazenta",
+    label: "zamazenta",
   },
   {
-      "value": "eternatus",
-      "label": "eternatus"
+    value: "eternatus",
+    label: "eternatus",
   },
   {
-      "value": "kubfu",
-      "label": "kubfu"
+    value: "kubfu",
+    label: "kubfu",
   },
   {
-      "value": "urshifu-single-strike",
-      "label": "urshifu"
+    value: "urshifu-single-strike",
+    label: "urshifu",
   },
   {
-      "value": "zarude",
-      "label": "zarude"
+    value: "zarude",
+    label: "zarude",
   },
   {
-      "value": "regieleki",
-      "label": "regieleki"
+    value: "regieleki",
+    label: "regieleki",
   },
   {
-      "value": "regidrago",
-      "label": "regidrago"
+    value: "regidrago",
+    label: "regidrago",
   },
   {
-      "value": "glastrier",
-      "label": "glastrier"
+    value: "glastrier",
+    label: "glastrier",
   },
   {
-      "value": "spectrier",
-      "label": "spectrier"
+    value: "spectrier",
+    label: "spectrier",
   },
   {
-      "value": "calyrex",
-      "label": "calyrex"
+    value: "calyrex",
+    label: "calyrex",
   },
-]
+];

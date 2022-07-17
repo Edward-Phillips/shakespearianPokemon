@@ -3,15 +3,14 @@ import { GridRow } from "./GridRow/GridRow";
 import availablePokemon from "../PokeSearch/availablePokemon";
 import HiddenPokemonDisplay from "./HiddenPokemonDisplay/HiddenPokemonDisplay";
 import Pokedex from "../Pokedex/Pokedex";
-import ReactModal from 'react-modal';
+import ReactModal from "react-modal";
 import ScoreModal from "./ScoreModal/ScoreModal";
+import NiceButton from "./NiceButton/NiceButton";
 
 export default function WhoIsThatPokemon() {
-  const [thatPokemon, setThatPokemon] = useState(
-    availablePokemon[Math.floor(Math.random() * availablePokemon.length)]
-  );
+  const [thatPokemon, setThatPokemon] = useState("bulbasaur");
 
-  const [isCorrect, setIsCorrect] = useState(false)
+  const [isCorrect, setIsCorrect] = useState(false);
   const [winCount, setWinCount] = useState(0);
   const [submitCount, setSubmitCount] = useState(0);
   const [guesses, setGuesses] = useState(6);
@@ -19,71 +18,92 @@ export default function WhoIsThatPokemon() {
   const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
-    ReactModal.setAppElement('body')
-  }, [])
+    ReactModal.setAppElement("body");
+    handlePlayAgain();
+  }, []);
 
   const handlePlayAgain = () => {
     setReset(true);
-    setThatPokemon(availablePokemon[Math.floor(Math.random() * availablePokemon.length)]);
     setIsCorrect(false);
     setModalOpen(false);
     setSubmitCount(0);
-  }
+  };
 
   useEffect(() => {
-    if (thatPokemon.sprite && !reset) {
-      return;
-    }
-    try {
-      console.log({thatPokemon});
-
-      fetch(process.env.POKEAPI_ADDRESS + thatPokemon.value)
-        .then((response) => response.json())
-        .then((data) => {
-          setThatPokemon({
-            name: thatPokemon.label ?? 'bulbasaur',
-            sprite: data.sprite ?? 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
-            description: data.description ?? 'These pokemon are small, squat amphibian and plant Pokémon that move on all four legs, and have blue-green bodies with darker blue-green spots.',
+    if (reset) {
+      const newPokemon =
+        availablePokemon[Math.floor(Math.random() * availablePokemon.length)];
+      try {
+        fetch(process.env.POKEAPI_ADDRESS + newPokemon.value)
+          .then((response) => response.json())
+          .then((data) => {
+            setThatPokemon({
+              name: data.name ?? "bulbasaur",
+              sprite:
+                data.sprite ??
+                "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+              description:
+                data.description ??
+                "These pokemon are small, squat amphibian and plant Pokémon that move on all four legs, and have blue-green bodies with darker blue-green spots.",
+            });
+            setReset(false);
           });
-        });
-      setReset(false);
-    } catch (error) {
-      console.log(error);
-      setThatPokemon({sprite: 'something'});
+      } catch (error) {
+        console.log(error);
+        setThatPokemon({ sprite: "something" });
+      }
     }
-  }, [thatPokemon, reset]);
+  }, [reset]);
 
   useEffect(() => {
     if (isCorrect) {
-     setWinCount(winCount + 1);
-     setModalOpen(true);
-     setIsCorrect(false)
+      setWinCount(winCount + 1);
+      setModalOpen(true);
+      setIsCorrect(false);
     }
   }, [isCorrect]);
 
   useEffect(() => {
-    if(submitCount === guesses) {
+    if (submitCount === guesses) {
       setModalOpen(true);
       setWinCount(0);
     }
   }, [submitCount]);
   return (
-    <Pokedex>
-      <HiddenPokemonDisplay
-        pokemonInfo={thatPokemon}
-        loading={!(thatPokemon.name ?? false)}
-        reveal={isCorrect}
-        setReset={setReset}
-      />
-      <GridRow
-        guesses={guesses}
-        word={thatPokemon.name ?? "loading"}
-        setIsCorrect={setIsCorrect}
-        isCorrect={isCorrect}
-        incrementSubmitCount={() => setSubmitCount(submitCount + 1)}
-        reset={reset}
-      />
-      <ReactModal isOpen={modalOpen}><ScoreModal closeModal={() => setModalOpen(false)} wins={winCount} lost={submitCount === guesses} playAgain={handlePlayAgain} /></ReactModal>
+    <Pokedex
+      navbar={{ display: "none", title: "go to pokedex", href: "/pokedex" }}
+    >
+      <section
+        style={{
+          display: "grid",
+          gridTemplateRows: " 0.1fr 1fr 1fr",
+          placeItems: "center",
+        }}
+      >
+        <NiceButton handleClick={handlePlayAgain}>Reset</NiceButton>
+        <HiddenPokemonDisplay
+          pokemonInfo={thatPokemon}
+          loading={!(thatPokemon.name ?? false)}
+          reveal={isCorrect}
+          setReset={setReset}
+        />
+        <GridRow
+          guesses={guesses}
+          word={thatPokemon.name ?? "loading"}
+          setIsCorrect={setIsCorrect}
+          isCorrect={isCorrect}
+          incrementSubmitCount={() => setSubmitCount(submitCount + 1)}
+          reset={reset}
+        />
+      </section>
+      <ReactModal isOpen={modalOpen}>
+        <ScoreModal
+          closeModal={() => setModalOpen(false)}
+          wins={winCount}
+          lost={submitCount === guesses}
+          playAgain={handlePlayAgain}
+        />
+      </ReactModal>
     </Pokedex>
   );
 }
