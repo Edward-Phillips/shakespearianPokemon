@@ -5,6 +5,7 @@ import HiddenPokemonDisplay from "./HiddenPokemonDisplay/HiddenPokemonDisplay";
 import Pokedex from "../Pokedex/Pokedex";
 import ReactModal from "react-modal";
 import ScoreModal from "./ScoreModal/ScoreModal";
+import NiceButton from "./NiceButton/NiceButton";
 
 export default function WhoIsThatPokemon() {
   const [thatPokemon, setThatPokemon] = useState("bulbasaur");
@@ -79,7 +80,7 @@ export default function WhoIsThatPokemon() {
           placeItems: "center",
         }}
       >
-        <button onClick={handlePlayAgain}>reset</button>
+        <NiceButton handleClick={handlePlayAgain}>Reset</NiceButton>
         <HiddenPokemonDisplay
           pokemonInfo={thatPokemon}
           loading={!(thatPokemon.name ?? false)}
