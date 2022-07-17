@@ -14,11 +14,9 @@
 }
 @media screen and (max-width: 450px) {
   .container {
-    position:fixed;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    padding-top: 50px;
+    height:100%;
+    width: 100%;
     border-radius: 0px;
   }
 }
