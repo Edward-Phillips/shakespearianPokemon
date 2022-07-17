@@ -70,7 +70,7 @@ export function Grid({
   return (
     <div
       className={styles.gridRow}
-      onKeyDown={toggleSubmit}
+      onKeyUp={toggleSubmit}
       style={{
         gridTemplateColumns: `repeat(${word.length}, minmax(20px, 250px))`,
       }}
