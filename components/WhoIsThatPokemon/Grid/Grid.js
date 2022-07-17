@@ -18,8 +18,7 @@ export function Grid({
     if (e.target.value === "" && e.key === "Tab") {
       e.preventDefault();
     }
-    e.target.value !== "" &&
-    [12, 13].includes(e.keyCode) &&
+    e.target.value !== "" && e.keyCode !== 9 &&
     !submit &&
     checkFillState
       ? setSubmit(!submit)
