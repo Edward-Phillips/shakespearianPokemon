@@ -1,9 +1,10 @@
-# Shakespearian Pokemon
+# Who is that Pokemon?
 
 ## what is this?
 
 it's just a fun little project using pokeapi.co and a funtranslations api to make a couple of different tools:
- - pokemon search, a search tool for pokemon, which returns an image of the pokemon, their name and a shakespearian description.
+ - shakespearian-pokemon.vercel.app - `main` branch - initial MVP of a tool to search for pokemon and give shakespearian descriptions, good exercise in using multiple APIs to handle data. I also added on a pokemon wordle style game inspired by the "Who's that Pokeomon?" advert break games in the pokemon series.
+ - pokemondle.edphillips.co.uk - `pokemondle` branch - I decided to focus on Who's that Pokemon? wordle (pokemondle) and to try to get the 
  - Whos That Pokemon?  A wordle-style game to guess the pokemon from an outline and a shakespearian description.
 
 See the current objectives to see what's being worked on.
@@ -96,13 +97,11 @@ You can configure vercel to deploy on push to the main branch of your project if
 ## current (as of 08/05/2022) objectives:
 
 Who is that Pokemon objectives:
-- submit bug = seems to be submitting when delete is pressed and all the inputs are full
-- restyle to more closely match Wordle
+- submit bug = seems to be submitting when delete is pressed and all the inputs are full - now fixed, though submission is no longer tied exclusively to enter due to mobile keyboard events not behaving as desktop does.
+- restyle to more closely match Wordle - went in direction of  pokedex instead.
 - improve victory screen
 - add cookies to start tracking stats
 - refactor success logic to lift state out of cell components and into gridRow component or even whoIsthatPokemon component for ease of sharing state to scoreModal component.
-- add try catch to db query to handle invalid database details, but not to block request entirely.
-- drop shakespearian search and switch to pokedex search, based on pokemon seen in the who's that pokemon game. -- requires cookie consent or user sign up to track pokedex performance
 
 
 ## feedback
