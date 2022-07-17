@@ -7,9 +7,7 @@ export default function Cell({
   submit,
   setFillState,
   rowNumber,
-  setIsCorrect,
-  toggleSubmit,
-}) {
+  setIsCorrect}) {
   const [value, setValue] = React.useState("");
   const [isInWord, setIsInWord] = React.useState(false);
   const [isInPosition, setIsInPosition] = React.useState(false);
@@ -26,7 +24,6 @@ export default function Cell({
   };
 
   const focusNextInput = (event) => {
-    toggleSubmit(event)
     if (event.target.value === word[index]) {
       setIsCorrect(true);
     } else {
@@ -77,7 +74,7 @@ export default function Cell({
         id={`${rowNumber}${word.length}${index}`}
         data-index={index}
         disabled={submit}
-        maxLength="1"
+        maxLength={1}
         type="text"
         value={value}
         onChange={handleChange}

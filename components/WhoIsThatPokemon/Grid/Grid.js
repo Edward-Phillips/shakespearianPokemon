@@ -18,7 +18,8 @@ export function Grid({
     if (e.target.value === "" && e.key === "Tab") {
       e.preventDefault();
     }
-    e.target.value !== "" && (e.keyCode !== 9 || e.key === 'Enter') &&
+    e.target.value !== "" &&
+    e.keyCode !== 9 && (e.keyCode === 229  || e.key === "Enter") &&
     !submit &&
     checkFillState
       ? setSubmit(!submit)
@@ -69,6 +70,7 @@ export function Grid({
   return (
     <div
       className={styles.gridRow}
+      onKeyUp={toggleSubmit}
       style={{
         gridTemplateColumns: `repeat(${word.length}, minmax(20px, 250px))`,
       }}
@@ -77,7 +79,6 @@ export function Grid({
         return (
           <Cell
             key={`${row}${word.length}${index}`}
-            toggleSubmit={toggleSubmit}
             word={word}
             rowNumber={row}
             index={index}
