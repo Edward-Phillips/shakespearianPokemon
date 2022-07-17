@@ -8,6 +8,7 @@ export default function Cell({
   setFillState,
   rowNumber,
   setIsCorrect,
+  toggleSubmit,
 }) {
   const [value, setValue] = React.useState("");
   const [isInWord, setIsInWord] = React.useState(false);
@@ -16,7 +17,7 @@ export default function Cell({
   const handleChange = (e) => {
     setValue(e.target.value);
     setFillState(!(e.target.value === ""));
-    focusNextInput(e.target);
+    focusNextInput(e);
     if (e.target.value === "") {
       setIsInPosition(false);
       setIsInWord(false);
@@ -24,15 +25,16 @@ export default function Cell({
     }
   };
 
-  const focusNextInput = (target) => {
-    if (target.value === word[index]) {
+  const focusNextInput = (event) => {
+    toggleSubmit(event)
+    if (event.target.value === word[index]) {
       setIsCorrect(true);
     } else {
       setIsCorrect(false);
     }
-    if (!(target.value === "")) {
-      if (target.nextSibling) {
-        target.nextSibling.focus();
+    if (!(event.target.value === "")) {
+      if (event.target.nextSibling) {
+        event.target.nextSibling.focus();
       }
     }
   };
