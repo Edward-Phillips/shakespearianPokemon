@@ -15,9 +15,9 @@ export function Grid({
   const [correctCollection, setCorrectCollection] = useState({});
 
   const toggleSubmit = (e) => {
-    if (e.target.value === "" && e.key === "Tab") {
-      e.preventDefault();
-    }
+    // if (e.target.value === "" && e.key === "Tab") {
+    //   e.preventDefault();
+    // }
     e.target.value !== "" &&
     ["Tab", "Enter"].includes(e.key) &&
     !submit &&
