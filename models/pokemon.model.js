@@ -21,32 +21,19 @@ export default class pokemonModel {
         sprite: this.sprite,
       };
     }
-    try {
-      const pokemon = await prisma.pokemonDetails.findFirst({
-        where: { name: { equals: this.name } },
-      });
-      if (pokemon) {
-        return pokemon;
-      }
-    } catch (e) {
-      const description = await this.getPokemonDescription();
-      const image = await this.getPokemonImage();
-      try {
-        return await prisma.pokemonDetails.create({
-          data: {
-            name: this.name,
-            description,
-            image,
-          },
-        });
-      } catch (e) {
-        return {
-          name: this.name,
-          description: await this.getPokemonDescription(),
-          image: await this.getPokemonImage(),
-        };
-      }
+    const pokemon = await prisma.pokemonDetails.findFirst({
+      where: { name: { equals: this.name } },
+    });
+    if (pokemon) {
+      return pokemon;
     }
+    return prisma.pokemonDetails.create({
+      data: {
+        name: this.name,
+        description: await this.getPokemonDescription(),
+        image: await this.getPokemonImage(),
+  }
+    });
   }
 
   parsePokemonDescription(data) {
