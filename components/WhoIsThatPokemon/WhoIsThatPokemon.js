@@ -75,17 +75,17 @@ export default function WhoIsThatPokemon() {
       <section
         style={{
           display: "grid",
-          gridTemplateRows: "1fr 0.1fr 1fr",
+          gridTemplateRows: " 0.1fr 1fr 1fr",
           placeItems: "center",
         }}
       >
+        <button onClick={handlePlayAgain}>reset</button>
         <HiddenPokemonDisplay
           pokemonInfo={thatPokemon}
           loading={!(thatPokemon.name ?? false)}
           reveal={isCorrect}
           setReset={setReset}
         />
-        <div onClick={handlePlayAgain}>reset</div>
         <GridRow
           guesses={guesses}
           word={thatPokemon.name ?? "loading"}
